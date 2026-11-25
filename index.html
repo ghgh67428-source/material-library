@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f2ec">
+  <meta name="description" content="检索建筑材质和景观植物。">
+  <title>检索库</title>
+  <link rel="stylesheet" href="./styles.css?v=2">
+  <script src="./app.js?v=2" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      检索库
+    </a>
+    <nav class="sections" aria-label="检索板块">
+      <a id="materials-section" href="./" aria-current="page">材质检索</a>
+      <a id="plants-section" href="?section=plants">植物检索</a>
+    </nav>
+  </header>
+
+  <div class="workspace">
+    <aside class="sidebar" aria-labelledby="category-title">
+      <h2 id="category-title">材质分类</h2>
+      <button class="category-toggle" id="category-toggle" type="button" aria-expanded="false" aria-controls="categories">
+        <span><span id="category-toggle-label">材质分类</span> <span id="current-category">· 全部材质</span></span><span class="chevron" aria-hidden="true"></span>
+      </button>
+      <nav id="categories" aria-label="材质分类"></nav>
+    </aside>
+
+    <main>
+      <div class="intro">
+        <div>
+          <h1 id="page-title">材质检索</h1>
+          <p id="page-description">查找建筑、室内与景观饰面，查看样本和应用案例。</p>
+        </div>
+        <div class="search" role="search">
+          <span class="search-icon" aria-hidden="true"></span>
+          <input id="search" type="search" aria-label="搜索材质" placeholder="搜索微水泥、火焰纹木皮、项目名…" autocomplete="off" aria-keyshortcuts="/">
+          <kbd aria-hidden="true">/</kbd>
+        </div>
+      </div>
+
+      <section id="location-panel" class="location-panel" aria-labelledby="location-title">
+        <h2 id="location-title">按使用部位查找</h2>
+        <div id="locations" class="locations" role="group" aria-labelledby="location-title"></div>
+      </section>
+
+      <div id="plant-subcategories" class="plant-subcategories" role="group" aria-label="植物细分类别" hidden></div>
+      <div class="filters" role="group" aria-label="更多筛选">
+        <select id="plant-scene-filter" aria-label="景观场景" hidden></select>
+        <select id="type" aria-label="二级分类" hidden></select>
+        <select id="color" aria-label="颜色"><option value="">全部颜色</option></select>
+        <select id="finish" aria-label="表面效果"><option value="">全部表面</option></select>
+        <label class="case-filter" id="case-filter"><input id="case-only" type="checkbox"> 仅看谷德案例</label>
+        <button type="button" class="text-button" id="clear" disabled>清除筛选</button>
+      </div>
+
+      <section id="results" aria-labelledby="results-title" tabindex="-1">
+        <div class="results-header">
+          <h2 id="results-title">全部材质</h2>
+          <p id="result-count" role="status"></p>
+        </div>
+        <div class="state" id="state">
+          <p id="state-message">正在加载材质…</p>
+          <button class="text-button" id="state-action" type="button" hidden></button>
+        </div>
+        <div class="cards" id="cards"></div>
+        <button type="button" class="more" id="more" hidden>加载更多植物</button>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="detail" aria-labelledby="detail-title">
+    <div class="detail-layout">
+      <figure id="detail-figure">
+        <a id="detail-image" target="_blank" rel="noopener" aria-label="在新标签页查看大图"></a>
+        <figcaption id="image-credit"></figcaption>
+      </figure>
+      <div class="detail-content">
+        <p id="detail-category"></p>
+        <h2 id="detail-title"></h2>
+        <dl class="properties" id="properties"></dl>
+        <h3 id="uses-title">使用部位与具体场景</h3>
+        <dl class="uses" id="uses"></dl>
+        <p class="note" id="note" hidden></p>
+        <a id="plant-source" class="plant-source" target="_blank" rel="noopener noreferrer" hidden>在 Kew 查询学名与分布 ↗</a>
+        <section class="case-section" id="case-section" aria-labelledby="case-title" hidden>
+          <h3 id="case-title">谷德设计网案例</h3>
+          <p id="case-context"></p>
+          <a id="case-link" target="_blank" rel="noopener noreferrer"></a>
+        </section>
+      </div>
+      <form method="dialog">
+        <button class="close" type="submit" aria-label="关闭详情" autofocus>×</button>
+      </form>
+    </div>
+  </dialog>
+</body>
+</html>

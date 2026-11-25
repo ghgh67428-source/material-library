@@ -1,0 +1,4106 @@
+{
+  "categories": [
+    {
+      "name": "砖、瓦与陶瓷",
+      "swatch": "#a18e74"
+    },
+    {
+      "name": "石材",
+      "swatch": "#727971"
+    },
+    {
+      "name": "木材与竹材",
+      "swatch": "#936f60"
+    },
+    {
+      "name": "混凝土与水泥基饰面",
+      "swatch": "#a79d8d"
+    },
+    {
+      "name": "金属",
+      "swatch": "#a48250"
+    },
+    {
+      "name": "玻璃",
+      "swatch": "#7a9a92"
+    },
+    {
+      "name": "涂料与抹灰",
+      "swatch": "#b9ad8e"
+    },
+    {
+      "name": "织物、皮革与编织",
+      "swatch": "#8b8f76"
+    },
+    {
+      "name": "塑料与复合材料",
+      "swatch": "#918c9c"
+    },
+    {
+      "name": "景观地表",
+      "swatch": "#858971"
+    }
+  ],
+  "locations": [
+    "外墙",
+    "内墙",
+    "室内地面",
+    "室外铺地",
+    "屋面",
+    "吊顶",
+    "门窗",
+    "隔断",
+    "栏板",
+    "家具与台面",
+    "软装",
+    "景观地表"
+  ],
+  "materials": [
+    {
+      "id": "aged-red-brick",
+      "name": "斑驳红砖饰面",
+      "aliases": [],
+      "category": "砖、瓦与陶瓷",
+      "type": "砌筑砖",
+      "color": "红色",
+      "finish": "粗糙",
+      "uses": {
+        "内墙": "可用于存量空间改造的粗面墙，和钢板、木材搭配。"
+      },
+      "image": "./images/recent/aged-red-brick.webp",
+      "thumbnail": "./images/recent/aged-red-brick-small.webp",
+      "imageKind": "生成材质示意",
+      "caseStudy": {
+        "name": "苏州 Snow Peak Cafe",
+        "year": 2025,
+        "url": "https://www.gooood.cn/snow-peak-cafe-matro-luxury-center-by-kiki-arch.htm",
+        "context": "咖啡馆用斑驳红砖与实木、钢板和微水泥形成粗细对照。"
+      }
+    },
+    {
+      "id": "stone-12",
+      "name": "红洞石",
+      "aliases": [],
+      "category": "石材",
+      "type": "洞石",
+      "color": "红色",
+      "finish": "哑光",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/stone-12.webp",
+      "thumbnail": "./images/textures/stone-12-small.webp",
+      "caseStudy": {
+        "name": "单农苏州仓街店",
+        "year": 2026,
+        "url": "https://www.gooood.cn/dannong-cangjie-store-suzhou-by-genarchitects.htm",
+        "context": "红洞石与火焰纹木皮、仿铜不锈钢共同构成零售空间的饰面。"
+      }
+    },
+    {
+      "id": "flame-veneer",
+      "name": "火焰纹奥古曼木皮",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "天然木皮",
+      "color": "棕色",
+      "finish": "对花拼贴",
+      "uses": {
+        "内墙": "连续对花的木饰面墙，可用斜光表现交错木纤维。"
+      },
+      "image": "./images/recent/flame-veneer.webp",
+      "thumbnail": "./images/recent/flame-veneer-small.webp",
+      "imageKind": "生成材质示意",
+      "caseStudy": {
+        "name": "单农苏州仓街店",
+        "year": 2026,
+        "url": "https://www.gooood.cn/dannong-cangjie-store-suzhou-by-genarchitects.htm",
+        "context": "用于门店大面积木饰面墙，火焰纹跨板连续拼贴。"
+      }
+    },
+    {
+      "id": "troweled-microcement",
+      "name": "连续面微水泥",
+      "aliases": [],
+      "category": "混凝土与水泥基饰面",
+      "type": "微水泥",
+      "color": "米色",
+      "finish": "抹纹",
+      "uses": {
+        "室内地面": "适用于需要连续视觉界面的室内地面。",
+        "内墙": "可用在墙面或连续转折处，施工时需确认基层及接缝做法。"
+      },
+      "image": "./images/recent/troweled-microcement.webp",
+      "thumbnail": "./images/recent/troweled-microcement-small.webp",
+      "imageKind": "生成材质示意",
+      "caseStudy": {
+        "name": "巴塞罗那 Isabel 公寓",
+        "year": 2026,
+        "url": "https://www.gooood.cn/isabel-by-mhap-studio.htm",
+        "context": "公寓以微水泥在地面上形成连续界面。"
+      }
+    },
+    {
+      "id": "bronze-stainless",
+      "name": "仿铜不锈钢",
+      "aliases": [],
+      "category": "金属",
+      "type": "镀膜不锈钢",
+      "color": "棕色",
+      "finish": "拉丝",
+      "uses": {
+        "内墙": "可用于零售展示面和收边。",
+        "家具与台面": "可用于接待台立面及家具包边。"
+      },
+      "image": "./images/recent/bronze-stainless.webp",
+      "thumbnail": "./images/recent/bronze-stainless-small.webp",
+      "imageKind": "生成材质示意",
+      "caseStudy": {
+        "name": "单农苏州仓街店",
+        "year": 2026,
+        "url": "https://www.gooood.cn/dannong-cangjie-store-suzhou-by-genarchitects.htm",
+        "context": "仿铜不锈钢与木饰面板、红洞石同列主要材料。"
+      }
+    },
+    {
+      "id": "channel-glass",
+      "name": "U 型玻璃",
+      "aliases": [
+        "U形玻璃",
+        "槽型玻璃",
+        "U型玻璃"
+      ],
+      "category": "玻璃",
+      "type": "槽型玻璃",
+      "color": "透明",
+      "finish": "半透",
+      "uses": {
+        "隔断": "可用作漫射采光的隔断或局部展示面。"
+      },
+      "image": "./images/recent/channel-glass.webp",
+      "thumbnail": "./images/recent/channel-glass-small.webp",
+      "imageKind": "生成材质示意",
+      "caseStudy": {
+        "name": "西安曲江南湖 UNICO",
+        "year": 2025,
+        "url": "https://www.gooood.cn/xiao-teahouse-mixc-tree-of-life-by-guo-xin-space-design.htm",
+        "context": "项目将 U 型玻璃与不锈钢并置，用于局部展示界面。"
+      }
+    },
+    {
+      "id": "straw-finish",
+      "name": "稻草纤维艺术漆",
+      "aliases": [],
+      "category": "涂料与抹灰",
+      "type": "质感涂料",
+      "color": "米色",
+      "finish": "纤维状",
+      "uses": {
+        "内墙": "适用于咖啡店、茶室和小型工作室的局部触感墙。"
+      },
+      "image": "./images/recent/straw-finish.webp",
+      "thumbnail": "./images/recent/straw-finish-small.webp",
+      "imageKind": "生成材质示意",
+      "caseStudy": {
+        "name": "北京戏构木屋工作室",
+        "year": 2025,
+        "url": "https://www.gooood.cn/xigo-studio-log-cabin-by-xigo-studio.htm",
+        "context": "工作室使用稻草艺术漆表现细纤维与手工质感。"
+      }
+    },
+    {
+      "id": "natural-linen",
+      "name": "原色亚麻",
+      "aliases": [
+        "亚麻",
+        "本色亚麻",
+        "Natural linen"
+      ],
+      "category": "织物、皮革与编织",
+      "type": "布艺",
+      "color": "米色",
+      "finish": "编织",
+      "uses": {
+        "软装": "客房窗帘、沙发靠垫、床尾巾。",
+        "家具与台面": "沙发坐垫、床头软包、休闲椅靠背。"
+      },
+      "image": "./images/materials/natural-linen.webp",
+      "imageKind": "生成示意",
+      "imageSource": null,
+      "caseStudy": {
+        "name": "阿万达罗住宅",
+        "year": 2026,
+        "url": "https://www.gooood.cn/house-in-avandaro-by-estudio-ignacio-urquiza-ana-paula-de-alba.htm",
+        "context": "软装采用不同克重、中性色的亚麻织物。"
+      }
+    },
+    {
+      "id": "polycarbonate-panel",
+      "name": "半透明聚碳酸酯板",
+      "aliases": [
+        "聚碳酸酯板",
+        "PC板",
+        "阳光板",
+        "Polycarbonate"
+      ],
+      "category": "塑料与复合材料",
+      "type": "透明塑料",
+      "color": "烟灰",
+      "finish": "半透明",
+      "uses": {
+        "隔断": "工作室采光隔断、走廊透光屏风。",
+        "外墙": "庭院建筑的采光立面、半室外连廊围护。"
+      },
+      "image": "./images/materials/polycarbonate-panel.webp",
+      "imageKind": "生成示意",
+      "imageSource": null,
+      "caseStudy": {
+        "name": "深圳星火探索营廊架",
+        "year": 2026,
+        "url": "https://www.gooood.cn/canopy-design-at-starfire-camp-by-cm-design.htm",
+        "context": "廊架中跨采用半透聚碳酸酯波纹板。图示为同类板材样例。"
+      }
+    },
+    {
+      "id": "resin-pebble",
+      "name": "树脂水洗石",
+      "aliases": [],
+      "category": "景观地表",
+      "type": "水洗石",
+      "color": "米色",
+      "finish": "颗粒",
+      "uses": {
+        "室内地面": "用于小型商业及工作室的颗粒质感地面。",
+        "室外铺地": "用于室外时需选适用体系并核对基层与排水。"
+      },
+      "image": "./images/recent/resin-pebble.webp",
+      "thumbnail": "./images/recent/resin-pebble-small.webp",
+      "imageKind": "生成材质示意",
+      "caseStudy": {
+        "name": "北京戏构木屋工作室",
+        "year": 2025,
+        "url": "https://www.gooood.cn/xigo-studio-log-cabin-by-xigo-studio.htm",
+        "context": "工作室的主要材料清单包括树脂水洗石。"
+      }
+    },
+    {
+      "id": "ceramic-03",
+      "name": "陶土通体砖",
+      "aliases": [],
+      "category": "砖、瓦与陶瓷",
+      "type": "铺地砖",
+      "color": "红色",
+      "finish": "哑光",
+      "uses": {
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/ceramic-03.webp",
+      "thumbnail": "./images/textures/ceramic-03-small.webp",
+      "caseStudy": {
+        "name": "上海欧阳路历史街区微更新",
+        "year": 2026,
+        "url": "https://www.gooood.cn/en/three-micro-renovations-in-the-ouyang-road-historic-quarter-by-scenic-architecture-office.htm",
+        "context": "野草咖啡厅的材料清单包含陶土红方砖。"
+      }
+    },
+    {
+      "id": "stone-16",
+      "name": "火山岩",
+      "aliases": [],
+      "category": "石材",
+      "type": "玄武质火山岩",
+      "color": "黑色",
+      "finish": "粗糙",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "景观地表": "庭院或绿地地表。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/stone-16.webp",
+      "thumbnail": "./images/textures/stone-16-small.webp",
+      "caseStudy": {
+        "name": "广州黑暗之光",
+        "year": 2025,
+        "url": "https://www.gooood.cn/the-dark-light-by-hbm-design.htm",
+        "context": "粗面火山岩与黑色手工橡木并用，形成粗细对照。"
+      }
+    },
+    {
+      "id": "walnut-slat",
+      "name": "深色木格栅吊顶",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "木格栅",
+      "color": "深棕",
+      "finish": "格栅",
+      "uses": {
+        "吊顶": "中庭、餐饮和酒店公共区的透光格栅。"
+      },
+      "image": "./images/recent/walnut-slat.webp",
+      "thumbnail": "./images/recent/walnut-slat-small.webp",
+      "imageKind": "生成材质示意",
+      "caseStudy": {
+        "name": "上海春熙集",
+        "year": 2025,
+        "url": "https://www.gooood.cn/ink-ink-market-by-linehouse.htm",
+        "context": "市集中庭以悬挂木格栅过滤自然光，楼梯另用胡桃木饰面。"
+      }
+    },
+    {
+      "id": "fair-faced-concrete",
+      "name": "清水混凝土",
+      "aliases": [
+        "平模清水混凝土",
+        "素混凝土",
+        "Fair-faced concrete"
+      ],
+      "category": "混凝土与水泥基饰面",
+      "type": "清水混凝土",
+      "color": "暖灰",
+      "finish": "平模",
+      "uses": {
+        "外墙": "建筑外墙、半室外柱廊与入口雨棚下的立面。",
+        "内墙": "美术馆门厅、楼梯间或大堂背景墙。"
+      },
+      "image": "./images/materials/fair-faced-concrete.webp",
+      "imageKind": "生成示意",
+      "imageSource": null,
+      "caseStudy": {
+        "name": "上海华之门中学",
+        "year": 2026,
+        "url": "https://www.gooood.cn/huazhimen-plot-middle-school-new-construction-project-xuhui-district-shanghai-by-original-design-studio-tjad.htm",
+        "context": "陶砖与清水混凝土共同构成校园建筑的材料体系。"
+      }
+    },
+    {
+      "id": "metal-09",
+      "name": "穿孔铝板",
+      "aliases": [],
+      "category": "金属",
+      "type": "铝板",
+      "color": "银色",
+      "finish": "穿孔",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "吊顶": "室内顶面饰面。",
+        "隔断": "空间隔断。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/metal-09.webp",
+      "thumbnail": "./images/textures/metal-09-small.webp",
+      "caseStudy": {
+        "name": "上海欧阳路历史街区微更新",
+        "year": 2026,
+        "url": "https://www.gooood.cn/en/three-micro-renovations-in-the-ouyang-road-historic-quarter-by-scenic-architecture-office.htm",
+        "context": "长寿家园改造将穿孔铝板纳入立面系统。"
+      }
+    },
+    {
+      "id": "gradient-glass",
+      "name": "渐变玻璃",
+      "aliases": [],
+      "category": "玻璃",
+      "type": "装饰玻璃",
+      "color": "红色",
+      "finish": "半透",
+      "uses": {
+        "外墙": "门店橱窗可利用透明度渐变调节展示与遮挡。",
+        "隔断": "适用于半透明的室内界面。"
+      },
+      "image": "./images/recent/gradient-glass.webp",
+      "thumbnail": "./images/recent/gradient-glass-small.webp",
+      "imageKind": "生成材质示意",
+      "caseStudy": {
+        "name": "MASONPRINCE 上海旗舰店",
+        "year": 2024,
+        "url": "https://www.gooood.cn/masonprince-shanghai-flagship-store-by-tomo-design.htm",
+        "context": "项目以紫红渐变玻璃处理沿街店面。"
+      }
+    },
+    {
+      "id": "coating-10",
+      "name": "水刷石饰面",
+      "aliases": [],
+      "category": "涂料与抹灰",
+      "type": "骨料抹灰",
+      "color": "灰色",
+      "finish": "露粒",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/coating-10.webp",
+      "thumbnail": "./images/textures/coating-10-small.webp",
+      "caseStudy": {
+        "name": "上海欧阳路历史街区微更新",
+        "year": 2026,
+        "url": "https://www.gooood.cn/en/three-micro-renovations-in-the-ouyang-road-historic-quarter-by-scenic-architecture-office.htm",
+        "context": "口袋公园改造使用水刷石。"
+      }
+    },
+    {
+      "id": "textile-05",
+      "name": "羊毛呢",
+      "aliases": [],
+      "category": "织物、皮革与编织",
+      "type": "毛织物",
+      "color": "灰色",
+      "finish": "绒面",
+      "uses": {
+        "软装": "室内软装。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/textile-05.webp",
+      "thumbnail": "./images/textures/textile-05-small.webp",
+      "caseStudy": {
+        "name": "阿万达罗住宅",
+        "year": 2026,
+        "url": "https://www.gooood.cn/house-in-avandaro-by-estudio-ignacio-urquiza-ana-paula-de-alba.htm",
+        "context": "软装使用天然羊毛与羊绒织物。图示为羊毛呢样例。"
+      }
+    },
+    {
+      "id": "composite-14",
+      "name": "铝蜂窝复合板",
+      "aliases": [],
+      "category": "塑料与复合材料",
+      "type": "蜂窝夹芯板",
+      "color": "灰色",
+      "finish": "哑光",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "吊顶": "室内顶面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/composite-14.webp",
+      "thumbnail": "./images/textures/composite-14-small.webp",
+      "caseStudy": {
+        "name": "上海 JIC 静投中心",
+        "year": 2026,
+        "url": "https://www.gooood.cn/the-jic-jingan-center-by-nikken-sekkei.htm",
+        "context": "高层立面檐口顶棚采用铝合金蜂巢板。"
+      }
+    },
+    {
+      "id": "reclaimed-gabion",
+      "name": "旧砖瓦填充格宾",
+      "aliases": [],
+      "category": "景观地表",
+      "type": "格宾",
+      "color": "红色",
+      "finish": "粗糙",
+      "uses": {
+        "外墙": "用于景观墙和公共装置，网笼及填料需按构造设计。"
+      },
+      "image": "./images/recent/reclaimed-gabion.webp",
+      "thumbnail": "./images/recent/reclaimed-gabion-small.webp",
+      "imageKind": "生成材质示意",
+      "caseStudy": {
+        "name": "株洲「废土·回声」",
+        "year": 2026,
+        "url": "https://www.gooood.cn/echo-of-the-ruins-by-1y-architecture.htm",
+        "context": "项目把旧厂区砖瓦和混凝土碎块装入格宾，构成主要围合墙。"
+      }
+    },
+    {
+      "id": "ceramic-06",
+      "name": "瓷质马赛克",
+      "aliases": [],
+      "category": "砖、瓦与陶瓷",
+      "type": "马赛克",
+      "color": "蓝色",
+      "finish": "亮面",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "室内地面": "室内地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/ceramic-06.webp",
+      "thumbnail": "./images/textures/ceramic-06-small.webp",
+      "caseStudy": {
+        "name": "上海春熙集",
+        "year": 2025,
+        "url": "https://www.gooood.cn/ink-ink-market-by-linehouse.htm",
+        "context": "市集以马赛克拼花铺地回应历史车站的空间记忆。图示为瓷质马赛克样例。"
+      }
+    },
+    {
+      "id": "stone-09",
+      "name": "黑白根大理石",
+      "aliases": [],
+      "category": "石材",
+      "type": "大理石",
+      "color": "黑色",
+      "finish": "抛光",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/stone-09.webp",
+      "thumbnail": "./images/textures/stone-09-small.webp",
+      "caseStudy": {
+        "name": "阿万达罗住宅",
+        "year": 2026,
+        "url": "https://www.gooood.cn/house-in-avandaro-by-estudio-ignacio-urquiza-ana-paula-de-alba.htm",
+        "context": "案例使用黑色大理石，与染色橡木及火山石并置。图示为带白脉的黑色大理石样例。"
+      }
+    },
+    {
+      "id": "hand-black-oak",
+      "name": "黑色手工橡木板",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "实木饰面",
+      "color": "黑色",
+      "finish": "开放木纹",
+      "uses": {
+        "内墙": "用于餐饮空间的深色木饰面，可与粗面火山石搭配。"
+      },
+      "image": "./images/recent/hand-black-oak.webp",
+      "thumbnail": "./images/recent/hand-black-oak-small.webp",
+      "imageKind": "生成材质示意",
+      "caseStudy": {
+        "name": "广州黑暗之光",
+        "year": 2025,
+        "url": "https://www.gooood.cn/the-dark-light-by-hbm-design.htm",
+        "context": "项目把黑色手工橡木板与火山岩作为主要材料。"
+      }
+    },
+    {
+      "id": "concrete-18",
+      "name": "纤维水泥板",
+      "aliases": [],
+      "category": "混凝土与水泥基饰面",
+      "type": "水泥基板材",
+      "color": "灰色",
+      "finish": "哑光",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "吊顶": "室内顶面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/concrete-18.webp",
+      "thumbnail": "./images/textures/concrete-18-small.webp",
+      "caseStudy": {
+        "name": "上海 JIC 静投中心",
+        "year": 2026,
+        "url": "https://www.gooood.cn/the-jic-jingan-center-by-nikken-sekkei.htm",
+        "context": "纤维水泥板用于静投中心低层的人字形立面。"
+      }
+    },
+    {
+      "id": "metal-12",
+      "name": "钛锌板",
+      "aliases": [],
+      "category": "金属",
+      "type": "锌合金板",
+      "color": "灰色",
+      "finish": "哑光",
+      "uses": {
+        "屋面": "建筑屋面。",
+        "外墙": "建筑外立面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/metal-12.webp",
+      "thumbnail": "./images/textures/metal-12-small.webp",
+      "caseStudy": {
+        "name": "上海欧阳路历史街区微更新",
+        "year": 2026,
+        "url": "https://www.gooood.cn/en/three-micro-renovations-in-the-ouyang-road-historic-quarter-by-scenic-architecture-office.htm",
+        "context": "野草咖啡厅的材料清单包含钛锌板。"
+      }
+    },
+    {
+      "id": "glass-07",
+      "name": "Low-E 中空玻璃",
+      "aliases": [],
+      "category": "玻璃",
+      "type": "镀膜中空玻璃",
+      "color": "透明",
+      "finish": "镀膜",
+      "uses": {
+        "门窗": "门窗构件或饰面。",
+        "外墙": "建筑外立面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/glass-07.webp",
+      "thumbnail": "./images/textures/glass-07-small.webp",
+      "caseStudy": {
+        "name": "上海 JIC 静投中心",
+        "year": 2026,
+        "url": "https://www.gooood.cn/the-jic-jingan-center-by-nikken-sekkei.htm",
+        "context": "塔楼选用钢化夹层 Low-E 中空玻璃。"
+      }
+    },
+    {
+      "id": "washed-aggregate-paving",
+      "name": "米灰水洗石铺地",
+      "aliases": [],
+      "category": "景观地表",
+      "type": "水洗石",
+      "color": "暖灰",
+      "finish": "露粒",
+      "uses": {
+        "室外铺地": "适用于小尺度庭院、口袋公园及人行步道。"
+      },
+      "image": "./images/recent/washed-aggregate-paving.webp",
+      "thumbnail": "./images/recent/washed-aggregate-paving-small.webp",
+      "imageKind": "生成材质示意",
+      "caseStudy": {
+        "name": "上海欧阳路历史街区微更新",
+        "year": 2026,
+        "url": "https://www.gooood.cn/en/three-micro-renovations-in-the-ouyang-road-historic-quarter-by-scenic-architecture-office.htm",
+        "context": "历史街区以米灰水洗石铺地和坐凳界定庭院。"
+      }
+    },
+    {
+      "id": "reclaimed-elm",
+      "name": "老榆木板",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "再利用木材",
+      "color": "棕色",
+      "finish": "自然旧化",
+      "uses": {
+        "家具与台面": "咖啡店水吧台面、接待台及家具饰面。"
+      },
+      "image": "./images/recent/reclaimed-elm.webp",
+      "thumbnail": "./images/recent/reclaimed-elm-small.webp",
+      "imageKind": "生成材质示意",
+      "caseStudy": {
+        "name": "北京戏构木屋工作室",
+        "year": 2025,
+        "url": "https://www.gooood.cn/xigo-studio-log-cabin-by-xigo-studio.htm",
+        "context": "工作室把老榆木延续至水吧台面。"
+      }
+    },
+    {
+      "id": "concrete-13",
+      "name": "现浇水泥水磨石",
+      "aliases": [],
+      "category": "混凝土与水泥基饰面",
+      "type": "水磨石",
+      "color": "白色",
+      "finish": "抛光",
+      "uses": {
+        "室内地面": "室内地面面层。"
+      },
+      "imageKind": "ambientCG · CC0 材质参考",
+      "imageSource": "https://ambientcg.com/a/Terrazzo013",
+      "image": "./images/textures/concrete-13.webp",
+      "thumbnail": "./images/textures/concrete-13-small.webp",
+      "caseStudy": {
+        "name": "MASONPRINCE 上海旗舰店",
+        "year": 2024,
+        "url": "https://www.gooood.cn/masonprince-shanghai-flagship-store-by-tomo-design.htm",
+        "context": "水磨石与木地板、手工砖和地毯同列主要材料。"
+      }
+    },
+    {
+      "id": "metal-15",
+      "name": "耐候钢板",
+      "aliases": [],
+      "category": "金属",
+      "type": "钢板",
+      "color": "棕色",
+      "finish": "锈蚀纹理",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "栏板": "楼梯、露台或中庭栏板。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/metal-15.webp",
+      "thumbnail": "./images/textures/metal-15-small.webp",
+      "caseStudy": {
+        "name": "上海欧阳路历史街区微更新",
+        "year": 2026,
+        "url": "https://www.gooood.cn/en/three-micro-renovations-in-the-ouyang-road-historic-quarter-by-scenic-architecture-office.htm",
+        "context": "野草咖啡厅的材料清单包含耐候钢板。"
+      }
+    },
+    {
+      "id": "glass-17",
+      "name": "彩釉点阵玻璃",
+      "aliases": [],
+      "category": "玻璃",
+      "type": "彩釉玻璃",
+      "color": "白色",
+      "finish": "点阵",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "隔断": "空间隔断。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/glass-17.webp",
+      "thumbnail": "./images/textures/glass-17-small.webp",
+      "caseStudy": {
+        "name": "上海欧阳路历史街区微更新",
+        "year": 2026,
+        "url": "https://www.gooood.cn/en/three-micro-renovations-in-the-ouyang-road-historic-quarter-by-scenic-architecture-office.htm",
+        "context": "野草咖啡厅的材料清单包含彩釉玻璃。图示为点阵做法样例。"
+      }
+    },
+    {
+      "id": "stained-oak",
+      "name": "深染橡木饰面",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "实木饰面",
+      "color": "深棕",
+      "finish": "染色",
+      "uses": {
+        "内墙": "暖灰至深棕的连续室内木饰面。",
+        "家具与台面": "可用于柜门、柜体及定制家具。"
+      },
+      "image": "./images/recent/stained-oak.webp",
+      "thumbnail": "./images/recent/stained-oak-small.webp",
+      "imageKind": "生成材质示意",
+      "caseStudy": {
+        "name": "阿万达罗住宅",
+        "year": 2026,
+        "url": "https://www.gooood.cn/house-in-avandaro-by-estudio-ignacio-urquiza-ana-paula-de-alba.htm",
+        "context": "案例以染色及天然橡木搭配火山石和黑色大理石。"
+      }
+    },
+    {
+      "id": "end-grain-wood",
+      "name": "年轮木地板",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "木地板",
+      "color": "深棕",
+      "finish": "端纹拼接",
+      "uses": {
+        "室内地面": "用于小型工作室或公共空间的拼铺地面。"
+      },
+      "image": "./images/recent/end-grain-wood.webp",
+      "thumbnail": "./images/recent/end-grain-wood-small.webp",
+      "imageKind": "生成材质示意",
+      "caseStudy": {
+        "name": "北京戏构木屋工作室",
+        "year": 2025,
+        "url": "https://www.gooood.cn/xigo-studio-log-cabin-by-xigo-studio.htm",
+        "context": "工作室的主要材料清单包括年轮木地板。"
+      }
+    },
+    {
+      "id": "mixed-carbonized-wood",
+      "name": "碳化混拼木饰面",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "热改性木材",
+      "color": "棕色",
+      "finish": "木蜡油",
+      "uses": {
+        "内墙": "连续墙面可用混拼板表现不同木材的纹理和色差。"
+      },
+      "image": "./images/recent/mixed-carbonized-wood.webp",
+      "thumbnail": "./images/recent/mixed-carbonized-wood-small.webp",
+      "imageKind": "生成材质示意",
+      "caseStudy": {
+        "name": "启东「闲」父母住宅",
+        "year": 2024,
+        "url": "https://www.gooood.cn/leisure-residence-by-yumalin-studio.htm",
+        "context": "全屋木饰面采用多种木材碳化混拼，表层以透明木蜡油处理。"
+      }
+    },
+    {
+      "id": "yangzhou-brick",
+      "name": "扬州灰砖",
+      "aliases": [
+        "灰砖",
+        "青砖",
+        "Yangzhou grey brick"
+      ],
+      "category": "砖、瓦与陶瓷",
+      "type": "砌筑砖",
+      "color": "暖灰",
+      "finish": "粗糙",
+      "uses": {
+        "外墙": "历史街区沿街立面、院墙、入口矮墙。",
+        "内墙": "酒店大堂背景墙、茶室背景墙。"
+      },
+      "image": "./images/materials/yangzhou-brick.webp",
+      "imageKind": "生成示意",
+      "imageSource": null,
+      "note": "用于庭院铺地时，选用适用于铺地的砖型。"
+    },
+    {
+      "id": "dark-slate",
+      "name": "深灰板岩",
+      "aliases": [
+        "青灰板岩",
+        "灰色板岩",
+        "Slate"
+      ],
+      "category": "石材",
+      "type": "板岩",
+      "color": "深灰",
+      "finish": "天然劈裂面",
+      "uses": {
+        "室外铺地": "庭院步道、露台铺地、建筑入口平台。",
+        "外墙": "庭院景墙、建筑基座与入口侧墙的饰面。"
+      },
+      "image": "./images/materials/dark-slate.webp",
+      "imageKind": "生成示意",
+      "imageSource": null
+    },
+    {
+      "id": "walnut-veneer",
+      "name": "黑胡桃木饰面",
+      "aliases": [
+        "黑胡桃",
+        "胡桃木",
+        "Walnut veneer"
+      ],
+      "category": "木材与竹材",
+      "type": "木饰面",
+      "color": "深棕",
+      "finish": "木纹",
+      "uses": {
+        "内墙": "客房床头墙、餐厅包间墙面。",
+        "吊顶": "茶室局部吊顶、酒店入口格栅吊顶。",
+        "家具与台面": "柜门、书架饰面、接待台立面。"
+      },
+      "image": "./images/materials/walnut-veneer.webp",
+      "imageKind": "生成示意",
+      "imageSource": null
+    },
+    {
+      "id": "matte-brass",
+      "name": "哑光黄铜",
+      "aliases": [
+        "黄铜",
+        "拉丝铜",
+        "Matte brass"
+      ],
+      "category": "金属",
+      "type": "铜",
+      "color": "金棕",
+      "finish": "哑光拉丝",
+      "uses": {
+        "内墙": "电梯门套、墙面收边与装饰嵌条。",
+        "家具与台面": "酒吧吧台包边、接待台踢脚。",
+        "门窗": "门把手、门框装饰线条。"
+      },
+      "image": "./images/materials/matte-brass.webp",
+      "imageKind": "生成示意",
+      "imageSource": null
+    },
+    {
+      "id": "low-iron-glass",
+      "name": "低铁超白玻璃",
+      "aliases": [
+        "超白玻璃",
+        "低铁玻璃",
+        "Low-iron glass"
+      ],
+      "category": "玻璃",
+      "type": "透明玻璃",
+      "color": "无色",
+      "finish": "光滑透明",
+      "uses": {
+        "门窗": "餐厅观景窗、入口门的透光玻璃。",
+        "隔断": "会议室、餐厅与走廊之间的通透隔断。",
+        "栏板": "楼梯、室内中庭与露台栏板。"
+      },
+      "image": "./images/materials/low-iron-glass.webp",
+      "imageKind": "生成示意",
+      "imageSource": null,
+      "note": "栏板玻璃按项目要求选择玻璃构造和固定方式。"
+    },
+    {
+      "id": "grey-roof-tile",
+      "name": "深灰小青瓦",
+      "aliases": [
+        "小青瓦",
+        "青瓦",
+        "筒瓦",
+        "Clay roof tile"
+      ],
+      "category": "砖、瓦与陶瓷",
+      "type": "屋面瓦",
+      "color": "深灰",
+      "finish": "粗糙",
+      "uses": {
+        "屋面": "古镇坡屋面、庭院廊亭与临街门头雨棚。"
+      },
+      "image": "./images/materials/grey-roof-tile.webp",
+      "imageKind": "生成示意",
+      "imageSource": null
+    },
+    {
+      "id": "grey-gravel",
+      "name": "灰色碎石",
+      "aliases": [
+        "灰碎石",
+        "灰色砂砾",
+        "Gravel"
+      ],
+      "category": "景观地表",
+      "type": "砂砾",
+      "color": "暖灰",
+      "finish": "粗糙",
+      "uses": {
+        "景观地表": "旱景、汀步填缝、种植池面层。",
+        "室外铺地": "庭院步道的碎石面层、露台边缘的砾石带。"
+      },
+      "image": "./images/materials/grey-gravel.webp",
+      "imageKind": "生成示意",
+      "imageSource": null
+    },
+    {
+      "id": "lime-plaster",
+      "name": "暖白石灰抹灰",
+      "aliases": [
+        "石灰抹灰",
+        "石灰灰泥",
+        "Lime plaster"
+      ],
+      "category": "涂料与抹灰",
+      "type": "石灰抹灰",
+      "color": "暖白",
+      "finish": "细砂哑光",
+      "uses": {
+        "外墙": "古镇白墙、庭院建筑的院落立面。",
+        "内墙": "茶室背景墙、民宿客房墙面。"
+      },
+      "image": "./images/materials/lime-plaster.webp",
+      "imageKind": "生成示意",
+      "imageSource": null
+    },
+    {
+      "id": "beige-terrazzo",
+      "name": "米色水磨石",
+      "aliases": [
+        "水磨石",
+        "水泥基水磨石",
+        "Terrazzo"
+      ],
+      "category": "混凝土与水泥基饰面",
+      "type": "水泥基水磨石",
+      "color": "米色",
+      "finish": "细磨",
+      "uses": {
+        "室内地面": "酒店大堂、展厅与公共走廊地面。",
+        "家具与台面": "酒店接待台、咖啡吧台、卫生间台面。"
+      },
+      "image": "./images/materials/beige-terrazzo.webp",
+      "imageKind": "生成示意",
+      "imageSource": null
+    },
+    {
+      "id": "ceramic-01",
+      "name": "烧结红砖",
+      "aliases": [],
+      "category": "砖、瓦与陶瓷",
+      "type": "砌筑砖",
+      "color": "红色",
+      "finish": "哑光",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/ceramic-01.webp",
+      "thumbnail": "./images/textures/ceramic-01-small.webp"
+    },
+    {
+      "id": "ceramic-02",
+      "name": "劈开砖",
+      "aliases": [],
+      "category": "砖、瓦与陶瓷",
+      "type": "外墙砖",
+      "color": "棕色",
+      "finish": "粗糙",
+      "uses": {
+        "外墙": "建筑外立面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/ceramic-02.webp",
+      "thumbnail": "./images/textures/ceramic-02-small.webp"
+    },
+    {
+      "id": "ceramic-04",
+      "name": "釉面地铁砖",
+      "aliases": [],
+      "category": "砖、瓦与陶瓷",
+      "type": "墙砖",
+      "color": "白色",
+      "finish": "亮面",
+      "uses": {
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/ceramic-04.webp",
+      "thumbnail": "./images/textures/ceramic-04-small.webp"
+    },
+    {
+      "id": "ceramic-05",
+      "name": "手工釉面砖",
+      "aliases": [],
+      "category": "砖、瓦与陶瓷",
+      "type": "墙砖",
+      "color": "绿色",
+      "finish": "亮面",
+      "uses": {
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/ceramic-05.webp",
+      "thumbnail": "./images/textures/ceramic-05-small.webp"
+    },
+    {
+      "id": "ceramic-07",
+      "name": "玻化抛光砖",
+      "aliases": [],
+      "category": "砖、瓦与陶瓷",
+      "type": "地砖",
+      "color": "米色",
+      "finish": "抛光",
+      "uses": {
+        "室内地面": "室内地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/ceramic-07.webp",
+      "thumbnail": "./images/textures/ceramic-07-small.webp"
+    },
+    {
+      "id": "ceramic-08",
+      "name": "柔光仿石瓷砖",
+      "aliases": [],
+      "category": "砖、瓦与陶瓷",
+      "type": "地砖",
+      "color": "灰色",
+      "finish": "柔光",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "室内地面": "室内地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/ceramic-08.webp",
+      "thumbnail": "./images/textures/ceramic-08-small.webp"
+    },
+    {
+      "id": "ceramic-09",
+      "name": "防滑通体瓷砖",
+      "aliases": [],
+      "category": "砖、瓦与陶瓷",
+      "type": "地砖",
+      "color": "灰色",
+      "finish": "粗糙",
+      "uses": {
+        "室内地面": "室内地面面层。",
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/ceramic-09.webp",
+      "thumbnail": "./images/textures/ceramic-09-small.webp"
+    },
+    {
+      "id": "ceramic-10",
+      "name": "仿木纹瓷砖",
+      "aliases": [],
+      "category": "砖、瓦与陶瓷",
+      "type": "地砖",
+      "color": "棕色",
+      "finish": "哑光",
+      "uses": {
+        "室内地面": "室内地面面层。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/ceramic-10.webp",
+      "thumbnail": "./images/textures/ceramic-10-small.webp"
+    },
+    {
+      "id": "ceramic-11",
+      "name": "釉面仿古砖",
+      "aliases": [],
+      "category": "砖、瓦与陶瓷",
+      "type": "地砖",
+      "color": "棕色",
+      "finish": "哑光",
+      "uses": {
+        "室内地面": "室内地面面层。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/ceramic-11.webp",
+      "thumbnail": "./images/textures/ceramic-11-small.webp"
+    },
+    {
+      "id": "ceramic-12",
+      "name": "干挂陶板",
+      "aliases": [],
+      "category": "砖、瓦与陶瓷",
+      "type": "幕墙陶板",
+      "color": "红色",
+      "finish": "哑光",
+      "uses": {
+        "外墙": "建筑外立面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/ceramic-12.webp",
+      "thumbnail": "./images/textures/ceramic-12-small.webp"
+    },
+    {
+      "id": "ceramic-13",
+      "name": "中空陶棍",
+      "aliases": [],
+      "category": "砖、瓦与陶瓷",
+      "type": "建筑陶件",
+      "color": "红色",
+      "finish": "哑光",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "隔断": "空间隔断。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/ceramic-13.webp",
+      "thumbnail": "./images/textures/ceramic-13-small.webp"
+    },
+    {
+      "id": "ceramic-14",
+      "name": "陶土花格砖",
+      "aliases": [],
+      "category": "砖、瓦与陶瓷",
+      "type": "建筑陶件",
+      "color": "红色",
+      "finish": "哑光",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "隔断": "空间隔断。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/ceramic-14.webp",
+      "thumbnail": "./images/textures/ceramic-14-small.webp"
+    },
+    {
+      "id": "ceramic-15",
+      "name": "陶瓷薄板",
+      "aliases": [],
+      "category": "砖、瓦与陶瓷",
+      "type": "陶瓷板",
+      "color": "白色",
+      "finish": "柔光",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "外墙": "建筑外立面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/ceramic-15.webp",
+      "thumbnail": "./images/textures/ceramic-15-small.webp"
+    },
+    {
+      "id": "ceramic-16",
+      "name": "釉面琉璃瓦",
+      "aliases": [],
+      "category": "砖、瓦与陶瓷",
+      "type": "屋面瓦",
+      "color": "绿色",
+      "finish": "亮面",
+      "uses": {
+        "屋面": "建筑屋面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/ceramic-16.webp",
+      "thumbnail": "./images/textures/ceramic-16-small.webp"
+    },
+    {
+      "id": "ceramic-17",
+      "name": "陶土平瓦",
+      "aliases": [],
+      "category": "砖、瓦与陶瓷",
+      "type": "屋面瓦",
+      "color": "红色",
+      "finish": "哑光",
+      "uses": {
+        "屋面": "建筑屋面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/ceramic-17.webp",
+      "thumbnail": "./images/textures/ceramic-17-small.webp"
+    },
+    {
+      "id": "ceramic-18",
+      "name": "陶土罗曼瓦",
+      "aliases": [],
+      "category": "砖、瓦与陶瓷",
+      "type": "屋面瓦",
+      "color": "红色",
+      "finish": "哑光",
+      "uses": {
+        "屋面": "建筑屋面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/ceramic-18.webp",
+      "thumbnail": "./images/textures/ceramic-18-small.webp"
+    },
+    {
+      "id": "ceramic-19",
+      "name": "烧结透水砖",
+      "aliases": [],
+      "category": "砖、瓦与陶瓷",
+      "type": "铺地砖",
+      "color": "灰色",
+      "finish": "粗糙",
+      "uses": {
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/ceramic-19.webp",
+      "thumbnail": "./images/textures/ceramic-19-small.webp"
+    },
+    {
+      "id": "ceramic-20",
+      "name": "瓷质岩板",
+      "aliases": [],
+      "category": "砖、瓦与陶瓷",
+      "type": "陶瓷板",
+      "color": "白色",
+      "finish": "哑光",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/ceramic-20.webp",
+      "thumbnail": "./images/textures/ceramic-20-small.webp"
+    },
+    {
+      "id": "stone-01",
+      "name": "芝麻白花岗岩",
+      "aliases": [],
+      "category": "石材",
+      "type": "花岗岩",
+      "color": "白色",
+      "finish": "火烧",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/stone-01.webp",
+      "thumbnail": "./images/textures/stone-01-small.webp"
+    },
+    {
+      "id": "stone-02",
+      "name": "芝麻灰花岗岩",
+      "aliases": [],
+      "category": "石材",
+      "type": "花岗岩",
+      "color": "灰色",
+      "finish": "荔枝面",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/stone-02.webp",
+      "thumbnail": "./images/textures/stone-02-small.webp"
+    },
+    {
+      "id": "stone-03",
+      "name": "黄金麻花岗岩",
+      "aliases": [],
+      "category": "石材",
+      "type": "花岗岩",
+      "color": "黄色",
+      "finish": "火烧",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/stone-03.webp",
+      "thumbnail": "./images/textures/stone-03-small.webp"
+    },
+    {
+      "id": "stone-04",
+      "name": "中国黑花岗岩",
+      "aliases": [],
+      "category": "石材",
+      "type": "花岗岩",
+      "color": "黑色",
+      "finish": "抛光",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/stone-04.webp",
+      "thumbnail": "./images/textures/stone-04-small.webp"
+    },
+    {
+      "id": "stone-05",
+      "name": "爵士白大理石",
+      "aliases": [],
+      "category": "石材",
+      "type": "大理石",
+      "color": "白色",
+      "finish": "抛光",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/stone-05.webp",
+      "thumbnail": "./images/textures/stone-05-small.webp"
+    },
+    {
+      "id": "stone-06",
+      "name": "卡拉拉白大理石",
+      "aliases": [],
+      "category": "石材",
+      "type": "大理石",
+      "color": "白色",
+      "finish": "柔光",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/stone-06.webp",
+      "thumbnail": "./images/textures/stone-06-small.webp"
+    },
+    {
+      "id": "stone-07",
+      "name": "云多拉灰大理石",
+      "aliases": [],
+      "category": "石材",
+      "type": "大理石",
+      "color": "灰色",
+      "finish": "抛光",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "室内地面": "室内地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/stone-07.webp",
+      "thumbnail": "./images/textures/stone-07-small.webp"
+    },
+    {
+      "id": "stone-08",
+      "name": "浅啡网大理石",
+      "aliases": [],
+      "category": "石材",
+      "type": "大理石",
+      "color": "棕色",
+      "finish": "抛光",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/stone-08.webp",
+      "thumbnail": "./images/textures/stone-08-small.webp"
+    },
+    {
+      "id": "stone-10",
+      "name": "米白石灰岩",
+      "aliases": [],
+      "category": "石材",
+      "type": "石灰岩",
+      "color": "米色",
+      "finish": "哑光",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/stone-10.webp",
+      "thumbnail": "./images/textures/stone-10-small.webp"
+    },
+    {
+      "id": "stone-11",
+      "name": "米黄洞石",
+      "aliases": [],
+      "category": "石材",
+      "type": "洞石",
+      "color": "米色",
+      "finish": "哑光",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "外墙": "建筑外立面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/stone-11.webp",
+      "thumbnail": "./images/textures/stone-11-small.webp"
+    },
+    {
+      "id": "stone-13",
+      "name": "黄砂岩",
+      "aliases": [],
+      "category": "石材",
+      "type": "砂岩",
+      "color": "黄色",
+      "finish": "粗糙",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "景观地表": "庭院或绿地地表。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/stone-13.webp",
+      "thumbnail": "./images/textures/stone-13-small.webp"
+    },
+    {
+      "id": "stone-14",
+      "name": "红砂岩",
+      "aliases": [],
+      "category": "石材",
+      "type": "砂岩",
+      "color": "红色",
+      "finish": "粗糙",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "景观地表": "庭院或绿地地表。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/stone-14.webp",
+      "thumbnail": "./images/textures/stone-14-small.webp"
+    },
+    {
+      "id": "stone-15",
+      "name": "劈裂面青石",
+      "aliases": [],
+      "category": "石材",
+      "type": "青石",
+      "color": "灰色",
+      "finish": "劈裂面",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/stone-15.webp",
+      "thumbnail": "./images/textures/stone-15-small.webp"
+    },
+    {
+      "id": "stone-17",
+      "name": "烧面玄武岩",
+      "aliases": [],
+      "category": "石材",
+      "type": "玄武岩",
+      "color": "黑色",
+      "finish": "火烧",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/stone-17.webp",
+      "thumbnail": "./images/textures/stone-17-small.webp"
+    },
+    {
+      "id": "stone-18",
+      "name": "白色石英岩",
+      "aliases": [],
+      "category": "石材",
+      "type": "石英岩",
+      "color": "白色",
+      "finish": "抛光",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/stone-18.webp",
+      "thumbnail": "./images/textures/stone-18-small.webp"
+    },
+    {
+      "id": "stone-19",
+      "name": "蘑菇面文化石",
+      "aliases": [],
+      "category": "石材",
+      "type": "天然饰面石",
+      "color": "灰色",
+      "finish": "劈裂面",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/stone-19.webp",
+      "thumbnail": "./images/textures/stone-19-small.webp"
+    },
+    {
+      "id": "stone-20",
+      "name": "抛光河卵石马赛克",
+      "aliases": [],
+      "category": "石材",
+      "type": "卵石饰面",
+      "color": "灰色",
+      "finish": "抛光",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "室内地面": "室内地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/stone-20.webp",
+      "thumbnail": "./images/textures/stone-20-small.webp"
+    },
+    {
+      "id": "wood-01",
+      "name": "白橡木",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "硬木",
+      "color": "棕色",
+      "finish": "哑光",
+      "uses": {
+        "室内地面": "室内地面面层。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/wood-01.webp",
+      "thumbnail": "./images/textures/wood-01-small.webp"
+    },
+    {
+      "id": "wood-02",
+      "name": "红橡木",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "硬木",
+      "color": "棕色",
+      "finish": "哑光",
+      "uses": {
+        "室内地面": "室内地面面层。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/wood-02.webp",
+      "thumbnail": "./images/textures/wood-02-small.webp"
+    },
+    {
+      "id": "wood-03",
+      "name": "白蜡木",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "硬木",
+      "color": "米色",
+      "finish": "哑光",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/wood-03.webp",
+      "thumbnail": "./images/textures/wood-03-small.webp"
+    },
+    {
+      "id": "wood-04",
+      "name": "欧洲榉木",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "硬木",
+      "color": "米色",
+      "finish": "哑光",
+      "uses": {
+        "家具与台面": "家具构件或表面饰面。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/wood-04.webp",
+      "thumbnail": "./images/textures/wood-04-small.webp"
+    },
+    {
+      "id": "wood-05",
+      "name": "硬枫木",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "硬木",
+      "color": "米色",
+      "finish": "哑光",
+      "uses": {
+        "室内地面": "室内地面面层。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/wood-05.webp",
+      "thumbnail": "./images/textures/wood-05-small.webp"
+    },
+    {
+      "id": "wood-06",
+      "name": "美国樱桃木",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "硬木",
+      "color": "红色",
+      "finish": "哑光",
+      "uses": {
+        "家具与台面": "家具构件或表面饰面。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/wood-06.webp",
+      "thumbnail": "./images/textures/wood-06-small.webp"
+    },
+    {
+      "id": "wood-07",
+      "name": "柚木",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "硬木",
+      "color": "棕色",
+      "finish": "木蜡油",
+      "uses": {
+        "家具与台面": "家具构件或表面饰面。",
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/wood-07.webp",
+      "thumbnail": "./images/textures/wood-07-small.webp"
+    },
+    {
+      "id": "wood-08",
+      "name": "沙比利木",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "硬木",
+      "color": "红色",
+      "finish": "哑光",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "门窗": "门窗构件或饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/wood-08.webp",
+      "thumbnail": "./images/textures/wood-08-small.webp"
+    },
+    {
+      "id": "wood-09",
+      "name": "桦木",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "硬木",
+      "color": "米色",
+      "finish": "哑光",
+      "uses": {
+        "家具与台面": "家具构件或表面饰面。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/wood-09.webp",
+      "thumbnail": "./images/textures/wood-09-small.webp"
+    },
+    {
+      "id": "wood-10",
+      "name": "樟子松",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "软木材",
+      "color": "黄色",
+      "finish": "哑光",
+      "uses": {
+        "家具与台面": "家具构件或表面饰面。",
+        "吊顶": "室内顶面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/wood-10.webp",
+      "thumbnail": "./images/textures/wood-10-small.webp"
+    },
+    {
+      "id": "wood-11",
+      "name": "落叶松",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "软木材",
+      "color": "棕色",
+      "finish": "木蜡油",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/wood-11.webp",
+      "thumbnail": "./images/textures/wood-11-small.webp"
+    },
+    {
+      "id": "wood-12",
+      "name": "红雪松",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "软木材",
+      "color": "红色",
+      "finish": "哑光",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "吊顶": "室内顶面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/wood-12.webp",
+      "thumbnail": "./images/textures/wood-12-small.webp"
+    },
+    {
+      "id": "wood-13",
+      "name": "菠萝格",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "硬木",
+      "color": "棕色",
+      "finish": "木蜡油",
+      "uses": {
+        "室外铺地": "室外地面面层。",
+        "栏板": "楼梯、露台或中庭栏板。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/wood-13.webp",
+      "thumbnail": "./images/textures/wood-13-small.webp"
+    },
+    {
+      "id": "wood-14",
+      "name": "碳化木",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "热改性木材",
+      "color": "棕色",
+      "finish": "哑光",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/wood-14.webp",
+      "thumbnail": "./images/textures/wood-14-small.webp"
+    },
+    {
+      "id": "wood-15",
+      "name": "炭烧杉木板",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "炭烧饰面",
+      "color": "黑色",
+      "finish": "粗糙",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/wood-15.webp",
+      "thumbnail": "./images/textures/wood-15-small.webp"
+    },
+    {
+      "id": "wood-16",
+      "name": "橡木实木复合地板",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "木地板",
+      "color": "棕色",
+      "finish": "哑光",
+      "uses": {
+        "室内地面": "室内地面面层。"
+      },
+      "imageKind": "ambientCG · CC0 材质参考",
+      "imageSource": "https://ambientcg.com/a/WoodFloor051",
+      "image": "./images/textures/wood-16.webp",
+      "thumbnail": "./images/textures/wood-16-small.webp"
+    },
+    {
+      "id": "wood-17",
+      "name": "桦木胶合板",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "木基板材",
+      "color": "米色",
+      "finish": "哑光",
+      "uses": {
+        "家具与台面": "家具构件或表面饰面。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/wood-17.webp",
+      "thumbnail": "./images/textures/wood-17-small.webp"
+    },
+    {
+      "id": "wood-18",
+      "name": "定向刨花板",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "木基板材",
+      "color": "棕色",
+      "finish": "粗糙",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/wood-18.webp",
+      "thumbnail": "./images/textures/wood-18-small.webp"
+    },
+    {
+      "id": "wood-19",
+      "name": "侧压竹板",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "竹集成板",
+      "color": "黄色",
+      "finish": "哑光",
+      "uses": {
+        "室内地面": "室内地面面层。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/wood-19.webp",
+      "thumbnail": "./images/textures/wood-19-small.webp"
+    },
+    {
+      "id": "wood-20",
+      "name": "重组竹板",
+      "aliases": [],
+      "category": "木材与竹材",
+      "type": "竹集成板",
+      "color": "棕色",
+      "finish": "木蜡油",
+      "uses": {
+        "室内地面": "室内地面面层。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/wood-20.webp",
+      "thumbnail": "./images/textures/wood-20-small.webp"
+    },
+    {
+      "id": "concrete-01",
+      "name": "木纹模板清水混凝土",
+      "aliases": [],
+      "category": "混凝土与水泥基饰面",
+      "type": "现浇混凝土",
+      "color": "灰色",
+      "finish": "模板木纹",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/concrete-01.webp",
+      "thumbnail": "./images/textures/concrete-01-small.webp"
+    },
+    {
+      "id": "concrete-02",
+      "name": "白色清水混凝土",
+      "aliases": [],
+      "category": "混凝土与水泥基饰面",
+      "type": "现浇混凝土",
+      "color": "白色",
+      "finish": "哑光",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/concrete-02.webp",
+      "thumbnail": "./images/textures/concrete-02-small.webp"
+    },
+    {
+      "id": "concrete-03",
+      "name": "彩色现浇混凝土",
+      "aliases": [],
+      "category": "混凝土与水泥基饰面",
+      "type": "现浇混凝土",
+      "color": "红色",
+      "finish": "哑光",
+      "uses": {
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/concrete-03.webp",
+      "thumbnail": "./images/textures/concrete-03-small.webp"
+    },
+    {
+      "id": "concrete-04",
+      "name": "露骨料混凝土",
+      "aliases": [],
+      "category": "混凝土与水泥基饰面",
+      "type": "现浇混凝土",
+      "color": "灰色",
+      "finish": "粗糙",
+      "uses": {
+        "室外铺地": "室外地面面层。",
+        "外墙": "建筑外立面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/concrete-04.webp",
+      "thumbnail": "./images/textures/concrete-04-small.webp"
+    },
+    {
+      "id": "concrete-05",
+      "name": "扫毛混凝土",
+      "aliases": [],
+      "category": "混凝土与水泥基饰面",
+      "type": "现浇混凝土",
+      "color": "灰色",
+      "finish": "扫毛",
+      "uses": {
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/concrete-05.webp",
+      "thumbnail": "./images/textures/concrete-05-small.webp"
+    },
+    {
+      "id": "concrete-06",
+      "name": "压印混凝土",
+      "aliases": [],
+      "category": "混凝土与水泥基饰面",
+      "type": "现浇混凝土",
+      "color": "棕色",
+      "finish": "压纹",
+      "uses": {
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/concrete-06.webp",
+      "thumbnail": "./images/textures/concrete-06-small.webp"
+    },
+    {
+      "id": "concrete-07",
+      "name": "透水混凝土",
+      "aliases": [],
+      "category": "混凝土与水泥基饰面",
+      "type": "多孔混凝土",
+      "color": "灰色",
+      "finish": "粗糙",
+      "uses": {
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/concrete-07.webp",
+      "thumbnail": "./images/textures/concrete-07-small.webp"
+    },
+    {
+      "id": "concrete-08",
+      "name": "密封固化混凝土地坪",
+      "aliases": [],
+      "category": "混凝土与水泥基饰面",
+      "type": "混凝土地坪",
+      "color": "灰色",
+      "finish": "抛光",
+      "uses": {
+        "室内地面": "室内地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/concrete-08.webp",
+      "thumbnail": "./images/textures/concrete-08-small.webp"
+    },
+    {
+      "id": "concrete-09",
+      "name": "彩色金刚砂地坪",
+      "aliases": [],
+      "category": "混凝土与水泥基饰面",
+      "type": "耐磨地坪",
+      "color": "绿色",
+      "finish": "哑光",
+      "uses": {
+        "室内地面": "室内地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/concrete-09.webp",
+      "thumbnail": "./images/textures/concrete-09-small.webp"
+    },
+    {
+      "id": "concrete-10",
+      "name": "水泥基自流平地坪",
+      "aliases": [],
+      "category": "混凝土与水泥基饰面",
+      "type": "水泥基地坪",
+      "color": "灰色",
+      "finish": "哑光",
+      "uses": {
+        "室内地面": "室内地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/concrete-10.webp",
+      "thumbnail": "./images/textures/concrete-10-small.webp"
+    },
+    {
+      "id": "concrete-11",
+      "name": "水泥砂浆压光面",
+      "aliases": [],
+      "category": "混凝土与水泥基饰面",
+      "type": "水泥砂浆",
+      "color": "灰色",
+      "finish": "压光",
+      "uses": {
+        "室内地面": "室内地面面层。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/concrete-11.webp",
+      "thumbnail": "./images/textures/concrete-11-small.webp"
+    },
+    {
+      "id": "concrete-12",
+      "name": "拉毛水泥砂浆",
+      "aliases": [],
+      "category": "混凝土与水泥基饰面",
+      "type": "水泥砂浆",
+      "color": "灰色",
+      "finish": "粗糙",
+      "uses": {
+        "外墙": "建筑外立面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/concrete-12.webp",
+      "thumbnail": "./images/textures/concrete-12-small.webp"
+    },
+    {
+      "id": "concrete-14",
+      "name": "黑色预制水磨石板",
+      "aliases": [],
+      "category": "混凝土与水泥基饰面",
+      "type": "水磨石",
+      "color": "黑色",
+      "finish": "抛光",
+      "uses": {
+        "室内地面": "室内地面面层。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/concrete-14.webp",
+      "thumbnail": "./images/textures/concrete-14-small.webp"
+    },
+    {
+      "id": "concrete-15",
+      "name": "磨石子水泥踏步",
+      "aliases": [],
+      "category": "混凝土与水泥基饰面",
+      "type": "预制混凝土",
+      "color": "灰色",
+      "finish": "磨面",
+      "uses": {
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/concrete-15.webp",
+      "thumbnail": "./images/textures/concrete-15-small.webp"
+    },
+    {
+      "id": "concrete-16",
+      "name": "混凝土连锁铺地砖",
+      "aliases": [],
+      "category": "混凝土与水泥基饰面",
+      "type": "混凝土砖",
+      "color": "灰色",
+      "finish": "哑光",
+      "uses": {
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/concrete-16.webp",
+      "thumbnail": "./images/textures/concrete-16-small.webp"
+    },
+    {
+      "id": "concrete-17",
+      "name": "混凝土植草砖",
+      "aliases": [],
+      "category": "混凝土与水泥基饰面",
+      "type": "混凝土砖",
+      "color": "灰色",
+      "finish": "粗糙",
+      "uses": {
+        "室外铺地": "室外地面面层。",
+        "景观地表": "庭院或绿地地表。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/concrete-17.webp",
+      "thumbnail": "./images/textures/concrete-17-small.webp"
+    },
+    {
+      "id": "concrete-19",
+      "name": "玻璃纤维增强水泥板（GRC）",
+      "aliases": [],
+      "category": "混凝土与水泥基饰面",
+      "type": "水泥基板材",
+      "color": "白色",
+      "finish": "哑光",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/concrete-19.webp",
+      "thumbnail": "./images/textures/concrete-19-small.webp"
+    },
+    {
+      "id": "concrete-20",
+      "name": "超高性能混凝土板（UHPC）",
+      "aliases": [],
+      "category": "混凝土与水泥基饰面",
+      "type": "预制混凝土",
+      "color": "灰色",
+      "finish": "哑光",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "栏板": "楼梯、露台或中庭栏板。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/concrete-20.webp",
+      "thumbnail": "./images/textures/concrete-20-small.webp"
+    },
+    {
+      "id": "metal-01",
+      "name": "拉丝不锈钢",
+      "aliases": [],
+      "category": "金属",
+      "type": "不锈钢",
+      "color": "银色",
+      "finish": "拉丝",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "家具与台面": "家具构件或表面饰面。",
+        "栏板": "楼梯、露台或中庭栏板。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/metal-01.webp",
+      "thumbnail": "./images/textures/metal-01-small.webp"
+    },
+    {
+      "id": "metal-02",
+      "name": "镜面不锈钢",
+      "aliases": [],
+      "category": "金属",
+      "type": "不锈钢",
+      "color": "银色",
+      "finish": "镜面",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/metal-02.webp",
+      "thumbnail": "./images/textures/metal-02-small.webp"
+    },
+    {
+      "id": "metal-03",
+      "name": "喷砂不锈钢",
+      "aliases": [],
+      "category": "金属",
+      "type": "不锈钢",
+      "color": "银色",
+      "finish": "喷砂",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "门窗": "门窗构件或饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/metal-03.webp",
+      "thumbnail": "./images/textures/metal-03-small.webp"
+    },
+    {
+      "id": "metal-04",
+      "name": "黑钛色不锈钢",
+      "aliases": [],
+      "category": "金属",
+      "type": "镀膜不锈钢",
+      "color": "黑色",
+      "finish": "拉丝",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "门窗": "门窗构件或饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/metal-04.webp",
+      "thumbnail": "./images/textures/metal-04-small.webp"
+    },
+    {
+      "id": "metal-05",
+      "name": "玫瑰金不锈钢",
+      "aliases": [],
+      "category": "金属",
+      "type": "镀膜不锈钢",
+      "color": "红色",
+      "finish": "拉丝",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/metal-05.webp",
+      "thumbnail": "./images/textures/metal-05-small.webp"
+    },
+    {
+      "id": "metal-06",
+      "name": "氟碳喷涂铝单板",
+      "aliases": [],
+      "category": "金属",
+      "type": "铝板",
+      "color": "灰色",
+      "finish": "哑光",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "吊顶": "室内顶面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/metal-06.webp",
+      "thumbnail": "./images/textures/metal-06-small.webp"
+    },
+    {
+      "id": "metal-07",
+      "name": "阳极氧化铝板",
+      "aliases": [],
+      "category": "金属",
+      "type": "铝板",
+      "color": "银色",
+      "finish": "哑光",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "内墙": "室内墙面饰面。",
+        "门窗": "门窗构件或饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/metal-07.webp",
+      "thumbnail": "./images/textures/metal-07-small.webp"
+    },
+    {
+      "id": "metal-08",
+      "name": "粉末喷涂铝型材",
+      "aliases": [],
+      "category": "金属",
+      "type": "铝型材",
+      "color": "黑色",
+      "finish": "哑光",
+      "uses": {
+        "门窗": "门窗构件或饰面。",
+        "隔断": "空间隔断。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/metal-08.webp",
+      "thumbnail": "./images/textures/metal-08-small.webp"
+    },
+    {
+      "id": "metal-10",
+      "name": "铝拉网",
+      "aliases": [],
+      "category": "金属",
+      "type": "金属网",
+      "color": "银色",
+      "finish": "网状",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "吊顶": "室内顶面饰面。",
+        "隔断": "空间隔断。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/metal-10.webp",
+      "thumbnail": "./images/textures/metal-10-small.webp"
+    },
+    {
+      "id": "metal-11",
+      "name": "铝镁锰直立锁边板",
+      "aliases": [],
+      "category": "金属",
+      "type": "金属屋面板",
+      "color": "灰色",
+      "finish": "哑光",
+      "uses": {
+        "屋面": "建筑屋面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/metal-11.webp",
+      "thumbnail": "./images/textures/metal-11-small.webp"
+    },
+    {
+      "id": "metal-13",
+      "name": "热镀锌钢板",
+      "aliases": [],
+      "category": "金属",
+      "type": "镀层钢板",
+      "color": "银色",
+      "finish": "镀锌花纹",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "屋面": "建筑屋面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/metal-13.webp",
+      "thumbnail": "./images/textures/metal-13-small.webp"
+    },
+    {
+      "id": "metal-14",
+      "name": "彩涂镀锌压型钢板",
+      "aliases": [],
+      "category": "金属",
+      "type": "压型钢板",
+      "color": "蓝色",
+      "finish": "波纹",
+      "uses": {
+        "屋面": "建筑屋面。",
+        "外墙": "建筑外立面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/metal-14.webp",
+      "thumbnail": "./images/textures/metal-14-small.webp"
+    },
+    {
+      "id": "metal-16",
+      "name": "黑色热轧钢板",
+      "aliases": [],
+      "category": "金属",
+      "type": "钢板",
+      "color": "黑色",
+      "finish": "氧化皮",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/metal-16.webp",
+      "thumbnail": "./images/textures/metal-16-small.webp"
+    },
+    {
+      "id": "metal-17",
+      "name": "防滑花纹钢板",
+      "aliases": [],
+      "category": "金属",
+      "type": "钢板",
+      "color": "灰色",
+      "finish": "压纹",
+      "uses": {
+        "室内地面": "室内地面面层。",
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/metal-17.webp",
+      "thumbnail": "./images/textures/metal-17-small.webp"
+    },
+    {
+      "id": "metal-18",
+      "name": "拉丝紫铜板",
+      "aliases": [],
+      "category": "金属",
+      "type": "铜板",
+      "color": "红色",
+      "finish": "拉丝",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/metal-18.webp",
+      "thumbnail": "./images/textures/metal-18-small.webp"
+    },
+    {
+      "id": "metal-19",
+      "name": "预氧化铜绿铜板",
+      "aliases": [],
+      "category": "金属",
+      "type": "铜板",
+      "color": "绿色",
+      "finish": "哑光",
+      "uses": {
+        "屋面": "建筑屋面。",
+        "外墙": "建筑外立面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/metal-19.webp",
+      "thumbnail": "./images/textures/metal-19-small.webp"
+    },
+    {
+      "id": "metal-20",
+      "name": "做旧青铜",
+      "aliases": [],
+      "category": "金属",
+      "type": "铜合金",
+      "color": "棕色",
+      "finish": "做旧",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "门窗": "门窗构件或饰面。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/metal-20.webp",
+      "thumbnail": "./images/textures/metal-20-small.webp"
+    },
+    {
+      "id": "glass-01",
+      "name": "普通透明浮法玻璃",
+      "aliases": [],
+      "category": "玻璃",
+      "type": "平板玻璃",
+      "color": "透明",
+      "finish": "光面",
+      "uses": {
+        "门窗": "门窗构件或饰面。",
+        "隔断": "空间隔断。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/glass-01.webp",
+      "thumbnail": "./images/textures/glass-01-small.webp"
+    },
+    {
+      "id": "glass-02",
+      "name": "透明钢化玻璃",
+      "aliases": [],
+      "category": "玻璃",
+      "type": "钢化玻璃",
+      "color": "透明",
+      "finish": "光面",
+      "uses": {
+        "门窗": "门窗构件或饰面。",
+        "隔断": "空间隔断。",
+        "栏板": "楼梯、露台或中庭栏板。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/glass-02.webp",
+      "thumbnail": "./images/textures/glass-02-small.webp"
+    },
+    {
+      "id": "glass-03",
+      "name": "透明夹层玻璃",
+      "aliases": [],
+      "category": "玻璃",
+      "type": "夹层玻璃",
+      "color": "透明",
+      "finish": "光面",
+      "uses": {
+        "门窗": "门窗构件或饰面。",
+        "栏板": "楼梯、露台或中庭栏板。",
+        "屋面": "建筑屋面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/glass-03.webp",
+      "thumbnail": "./images/textures/glass-03-small.webp"
+    },
+    {
+      "id": "glass-04",
+      "name": "乳白夹层玻璃",
+      "aliases": [],
+      "category": "玻璃",
+      "type": "夹层玻璃",
+      "color": "白色",
+      "finish": "半透",
+      "uses": {
+        "隔断": "空间隔断。",
+        "门窗": "门窗构件或饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/glass-04.webp",
+      "thumbnail": "./images/textures/glass-04-small.webp"
+    },
+    {
+      "id": "glass-05",
+      "name": "夹丝装饰玻璃",
+      "aliases": [],
+      "category": "玻璃",
+      "type": "装饰玻璃",
+      "color": "透明",
+      "finish": "网状",
+      "uses": {
+        "隔断": "空间隔断。",
+        "门窗": "门窗构件或饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/glass-05.webp",
+      "thumbnail": "./images/textures/glass-05-small.webp"
+    },
+    {
+      "id": "glass-06",
+      "name": "透明中空玻璃",
+      "aliases": [],
+      "category": "玻璃",
+      "type": "中空玻璃",
+      "color": "透明",
+      "finish": "光面",
+      "uses": {
+        "门窗": "门窗构件或饰面。",
+        "外墙": "建筑外立面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/glass-06.webp",
+      "thumbnail": "./images/textures/glass-06-small.webp"
+    },
+    {
+      "id": "glass-08",
+      "name": "茶色吸热玻璃",
+      "aliases": [],
+      "category": "玻璃",
+      "type": "有色玻璃",
+      "color": "棕色",
+      "finish": "光面",
+      "uses": {
+        "门窗": "门窗构件或饰面。",
+        "隔断": "空间隔断。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/glass-08.webp",
+      "thumbnail": "./images/textures/glass-08-small.webp"
+    },
+    {
+      "id": "glass-09",
+      "name": "灰色吸热玻璃",
+      "aliases": [],
+      "category": "玻璃",
+      "type": "有色玻璃",
+      "color": "灰色",
+      "finish": "光面",
+      "uses": {
+        "门窗": "门窗构件或饰面。",
+        "隔断": "空间隔断。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/glass-09.webp",
+      "thumbnail": "./images/textures/glass-09-small.webp"
+    },
+    {
+      "id": "glass-10",
+      "name": "蓝灰色反射镀膜玻璃",
+      "aliases": [],
+      "category": "玻璃",
+      "type": "镀膜玻璃",
+      "color": "蓝色",
+      "finish": "反射",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "门窗": "门窗构件或饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/glass-10.webp",
+      "thumbnail": "./images/textures/glass-10-small.webp"
+    },
+    {
+      "id": "glass-11",
+      "name": "酸蚀磨砂玻璃",
+      "aliases": [],
+      "category": "玻璃",
+      "type": "磨砂玻璃",
+      "color": "白色",
+      "finish": "磨砂",
+      "uses": {
+        "门窗": "门窗构件或饰面。",
+        "隔断": "空间隔断。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/glass-11.webp",
+      "thumbnail": "./images/textures/glass-11-small.webp"
+    },
+    {
+      "id": "glass-12",
+      "name": "喷砂图案玻璃",
+      "aliases": [],
+      "category": "玻璃",
+      "type": "磨砂玻璃",
+      "color": "白色",
+      "finish": "喷砂",
+      "uses": {
+        "隔断": "空间隔断。",
+        "门窗": "门窗构件或饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/glass-12.webp",
+      "thumbnail": "./images/textures/glass-12-small.webp"
+    },
+    {
+      "id": "glass-13",
+      "name": "长虹压花玻璃",
+      "aliases": [],
+      "category": "玻璃",
+      "type": "压花玻璃",
+      "color": "透明",
+      "finish": "条纹",
+      "uses": {
+        "门窗": "门窗构件或饰面。",
+        "隔断": "空间隔断。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/glass-13.webp",
+      "thumbnail": "./images/textures/glass-13-small.webp"
+    },
+    {
+      "id": "glass-14",
+      "name": "水波纹压花玻璃",
+      "aliases": [],
+      "category": "玻璃",
+      "type": "压花玻璃",
+      "color": "透明",
+      "finish": "波纹",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "隔断": "空间隔断。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/glass-14.webp",
+      "thumbnail": "./images/textures/glass-14-small.webp"
+    },
+    {
+      "id": "glass-15",
+      "name": "锤目纹压花玻璃",
+      "aliases": [],
+      "category": "玻璃",
+      "type": "压花玻璃",
+      "color": "透明",
+      "finish": "压纹",
+      "uses": {
+        "隔断": "空间隔断。",
+        "门窗": "门窗构件或饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/glass-15.webp",
+      "thumbnail": "./images/textures/glass-15-small.webp"
+    },
+    {
+      "id": "glass-16",
+      "name": "白色烤漆玻璃",
+      "aliases": [],
+      "category": "玻璃",
+      "type": "背漆玻璃",
+      "color": "白色",
+      "finish": "亮面",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/glass-16.webp",
+      "thumbnail": "./images/textures/glass-16-small.webp"
+    },
+    {
+      "id": "glass-18",
+      "name": "透明空心玻璃砖",
+      "aliases": [],
+      "category": "玻璃",
+      "type": "玻璃砖",
+      "color": "透明",
+      "finish": "压纹",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "隔断": "空间隔断。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/glass-18.webp",
+      "thumbnail": "./images/textures/glass-18-small.webp"
+    },
+    {
+      "id": "glass-19",
+      "name": "银镜玻璃",
+      "aliases": [],
+      "category": "玻璃",
+      "type": "镜面玻璃",
+      "color": "银色",
+      "finish": "镜面",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/glass-19.webp",
+      "thumbnail": "./images/textures/glass-19-small.webp"
+    },
+    {
+      "id": "glass-20",
+      "name": "热弯弧形玻璃",
+      "aliases": [],
+      "category": "玻璃",
+      "type": "曲面玻璃",
+      "color": "透明",
+      "finish": "光面",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "隔断": "空间隔断。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/glass-20.webp",
+      "thumbnail": "./images/textures/glass-20-small.webp"
+    },
+    {
+      "id": "coating-01",
+      "name": "哑光内墙乳胶漆",
+      "aliases": [],
+      "category": "涂料与抹灰",
+      "type": "水性涂料",
+      "color": "白色",
+      "finish": "哑光",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "吊顶": "室内顶面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/coating-01.webp",
+      "thumbnail": "./images/textures/coating-01-small.webp"
+    },
+    {
+      "id": "coating-02",
+      "name": "丝光内墙乳胶漆",
+      "aliases": [],
+      "category": "涂料与抹灰",
+      "type": "水性涂料",
+      "color": "米色",
+      "finish": "柔光",
+      "uses": {
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/coating-02.webp",
+      "thumbnail": "./images/textures/coating-02-small.webp"
+    },
+    {
+      "id": "coating-03",
+      "name": "弹性外墙涂料",
+      "aliases": [],
+      "category": "涂料与抹灰",
+      "type": "外墙涂料",
+      "color": "白色",
+      "finish": "哑光",
+      "uses": {
+        "外墙": "建筑外立面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/coating-03.webp",
+      "thumbnail": "./images/textures/coating-03-small.webp"
+    },
+    {
+      "id": "coating-04",
+      "name": "硅丙外墙涂料",
+      "aliases": [],
+      "category": "涂料与抹灰",
+      "type": "外墙涂料",
+      "color": "灰色",
+      "finish": "哑光",
+      "uses": {
+        "外墙": "建筑外立面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/coating-04.webp",
+      "thumbnail": "./images/textures/coating-04-small.webp"
+    },
+    {
+      "id": "coating-05",
+      "name": "硅酸盐矿物涂料",
+      "aliases": [],
+      "category": "涂料与抹灰",
+      "type": "矿物涂料",
+      "color": "米色",
+      "finish": "哑光",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/coating-05.webp",
+      "thumbnail": "./images/textures/coating-05-small.webp"
+    },
+    {
+      "id": "coating-06",
+      "name": "天然石灰刷涂",
+      "aliases": [],
+      "category": "涂料与抹灰",
+      "type": "石灰涂层",
+      "color": "白色",
+      "finish": "刷纹",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/coating-06.webp",
+      "thumbnail": "./images/textures/coating-06-small.webp"
+    },
+    {
+      "id": "coating-07",
+      "name": "硅藻泥",
+      "aliases": [],
+      "category": "涂料与抹灰",
+      "type": "矿物饰面",
+      "color": "米色",
+      "finish": "粗糙",
+      "uses": {
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/coating-07.webp",
+      "thumbnail": "./images/textures/coating-07-small.webp"
+    },
+    {
+      "id": "coating-08",
+      "name": "灰泥质感涂料",
+      "aliases": [],
+      "category": "涂料与抹灰",
+      "type": "质感涂料",
+      "color": "灰色",
+      "finish": "抹纹",
+      "uses": {
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/coating-08.webp",
+      "thumbnail": "./images/textures/coating-08-small.webp"
+    },
+    {
+      "id": "coating-09",
+      "name": "石灰基威尼斯灰泥",
+      "aliases": [],
+      "category": "涂料与抹灰",
+      "type": "石灰抹灰",
+      "color": "米色",
+      "finish": "抛光",
+      "uses": {
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/coating-09.webp",
+      "thumbnail": "./images/textures/coating-09-small.webp"
+    },
+    {
+      "id": "coating-11",
+      "name": "石膏罩面抹灰",
+      "aliases": [],
+      "category": "涂料与抹灰",
+      "type": "石膏抹灰",
+      "color": "白色",
+      "finish": "哑光",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "吊顶": "室内顶面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/coating-11.webp",
+      "thumbnail": "./images/textures/coating-11-small.webp"
+    },
+    {
+      "id": "coating-12",
+      "name": "黏土抹灰",
+      "aliases": [],
+      "category": "涂料与抹灰",
+      "type": "黏土饰面",
+      "color": "棕色",
+      "finish": "抹纹",
+      "uses": {
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/coating-12.webp",
+      "thumbnail": "./images/textures/coating-12-small.webp"
+    },
+    {
+      "id": "coating-13",
+      "name": "滚涂砂壁漆",
+      "aliases": [],
+      "category": "涂料与抹灰",
+      "type": "质感涂料",
+      "color": "米色",
+      "finish": "颗粒",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/coating-13.webp",
+      "thumbnail": "./images/textures/coating-13-small.webp"
+    },
+    {
+      "id": "coating-14",
+      "name": "喷涂真石漆",
+      "aliases": [],
+      "category": "涂料与抹灰",
+      "type": "仿石涂料",
+      "color": "灰色",
+      "finish": "颗粒",
+      "uses": {
+        "外墙": "建筑外立面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/coating-14.webp",
+      "thumbnail": "./images/textures/coating-14-small.webp"
+    },
+    {
+      "id": "coating-15",
+      "name": "水包水多彩涂料",
+      "aliases": [],
+      "category": "涂料与抹灰",
+      "type": "仿石涂料",
+      "color": "灰色",
+      "finish": "点彩",
+      "uses": {
+        "外墙": "建筑外立面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/coating-15.webp",
+      "thumbnail": "./images/textures/coating-15-small.webp"
+    },
+    {
+      "id": "coating-16",
+      "name": "水包砂仿石涂料",
+      "aliases": [],
+      "category": "涂料与抹灰",
+      "type": "仿石涂料",
+      "color": "黄色",
+      "finish": "颗粒",
+      "uses": {
+        "外墙": "建筑外立面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/coating-16.webp",
+      "thumbnail": "./images/textures/coating-16-small.webp"
+    },
+    {
+      "id": "coating-17",
+      "name": "环氧自流平涂层",
+      "aliases": [],
+      "category": "涂料与抹灰",
+      "type": "地坪涂料",
+      "color": "灰色",
+      "finish": "亮面",
+      "uses": {
+        "室内地面": "室内地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/coating-17.webp",
+      "thumbnail": "./images/textures/coating-17-small.webp"
+    },
+    {
+      "id": "coating-18",
+      "name": "聚氨酯砂浆地坪",
+      "aliases": [],
+      "category": "涂料与抹灰",
+      "type": "地坪涂层",
+      "color": "灰色",
+      "finish": "粗糙",
+      "uses": {
+        "室内地面": "室内地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/coating-18.webp",
+      "thumbnail": "./images/textures/coating-18-small.webp"
+    },
+    {
+      "id": "coating-19",
+      "name": "水性黑板漆",
+      "aliases": [],
+      "category": "涂料与抹灰",
+      "type": "功能涂料",
+      "color": "黑色",
+      "finish": "哑光",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/coating-19.webp",
+      "thumbnail": "./images/textures/coating-19-small.webp"
+    },
+    {
+      "id": "coating-20",
+      "name": "丙烯酸运动场涂层",
+      "aliases": [],
+      "category": "涂料与抹灰",
+      "type": "地坪涂层",
+      "color": "绿色",
+      "finish": "粗糙",
+      "uses": {
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/coating-20.webp",
+      "thumbnail": "./images/textures/coating-20-small.webp"
+    },
+    {
+      "id": "textile-01",
+      "name": "纯棉帆布",
+      "aliases": [],
+      "category": "织物、皮革与编织",
+      "type": "棉织物",
+      "color": "米色",
+      "finish": "织纹",
+      "uses": {
+        "软装": "室内软装。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/textile-01.webp",
+      "thumbnail": "./images/textures/textile-01-small.webp"
+    },
+    {
+      "id": "textile-02",
+      "name": "棉麻混纺布",
+      "aliases": [],
+      "category": "织物、皮革与编织",
+      "type": "混纺织物",
+      "color": "米色",
+      "finish": "织纹",
+      "uses": {
+        "软装": "室内软装。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/textile-02.webp",
+      "thumbnail": "./images/textures/textile-02-small.webp"
+    },
+    {
+      "id": "textile-03",
+      "name": "棉质灯芯绒",
+      "aliases": [],
+      "category": "织物、皮革与编织",
+      "type": "绒面织物",
+      "color": "棕色",
+      "finish": "条纹",
+      "uses": {
+        "软装": "室内软装。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/textile-03.webp",
+      "thumbnail": "./images/textures/textile-03-small.webp"
+    },
+    {
+      "id": "textile-04",
+      "name": "聚酯绒布",
+      "aliases": [],
+      "category": "织物、皮革与编织",
+      "type": "绒面织物",
+      "color": "绿色",
+      "finish": "绒面",
+      "uses": {
+        "软装": "室内软装。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/textile-04.webp",
+      "thumbnail": "./images/textures/textile-04-small.webp"
+    },
+    {
+      "id": "textile-06",
+      "name": "羊毛混纺地毯",
+      "aliases": [],
+      "category": "织物、皮革与编织",
+      "type": "地毯",
+      "color": "灰色",
+      "finish": "绒面",
+      "uses": {
+        "室内地面": "室内地面面层。",
+        "软装": "室内软装。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/textile-06.webp",
+      "thumbnail": "./images/textures/textile-06-small.webp"
+    },
+    {
+      "id": "textile-07",
+      "name": "尼龙方块地毯",
+      "aliases": [],
+      "category": "织物、皮革与编织",
+      "type": "地毯",
+      "color": "灰色",
+      "finish": "圈绒",
+      "uses": {
+        "室内地面": "室内地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/textile-07.webp",
+      "thumbnail": "./images/textures/textile-07-small.webp"
+    },
+    {
+      "id": "textile-08",
+      "name": "剑麻地毯",
+      "aliases": [],
+      "category": "织物、皮革与编织",
+      "type": "天然纤维编织",
+      "color": "米色",
+      "finish": "编织",
+      "uses": {
+        "室内地面": "室内地面面层。",
+        "软装": "室内软装。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/textile-08.webp",
+      "thumbnail": "./images/textures/textile-08-small.webp"
+    },
+    {
+      "id": "textile-09",
+      "name": "黄麻编织地毯",
+      "aliases": [],
+      "category": "织物、皮革与编织",
+      "type": "天然纤维编织",
+      "color": "棕色",
+      "finish": "编织",
+      "uses": {
+        "室内地面": "室内地面面层。",
+        "软装": "室内软装。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/textile-09.webp",
+      "thumbnail": "./images/textures/textile-09-small.webp"
+    },
+    {
+      "id": "textile-10",
+      "name": "聚酯吸音毡",
+      "aliases": [],
+      "category": "织物、皮革与编织",
+      "type": "纤维毡",
+      "color": "灰色",
+      "finish": "绒面",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "吊顶": "室内顶面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/textile-10.webp",
+      "thumbnail": "./images/textures/textile-10-small.webp"
+    },
+    {
+      "id": "textile-11",
+      "name": "毛毡墙布",
+      "aliases": [],
+      "category": "织物、皮革与编织",
+      "type": "毛织物",
+      "color": "灰色",
+      "finish": "绒面",
+      "uses": {
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/textile-11.webp",
+      "thumbnail": "./images/textures/textile-11-small.webp"
+    },
+    {
+      "id": "textile-12",
+      "name": "提花装饰布",
+      "aliases": [],
+      "category": "织物、皮革与编织",
+      "type": "提花织物",
+      "color": "米色",
+      "finish": "织纹",
+      "uses": {
+        "软装": "室内软装。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/textile-12.webp",
+      "thumbnail": "./images/textures/textile-12-small.webp"
+    },
+    {
+      "id": "textile-13",
+      "name": "雪尼尔家具布",
+      "aliases": [],
+      "category": "织物、皮革与编织",
+      "type": "家具织物",
+      "color": "灰色",
+      "finish": "织纹",
+      "uses": {
+        "软装": "室内软装。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/textile-13.webp",
+      "thumbnail": "./images/textures/textile-13-small.webp"
+    },
+    {
+      "id": "textile-14",
+      "name": "聚酯遮光窗帘布",
+      "aliases": [],
+      "category": "织物、皮革与编织",
+      "type": "窗帘织物",
+      "color": "灰色",
+      "finish": "哑光",
+      "uses": {
+        "软装": "室内软装。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/textile-14.webp",
+      "thumbnail": "./images/textures/textile-14-small.webp"
+    },
+    {
+      "id": "textile-15",
+      "name": "涤纶纱帘",
+      "aliases": [],
+      "category": "织物、皮革与编织",
+      "type": "窗帘织物",
+      "color": "白色",
+      "finish": "半透",
+      "uses": {
+        "软装": "室内软装。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/textile-15.webp",
+      "thumbnail": "./images/textures/textile-15-small.webp"
+    },
+    {
+      "id": "textile-16",
+      "name": "头层牛皮",
+      "aliases": [],
+      "category": "织物、皮革与编织",
+      "type": "天然皮革",
+      "color": "棕色",
+      "finish": "皮纹",
+      "uses": {
+        "软装": "室内软装。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "ambientCG · CC0 材质参考",
+      "imageSource": "https://ambientcg.com/a/Leather037",
+      "image": "./images/textures/textile-16.webp",
+      "thumbnail": "./images/textures/textile-16-small.webp"
+    },
+    {
+      "id": "textile-17",
+      "name": "磨砂牛皮",
+      "aliases": [],
+      "category": "织物、皮革与编织",
+      "type": "天然皮革",
+      "color": "棕色",
+      "finish": "磨砂",
+      "uses": {
+        "软装": "室内软装。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/textile-17.webp",
+      "thumbnail": "./images/textures/textile-17-small.webp"
+    },
+    {
+      "id": "textile-18",
+      "name": "聚氨酯人造革",
+      "aliases": [],
+      "category": "织物、皮革与编织",
+      "type": "人造革",
+      "color": "棕色",
+      "finish": "皮纹",
+      "uses": {
+        "软装": "室内软装。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/textile-18.webp",
+      "thumbnail": "./images/textures/textile-18-small.webp"
+    },
+    {
+      "id": "textile-19",
+      "name": "天然藤编",
+      "aliases": [],
+      "category": "织物、皮革与编织",
+      "type": "天然纤维编织",
+      "color": "米色",
+      "finish": "编织",
+      "uses": {
+        "隔断": "空间隔断。",
+        "软装": "室内软装。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/textile-19.webp",
+      "thumbnail": "./images/textures/textile-19-small.webp"
+    },
+    {
+      "id": "textile-20",
+      "name": "竹篾编织",
+      "aliases": [],
+      "category": "织物、皮革与编织",
+      "type": "天然纤维编织",
+      "color": "黄色",
+      "finish": "编织",
+      "uses": {
+        "吊顶": "室内顶面饰面。",
+        "隔断": "空间隔断。",
+        "软装": "室内软装。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/textile-20.webp",
+      "thumbnail": "./images/textures/textile-20-small.webp"
+    },
+    {
+      "id": "composite-01",
+      "name": "透明亚克力板（PMMA）",
+      "aliases": [],
+      "category": "塑料与复合材料",
+      "type": "亚克力",
+      "color": "透明",
+      "finish": "光面",
+      "uses": {
+        "隔断": "空间隔断。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/composite-01.webp",
+      "thumbnail": "./images/textures/composite-01-small.webp"
+    },
+    {
+      "id": "composite-02",
+      "name": "乳白亚克力板",
+      "aliases": [],
+      "category": "塑料与复合材料",
+      "type": "亚克力",
+      "color": "白色",
+      "finish": "半透",
+      "uses": {
+        "吊顶": "室内顶面饰面。",
+        "隔断": "空间隔断。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/composite-02.webp",
+      "thumbnail": "./images/textures/composite-02-small.webp"
+    },
+    {
+      "id": "composite-03",
+      "name": "硬质 PVC 墙板",
+      "aliases": [],
+      "category": "塑料与复合材料",
+      "type": "PVC 板材",
+      "color": "白色",
+      "finish": "哑光",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "吊顶": "室内顶面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/composite-03.webp",
+      "thumbnail": "./images/textures/composite-03-small.webp"
+    },
+    {
+      "id": "composite-04",
+      "name": "PVC 塑胶卷材",
+      "aliases": [],
+      "category": "塑料与复合材料",
+      "type": "弹性地材",
+      "color": "灰色",
+      "finish": "哑光",
+      "uses": {
+        "室内地面": "室内地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/composite-04.webp",
+      "thumbnail": "./images/textures/composite-04-small.webp"
+    },
+    {
+      "id": "composite-05",
+      "name": "LVT 仿木塑胶地板",
+      "aliases": [],
+      "category": "塑料与复合材料",
+      "type": "弹性地材",
+      "color": "棕色",
+      "finish": "压纹",
+      "uses": {
+        "室内地面": "室内地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/composite-05.webp",
+      "thumbnail": "./images/textures/composite-05-small.webp"
+    },
+    {
+      "id": "composite-06",
+      "name": "SPC 石塑地板",
+      "aliases": [],
+      "category": "塑料与复合材料",
+      "type": "石塑复合板",
+      "color": "灰色",
+      "finish": "压纹",
+      "uses": {
+        "室内地面": "室内地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/composite-06.webp",
+      "thumbnail": "./images/textures/composite-06-small.webp"
+    },
+    {
+      "id": "composite-07",
+      "name": "HPL 防火饰面板",
+      "aliases": [],
+      "category": "塑料与复合材料",
+      "type": "高压层压板",
+      "color": "米色",
+      "finish": "哑光",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/composite-07.webp",
+      "thumbnail": "./images/textures/composite-07-small.webp"
+    },
+    {
+      "id": "composite-08",
+      "name": "酚醛树脂抗倍特板",
+      "aliases": [],
+      "category": "塑料与复合材料",
+      "type": "高压层压板",
+      "color": "灰色",
+      "finish": "哑光",
+      "uses": {
+        "隔断": "空间隔断。",
+        "内墙": "室内墙面饰面。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/composite-08.webp",
+      "thumbnail": "./images/textures/composite-08-small.webp"
+    },
+    {
+      "id": "composite-09",
+      "name": "三聚氰胺饰面板",
+      "aliases": [],
+      "category": "塑料与复合材料",
+      "type": "树脂饰面人造板",
+      "color": "棕色",
+      "finish": "压纹",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "家具与台面": "家具构件或表面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/composite-09.webp",
+      "thumbnail": "./images/textures/composite-09-small.webp"
+    },
+    {
+      "id": "composite-10",
+      "name": "亚克力实体面材",
+      "aliases": [],
+      "category": "塑料与复合材料",
+      "type": "人造实体面材",
+      "color": "白色",
+      "finish": "柔光",
+      "uses": {
+        "家具与台面": "家具构件或表面饰面。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/composite-10.webp",
+      "thumbnail": "./images/textures/composite-10-small.webp"
+    },
+    {
+      "id": "composite-11",
+      "name": "石英石人造板",
+      "aliases": [],
+      "category": "塑料与复合材料",
+      "type": "树脂石英复合板",
+      "color": "白色",
+      "finish": "抛光",
+      "uses": {
+        "家具与台面": "家具构件或表面饰面。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/composite-11.webp",
+      "thumbnail": "./images/textures/composite-11-small.webp"
+    },
+    {
+      "id": "composite-12",
+      "name": "玻璃钢装饰板（FRP）",
+      "aliases": [],
+      "category": "塑料与复合材料",
+      "type": "纤维增强塑料",
+      "color": "白色",
+      "finish": "哑光",
+      "uses": {
+        "内墙": "室内墙面饰面。",
+        "隔断": "空间隔断。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/composite-12.webp",
+      "thumbnail": "./images/textures/composite-12-small.webp"
+    },
+    {
+      "id": "composite-13",
+      "name": "阻燃型铝塑复合板",
+      "aliases": [],
+      "category": "塑料与复合材料",
+      "type": "金属塑料复合板",
+      "color": "银色",
+      "finish": "柔光",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/composite-13.webp",
+      "thumbnail": "./images/textures/composite-13-small.webp"
+    },
+    {
+      "id": "composite-15",
+      "name": "木塑复合地板",
+      "aliases": [],
+      "category": "塑料与复合材料",
+      "type": "木塑复合材料",
+      "color": "棕色",
+      "finish": "压纹",
+      "uses": {
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/composite-15.webp",
+      "thumbnail": "./images/textures/composite-15-small.webp"
+    },
+    {
+      "id": "composite-16",
+      "name": "木塑复合格栅",
+      "aliases": [],
+      "category": "塑料与复合材料",
+      "type": "木塑复合材料",
+      "color": "棕色",
+      "finish": "压纹",
+      "uses": {
+        "外墙": "建筑外立面饰面。",
+        "隔断": "空间隔断。",
+        "吊顶": "室内顶面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/composite-16.webp",
+      "thumbnail": "./images/textures/composite-16-small.webp"
+    },
+    {
+      "id": "composite-17",
+      "name": "树脂透光板",
+      "aliases": [],
+      "category": "塑料与复合材料",
+      "type": "树脂装饰板",
+      "color": "白色",
+      "finish": "半透",
+      "uses": {
+        "隔断": "空间隔断。",
+        "内墙": "室内墙面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/composite-17.webp",
+      "thumbnail": "./images/textures/composite-17-small.webp"
+    },
+    {
+      "id": "composite-18",
+      "name": "ETFE 膜材",
+      "aliases": [],
+      "category": "塑料与复合材料",
+      "type": "氟聚合物膜",
+      "color": "透明",
+      "finish": "光面",
+      "uses": {
+        "屋面": "建筑屋面。",
+        "外墙": "建筑外立面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/composite-18.webp",
+      "thumbnail": "./images/textures/composite-18-small.webp"
+    },
+    {
+      "id": "composite-19",
+      "name": "PVC 涂层聚酯膜",
+      "aliases": [],
+      "category": "塑料与复合材料",
+      "type": "建筑膜材",
+      "color": "白色",
+      "finish": "柔光",
+      "uses": {
+        "屋面": "建筑屋面。",
+        "外墙": "建筑外立面饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/composite-19.webp",
+      "thumbnail": "./images/textures/composite-19-small.webp"
+    },
+    {
+      "id": "composite-20",
+      "name": "PVC-U 门窗型材",
+      "aliases": [],
+      "category": "塑料与复合材料",
+      "type": "硬质塑料型材",
+      "color": "白色",
+      "finish": "哑光",
+      "uses": {
+        "门窗": "门窗构件或饰面。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/composite-20.webp",
+      "thumbnail": "./images/textures/composite-20-small.webp"
+    },
+    {
+      "id": "landscape-01",
+      "name": "水洗河卵石",
+      "aliases": [],
+      "category": "景观地表",
+      "type": "散铺卵石",
+      "color": "灰色",
+      "finish": "光面",
+      "uses": {
+        "景观地表": "庭院或绿地地表。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/landscape-01.webp",
+      "thumbnail": "./images/textures/landscape-01-small.webp"
+    },
+    {
+      "id": "landscape-02",
+      "name": "豆砾石",
+      "aliases": [],
+      "category": "景观地表",
+      "type": "散铺砾石",
+      "color": "米色",
+      "finish": "颗粒",
+      "uses": {
+        "景观地表": "庭院或绿地地表。",
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/landscape-02.webp",
+      "thumbnail": "./images/textures/landscape-02-small.webp"
+    },
+    {
+      "id": "landscape-03",
+      "name": "白色大理石砾石",
+      "aliases": [],
+      "category": "景观地表",
+      "type": "散铺砾石",
+      "color": "白色",
+      "finish": "颗粒",
+      "uses": {
+        "景观地表": "庭院或绿地地表。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/landscape-03.webp",
+      "thumbnail": "./images/textures/landscape-03-small.webp"
+    },
+    {
+      "id": "landscape-04",
+      "name": "陶粒覆盖层",
+      "aliases": [],
+      "category": "景观地表",
+      "type": "无机覆盖物",
+      "color": "红色",
+      "finish": "颗粒",
+      "uses": {
+        "景观地表": "庭院或绿地地表。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/landscape-04.webp",
+      "thumbnail": "./images/textures/landscape-04-small.webp"
+    },
+    {
+      "id": "landscape-05",
+      "name": "火山岩颗粒覆盖层",
+      "aliases": [],
+      "category": "景观地表",
+      "type": "无机覆盖物",
+      "color": "红色",
+      "finish": "粗糙",
+      "uses": {
+        "景观地表": "庭院或绿地地表。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/landscape-05.webp",
+      "thumbnail": "./images/textures/landscape-05-small.webp"
+    },
+    {
+      "id": "landscape-06",
+      "name": "松树皮覆盖层",
+      "aliases": [],
+      "category": "景观地表",
+      "type": "有机覆盖物",
+      "color": "棕色",
+      "finish": "粗糙",
+      "uses": {
+        "景观地表": "庭院或绿地地表。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/landscape-06.webp",
+      "thumbnail": "./images/textures/landscape-06-small.webp"
+    },
+    {
+      "id": "landscape-07",
+      "name": "木屑覆盖层",
+      "aliases": [],
+      "category": "景观地表",
+      "type": "有机覆盖物",
+      "color": "棕色",
+      "finish": "粗糙",
+      "uses": {
+        "景观地表": "庭院或绿地地表。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/landscape-07.webp",
+      "thumbnail": "./images/textures/landscape-07-small.webp"
+    },
+    {
+      "id": "landscape-08",
+      "name": "椰糠覆盖层",
+      "aliases": [],
+      "category": "景观地表",
+      "type": "有机覆盖物",
+      "color": "棕色",
+      "finish": "纤维状",
+      "uses": {
+        "景观地表": "庭院或绿地地表。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/landscape-08.webp",
+      "thumbnail": "./images/textures/landscape-08-small.webp"
+    },
+    {
+      "id": "landscape-09",
+      "name": "种植土",
+      "aliases": [],
+      "category": "景观地表",
+      "type": "土壤",
+      "color": "棕色",
+      "finish": "松散",
+      "uses": {
+        "景观地表": "庭院或绿地地表。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/landscape-09.webp",
+      "thumbnail": "./images/textures/landscape-09-small.webp"
+    },
+    {
+      "id": "landscape-10",
+      "name": "夯实黄土",
+      "aliases": [],
+      "category": "景观地表",
+      "type": "压实土",
+      "color": "黄色",
+      "finish": "哑光",
+      "uses": {
+        "景观地表": "庭院或绿地地表。",
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/landscape-10.webp",
+      "thumbnail": "./images/textures/landscape-10-small.webp"
+    },
+    {
+      "id": "landscape-11",
+      "name": "级配砂砾路面",
+      "aliases": [],
+      "category": "景观地表",
+      "type": "无结合料铺装",
+      "color": "灰色",
+      "finish": "颗粒",
+      "uses": {
+        "景观地表": "庭院或绿地地表。",
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/landscape-11.webp",
+      "thumbnail": "./images/textures/landscape-11-small.webp"
+    },
+    {
+      "id": "landscape-12",
+      "name": "稳定碎石步道面层",
+      "aliases": [],
+      "category": "景观地表",
+      "type": "稳定型铺装",
+      "color": "灰色",
+      "finish": "颗粒",
+      "uses": {
+        "景观地表": "庭院或绿地地表。",
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/landscape-12.webp",
+      "thumbnail": "./images/textures/landscape-12-small.webp"
+    },
+    {
+      "id": "landscape-13",
+      "name": "胶粘透水彩石",
+      "aliases": [],
+      "category": "景观地表",
+      "type": "透水铺装",
+      "color": "黄色",
+      "finish": "颗粒",
+      "uses": {
+        "景观地表": "庭院或绿地地表。",
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/landscape-13.webp",
+      "thumbnail": "./images/textures/landscape-13-small.webp"
+    },
+    {
+      "id": "landscape-14",
+      "name": "细粒式沥青铺装",
+      "aliases": [],
+      "category": "景观地表",
+      "type": "沥青铺装",
+      "color": "黑色",
+      "finish": "颗粒",
+      "uses": {
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/landscape-14.webp",
+      "thumbnail": "./images/textures/landscape-14-small.webp"
+    },
+    {
+      "id": "landscape-15",
+      "name": "彩色透水沥青",
+      "aliases": [],
+      "category": "景观地表",
+      "type": "沥青铺装",
+      "color": "红色",
+      "finish": "粗糙",
+      "uses": {
+        "室外铺地": "室外地面面层。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/landscape-15.webp",
+      "thumbnail": "./images/textures/landscape-15-small.webp"
+    },
+    {
+      "id": "landscape-16",
+      "name": "EPDM 彩色橡胶颗粒面层",
+      "aliases": [],
+      "category": "景观地表",
+      "type": "弹性铺装",
+      "color": "红色",
+      "finish": "颗粒",
+      "uses": {
+        "室外铺地": "室外地面面层。",
+        "景观地表": "庭院或绿地地表。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/landscape-16.webp",
+      "thumbnail": "./images/textures/landscape-16-small.webp"
+    },
+    {
+      "id": "landscape-17",
+      "name": "预制橡胶安全地垫",
+      "aliases": [],
+      "category": "景观地表",
+      "type": "弹性铺装",
+      "color": "绿色",
+      "finish": "颗粒",
+      "uses": {
+        "室外铺地": "室外地面面层。",
+        "景观地表": "庭院或绿地地表。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/landscape-17.webp",
+      "thumbnail": "./images/textures/landscape-17-small.webp"
+    },
+    {
+      "id": "landscape-18",
+      "name": "结缕草草坪",
+      "aliases": [],
+      "category": "景观地表",
+      "type": "天然草坪",
+      "color": "绿色",
+      "finish": "草叶",
+      "uses": {
+        "景观地表": "庭院或绿地地表。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/landscape-18.webp",
+      "thumbnail": "./images/textures/landscape-18-small.webp"
+    },
+    {
+      "id": "landscape-19",
+      "name": "麦冬地被",
+      "aliases": [],
+      "category": "景观地表",
+      "type": "天然地被",
+      "color": "绿色",
+      "finish": "草叶",
+      "uses": {
+        "景观地表": "庭院或绿地地表。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/landscape-19.webp",
+      "thumbnail": "./images/textures/landscape-19-small.webp"
+    },
+    {
+      "id": "landscape-20",
+      "name": "人造景观草坪",
+      "aliases": [],
+      "category": "景观地表",
+      "type": "人造草坪",
+      "color": "绿色",
+      "finish": "草丝",
+      "uses": {
+        "景观地表": "庭院或绿地地表。"
+      },
+      "imageKind": "生成材质示意",
+      "imageSource": null,
+      "image": "./images/textures/landscape-20.webp",
+      "thumbnail": "./images/textures/landscape-20-small.webp"
+    }
+  ]
+}
