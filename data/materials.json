@@ -1956,9 +1956,10 @@
       "aliases": [],
       "category": "金属",
       "type": "钢板",
-      "color": "棕色",
-      "finish": "锈蚀纹理",
+      "color": "锈红色",
+      "finish": "自然锈蚀",
       "uses": {
+        "内墙": "观景亭楼梯与侧墙。锈红钢板转折清楚，与镂空台阶形成轻重对照。",
         "外墙": "建筑外立面饰面。",
         "栏板": "楼梯、露台或中庭栏板。"
       },
@@ -1967,10 +1968,41 @@
       "image": "./images/textures/metal-15.webp",
       "thumbnail": "./images/textures/metal-15-small.webp",
       "caseStudy": {
-        "name": "上海欧阳路历史街区微更新",
+        "name": "望楼-四峰山观景亭，湖北鄂州 / 张·雷设计研究 azLa",
         "year": 2026,
-        "url": "https://www.gooood.cn/en/three-micro-renovations-in-the-ouyang-road-historic-quarter-by-scenic-architecture-office.htm",
-        "context": "野草咖啡厅的材料清单包含耐候钢板。"
+        "url": "https://www.gooood.cn/viewing-pavilion-by-azla.htm",
+        "context": "观景亭楼梯与侧墙。锈红钢板转折清楚，与镂空台阶形成轻重对照。"
+      },
+      "application": {
+        "project": "望楼-四峰山观景亭，湖北鄂州 / 张·雷设计研究 azLa",
+        "year": 2026,
+        "url": "https://www.gooood.cn/viewing-pavilion-by-azla.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "观景亭楼梯与侧墙。锈红钢板转折清楚，与镂空台阶形成轻重对照。",
+        "photos": [
+          {
+            "image": "images/applications/scene-8936006a0a287fd4.webp",
+            "thumbnail": "images/applications/scene-8936006a0a287fd4-thumb.webp",
+            "width": 960,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2026/06/009-Wanglou-by-azLa.jpg",
+            "caption": "楼梯细节",
+            "credit": "邱文锏"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.53,
+            0.44
+          ],
+          "width": 0.95,
+          "location": "观景亭楼梯与侧墙",
+          "effect": "锈红钢板转折清楚，与镂空台阶形成轻重对照"
+        },
+        "sourceEvidence": "项目明确耐候钢材料，并介绍氧化层随环境变化。",
+        "expansionBatch": "2026-11-27-130"
       }
     },
     {
@@ -2227,10 +2259,11 @@
         "Low-iron glass"
       ],
       "category": "玻璃",
-      "type": "透明玻璃",
-      "color": "无色",
-      "finish": "光滑透明",
+      "type": "低铁超白玻璃",
+      "color": "自然色",
+      "finish": "自然纹理",
       "uses": {
+        "内墙": "咖啡馆可开启的透明玻璃幕墙，纤细窗框与通透玻璃保留水岸视线。",
         "门窗": "餐厅观景窗、入口门的透光玻璃。",
         "隔断": "会议室、餐厅与走廊之间的通透隔断。",
         "栏板": "楼梯、室内中庭与露台栏板。"
@@ -2238,7 +2271,44 @@
       "image": "./images/materials/low-iron-glass.webp",
       "imageKind": "生成示意",
       "imageSource": null,
-      "note": "栏板玻璃按项目要求选择玻璃构造和固定方式。"
+      "note": "栏板玻璃按项目要求选择玻璃构造和固定方式。",
+      "application": {
+        "project": "麓湖漩涡公园咖啡厅，四川 / MUDA慕达建筑",
+        "year": 2025,
+        "url": "https://www.gooood.cn/luxelakes-whirlpool-cafe-by-muda-architects.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "咖啡馆可开启的透明玻璃幕墙，纤细窗框与通透玻璃保留水岸视线。",
+        "photos": [
+          {
+            "image": "images/applications/scene-aca2b1402623e72a.webp",
+            "thumbnail": "images/applications/scene-aca2b1402623e72a-thumb.webp",
+            "width": 960,
+            "height": 640,
+            "url": "https://oss.gooood.cn/uploads/2025/12/016-Luxelakes-Whirlpool-Cafe%CC%81-960x640.jpg",
+            "caption": "咖啡馆可开启的透明玻璃幕墙",
+            "credit": "存在建筑Arch-Exist"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "width": 0.9,
+          "location": "咖啡馆可开启的透明玻璃幕墙",
+          "effect": "纤细窗框与通透玻璃保留水岸视线"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在咖啡馆可开启的透明玻璃幕墙的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "麓湖漩涡公园咖啡厅，四川 / MUDA慕达建筑",
+        "year": 2025,
+        "url": "https://www.gooood.cn/luxelakes-whirlpool-cafe-by-muda-architects.htm",
+        "context": "咖啡馆可开启的透明玻璃幕墙，纤细窗框与通透玻璃保留水岸视线。"
+      }
     },
     {
       "id": "grey-roof-tile",
@@ -2289,16 +2359,53 @@
         "Lime plaster"
       ],
       "category": "涂料与抹灰",
-      "type": "石灰抹灰",
-      "color": "暖白",
-      "finish": "细砂哑光",
+      "type": "暖白石灰抹灰",
+      "color": "自然色",
+      "finish": "自然肌理",
       "uses": {
-        "外墙": "古镇白墙、庭院建筑的院落立面。",
-        "内墙": "茶室背景墙、民宿客房墙面。"
+        "内墙": "楼梯与洞口旁的石灰墙面。柔和哑光墙面衬托木楼梯和天光。",
+        "外墙": "古镇白墙、庭院建筑的院落立面。"
       },
       "image": "./images/materials/lime-plaster.webp",
       "imageKind": "生成示意",
-      "imageSource": null
+      "imageSource": null,
+      "application": {
+        "project": "MS住宅，印度 / Studio Saransh",
+        "year": 2025,
+        "url": "https://www.gooood.cn/ms-house-by-studio-saransh.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "楼梯与洞口旁的石灰墙面。柔和哑光墙面衬托木楼梯和天光。",
+        "photos": [
+          {
+            "image": "images/applications/scene-6129fcf39fe6720d.webp",
+            "thumbnail": "images/applications/scene-6129fcf39fe6720d-thumb.webp",
+            "width": 853,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2025/10/032-ms-house-by-studio-saransh-960x1440.jpg",
+            "caption": "楼梯与洞口旁的石灰墙面",
+            "credit": "Ishita Sitwala | The Fishy Project"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.55,
+            0.47
+          ],
+          "width": 0.95,
+          "location": "楼梯与洞口旁的石灰墙面",
+          "effect": "柔和哑光墙面衬托木楼梯和天光"
+        },
+        "sourceEvidence": "作者明确室内材料含石灰抹灰墙面。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "MS住宅，印度 / Studio Saransh",
+        "year": 2025,
+        "url": "https://www.gooood.cn/ms-house-by-studio-saransh.htm",
+        "context": "楼梯与洞口旁的石灰墙面。柔和哑光墙面衬托木楼梯和天光。"
+      }
     },
     {
       "id": "beige-terrazzo",
@@ -2374,16 +2481,54 @@
       "name": "手工釉面砖",
       "aliases": [],
       "category": "砖、瓦与陶瓷",
-      "type": "墙砖",
-      "color": "绿色",
-      "finish": "亮面",
+      "type": "手工釉面砖",
+      "color": "自然色",
+      "finish": "自然纹理",
       "uses": {
+        "外墙": "吧台下部的手工釉面砖，细小色差与釉光衬托木质台面。",
         "内墙": "室内墙面饰面。"
       },
       "imageKind": "生成材质示意",
       "imageSource": null,
       "image": "./images/textures/ceramic-05.webp",
-      "thumbnail": "./images/textures/ceramic-05-small.webp"
+      "thumbnail": "./images/textures/ceramic-05-small.webp",
+      "application": {
+        "project": "Vertigo咖啡馆，荷兰 / Studio Modijefsky",
+        "year": 2025,
+        "url": "https://www.gooood.cn/cafe-vertigo-by-studio-modijefsky.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "吧台下部的手工釉面砖，细小色差与釉光衬托木质台面。",
+        "photos": [
+          {
+            "image": "images/applications/scene-12bfd2b1a1eb735c.webp",
+            "thumbnail": "images/applications/scene-12bfd2b1a1eb735c-thumb.webp",
+            "width": 960,
+            "height": 540,
+            "url": "https://oss.gooood.cn/uploads/2025/09/003-cafe-vertigo-by-studio-modijefsky-960x540.jpg",
+            "caption": "吧台下部的手工釉面砖",
+            "credit": "Maarten Willemstein"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.73
+          ],
+          "width": 0.7,
+          "location": "吧台下部的手工釉面砖",
+          "effect": "细小色差与釉光衬托木质台面"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在吧台下部的手工釉面砖的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "Vertigo咖啡馆，荷兰 / Studio Modijefsky",
+        "year": 2025,
+        "url": "https://www.gooood.cn/cafe-vertigo-by-studio-modijefsky.htm",
+        "context": "吧台下部的手工釉面砖，细小色差与釉光衬托木质台面。"
+      }
     },
     {
       "id": "ceramic-07",
@@ -2507,17 +2652,54 @@
       "name": "陶土花格砖",
       "aliases": [],
       "category": "砖、瓦与陶瓷",
-      "type": "建筑陶件",
-      "color": "红色",
-      "finish": "哑光",
+      "type": "陶土花格砖",
+      "color": "自然色",
+      "finish": "自然纹理",
       "uses": {
-        "外墙": "建筑外立面饰面。",
+        "外墙": "校园立面的花格砖墙，透空孔洞与实体砖墙形成明暗对照。",
         "隔断": "空间隔断。"
       },
       "imageKind": "生成材质示意",
       "imageSource": null,
       "image": "./images/textures/ceramic-14.webp",
-      "thumbnail": "./images/textures/ceramic-14-small.webp"
+      "thumbnail": "./images/textures/ceramic-14-small.webp",
+      "application": {
+        "project": "上海徐汇区华之门地块规划中学新建工程，上海 / 同济原作工作室",
+        "year": 2026,
+        "url": "https://www.gooood.cn/huazhimen-plot-middle-school-new-construction-project-xuhui-district-shanghai-by-original-design-studio-tjad.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "校园立面的花格砖墙，透空孔洞与实体砖墙形成明暗对照。",
+        "photos": [
+          {
+            "image": "images/applications/huaz-10.webp",
+            "thumbnail": "images/applications/huaz-10-thumb.webp",
+            "caption": "校园立面的花格砖墙",
+            "credit": "章鱼见筑",
+            "url": "https://oss.gooood.cn/uploads/2026/02/010-Huazhimen-Plot-Middle-School-New-Construction-Project-Xuhui-District-Shanghai-by-Original-Design-Studio-TJAD-960x960.jpg",
+            "width": 960,
+            "height": 960
+          }
+        ],
+        "focus": {
+          "center": [
+            0.3,
+            0.5
+          ],
+          "width": 0.7,
+          "location": "校园立面的花格砖墙",
+          "effect": "透空孔洞与实体砖墙形成明暗对照"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在校园立面的花格砖墙的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "上海徐汇区华之门地块规划中学新建工程，上海 / 同济原作工作室",
+        "year": 2026,
+        "url": "https://www.gooood.cn/huazhimen-plot-middle-school-new-construction-project-xuhui-district-shanghai-by-original-design-studio-tjad.htm",
+        "context": "校园立面的花格砖墙，透空孔洞与实体砖墙形成明暗对照。"
+      }
     },
     {
       "id": "ceramic-15",
@@ -2758,17 +2940,54 @@
       "name": "米白石灰岩",
       "aliases": [],
       "category": "石材",
-      "type": "石灰岩",
-      "color": "米色",
-      "finish": "哑光",
+      "type": "米白石灰岩",
+      "color": "自然色",
+      "finish": "自然纹理",
       "uses": {
-        "外墙": "建筑外立面饰面。",
-        "内墙": "室内墙面饰面。"
+        "内墙": "中庭石灰岩墙与柱，石材细密的层理在侧光下显出深浅。",
+        "外墙": "建筑外立面饰面。"
       },
       "imageKind": "生成材质示意",
       "imageSource": null,
       "image": "./images/textures/stone-10.webp",
-      "thumbnail": "./images/textures/stone-10-small.webp"
+      "thumbnail": "./images/textures/stone-10-small.webp",
+      "application": {
+        "project": "阿尔拉扬银行，卡塔尔 / 日建设计",
+        "year": 2026,
+        "url": "https://www.gooood.cn/alrayan-bank-by-nikken-sekkei.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "中庭石灰岩墙与柱，石材细密的层理在侧光下显出深浅。",
+        "photos": [
+          {
+            "image": "images/applications/scene-f1b7d6fefd519541.webp",
+            "thumbnail": "images/applications/scene-f1b7d6fefd519541-thumb.webp",
+            "width": 550,
+            "height": 825,
+            "url": "https://oss.gooood.cn/uploads/2026/10/alrayan-nikken-10-550x825.jpg",
+            "caption": "中庭石灰岩墙与柱",
+            "credit": "Koji Horiuchi / Shin Shashin Kobo"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.6,
+            0.5
+          ],
+          "width": 0.8,
+          "location": "中庭石灰岩墙与柱",
+          "effect": "石材细密的层理在侧光下显出深浅"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在中庭石灰岩墙与柱的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "阿尔拉扬银行，卡塔尔 / 日建设计",
+        "year": 2026,
+        "url": "https://www.gooood.cn/alrayan-bank-by-nikken-sekkei.htm",
+        "context": "中庭石灰岩墙与柱，石材细密的层理在侧光下显出深浅。"
+      }
     },
     {
       "id": "stone-11",
@@ -2809,17 +3028,55 @@
       "name": "红砂岩",
       "aliases": [],
       "category": "石材",
-      "type": "砂岩",
-      "color": "红色",
-      "finish": "粗糙",
+      "type": "红砂岩",
+      "color": "自然色",
+      "finish": "自然纹理",
       "uses": {
+        "内墙": "浴室红砂岩墙面与台面，温暖粗面石材与窗外山林相呼应。",
         "外墙": "建筑外立面饰面。",
         "景观地表": "庭院或绿地地表。"
       },
       "imageKind": "生成材质示意",
       "imageSource": null,
       "image": "./images/textures/stone-14.webp",
-      "thumbnail": "./images/textures/stone-14-small.webp"
+      "thumbnail": "./images/textures/stone-14-small.webp",
+      "application": {
+        "project": "岚域·峨眉山，四川 / Studio J. Bridgland",
+        "year": 2025,
+        "url": "https://www.gooood.cn/zoland-emei-by-studio-j-bridgland.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "浴室红砂岩墙面与台面，温暖粗面石材与窗外山林相呼应。",
+        "photos": [
+          {
+            "image": "images/applications/scene-3349f420f6e64760.webp",
+            "thumbnail": "images/applications/scene-3349f420f6e64760-thumb.webp",
+            "width": 960,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2025/12/019-ZOLAND-960x1280.jpg",
+            "caption": "浴室红砂岩墙面与台面",
+            "credit": "雷坛坛—AGENT PAY"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.6
+          ],
+          "width": 0.95,
+          "location": "浴室红砂岩墙面与台面",
+          "effect": "温暖粗面石材与窗外山林相呼应"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在浴室红砂岩墙面与台面的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "岚域·峨眉山，四川 / Studio J. Bridgland",
+        "year": 2025,
+        "url": "https://www.gooood.cn/zoland-emei-by-studio-j-bridgland.htm",
+        "context": "浴室红砂岩墙面与台面，温暖粗面石材与窗外山林相呼应。"
+      }
     },
     {
       "id": "stone-15",
@@ -3254,13 +3511,50 @@
       "color": "灰色",
       "finish": "模板木纹",
       "uses": {
-        "外墙": "建筑外立面饰面。",
-        "内墙": "室内墙面饰面。"
+        "内墙": "民宿墙面和洞口边缘。木模板纹理随墙面连续转折，孔洞与板缝清楚。",
+        "外墙": "建筑外立面饰面。"
       },
       "imageKind": "生成材质示意",
       "imageSource": null,
       "image": "./images/textures/concrete-01.webp",
-      "thumbnail": "./images/textures/concrete-01-small.webp"
+      "thumbnail": "./images/textures/concrete-01-small.webp",
+      "application": {
+        "project": "柿柿如意·南野际民宿，武汉 / UAO瑞拓设计",
+        "year": 2024,
+        "url": "https://www.gooood.cn/the-south-bb-design-of-mulan-warm-village-persimmon-house-by-uao-design.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "2024年报道，项目施工完成于2023年11月。",
+        "observation": "民宿墙面和洞口边缘。木模板纹理随墙面连续转折，孔洞与板缝清楚。",
+        "photos": [
+          {
+            "image": "images/applications/scene-520d2d21c413db2f.webp",
+            "thumbnail": "images/applications/scene-520d2d21c413db2f-thumb.webp",
+            "width": 854,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2024/10/%E6%9F%BF%E6%9F%BF%E5%A6%82%E6%84%8F-%E5%8D%97%E9%87%8E%E9%99%85-05-%E6%8B%BE%E7%BA%A7%E8%80%8C%E4%B8%8A%E7%9A%84%E7%A5%9E%E6%80%A7%E5%85%89%E8%8A%92%C2%A9%E6%AD%A4%E9%97%B4%E5%BB%BA%E7%AD%91%E6%91%84%E5%BD%B1_%E8%B5%B5%E5%A5%95%E9%BE%99-960x1439.jpg",
+            "caption": "木纹清水混凝土",
+            "credit": "此间建筑摄影_赵奕龙"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "width": 0.96,
+          "location": "民宿墙面和洞口边缘",
+          "effect": "木模板纹理随墙面连续转折，孔洞与板缝清楚"
+        },
+        "sourceEvidence": "项目明确墙体为现场浇筑的木纹清水混凝土。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "柿柿如意·南野际民宿，武汉 / UAO瑞拓设计",
+        "year": 2024,
+        "url": "https://www.gooood.cn/the-south-bb-design-of-mulan-warm-village-persimmon-house-by-uao-design.htm",
+        "context": "民宿墙面和洞口边缘。木模板纹理随墙面连续转折，孔洞与板缝清楚。"
+      }
     },
     {
       "id": "concrete-02",
@@ -3616,16 +3910,53 @@
       "category": "金属",
       "type": "铝板",
       "color": "银色",
-      "finish": "哑光",
+      "finish": "阳极氧化",
       "uses": {
+        "内墙": "公共设施上部折叠金属表皮。折面和孔洞捕捉天光，形成轻薄银色围护。",
         "外墙": "建筑外立面饰面。",
-        "内墙": "室内墙面饰面。",
         "门窗": "门窗构件或饰面。"
       },
       "imageKind": "生成材质示意",
       "imageSource": null,
       "image": "./images/textures/metal-07.webp",
-      "thumbnail": "./images/textures/metal-07-small.webp"
+      "thumbnail": "./images/textures/metal-07-small.webp",
+      "application": {
+        "project": "inVisible变电站立面改造，美国 / Atelier Manferdini",
+        "year": 2026,
+        "url": "https://www.gooood.cn/invisible-dominion-energy-substation-by-atelier-manferdini.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "公共设施上部折叠金属表皮。折面和孔洞捕捉天光，形成轻薄银色围护。",
+        "photos": [
+          {
+            "image": "images/applications/scene-a161015cda2054a9.webp",
+            "thumbnail": "images/applications/scene-a161015cda2054a9-thumb.webp",
+            "width": 550,
+            "height": 825,
+            "url": "https://oss.gooood.cn/uploads/2026/11/inVisible-Manferdini-10-06-550x825.jpg",
+            "caption": "折叠金属板立面细节",
+            "credit": "Dave Huh / Dewberry"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.47
+          ],
+          "width": 0.93,
+          "location": "公共设施上部折叠金属表皮",
+          "effect": "折面和孔洞捕捉天光，形成轻薄银色围护"
+        },
+        "sourceEvidence": "项目材料明确阳极氧化铝，正文介绍折叠板表皮。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "inVisible变电站立面改造，美国 / Atelier Manferdini",
+        "year": 2026,
+        "url": "https://www.gooood.cn/invisible-dominion-energy-substation-by-atelier-manferdini.htm",
+        "context": "公共设施上部折叠金属表皮。折面和孔洞捕捉天光，形成轻薄银色围护。"
+      }
     },
     {
       "id": "metal-08",
@@ -3873,17 +4204,55 @@
       "name": "夹丝装饰玻璃",
       "aliases": [],
       "category": "玻璃",
-      "type": "装饰玻璃",
-      "color": "透明",
-      "finish": "网状",
+      "type": "夹丝装饰玻璃",
+      "color": "自然色",
+      "finish": "自然纹理",
       "uses": {
+        "内墙": "展厅服装展示背景，细密夹丝和波纹保留老墙的模糊轮廓。",
         "隔断": "空间隔断。",
         "门窗": "门窗构件或饰面。"
       },
       "imageKind": "生成材质示意",
       "imageSource": null,
       "image": "./images/textures/glass-05.webp",
-      "thumbnail": "./images/textures/glass-05-small.webp"
+      "thumbnail": "./images/textures/glass-05-small.webp",
+      "application": {
+        "project": "台绣院，台州 / 可米设计+深源创新实验室",
+        "year": 2025,
+        "url": "https://www.gooood.cn/tai-silk-courtyard-by-co-milieu-deep-origin-lab.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "展厅服装展示背景，细密夹丝和波纹保留老墙的模糊轮廓。",
+        "photos": [
+          {
+            "image": "images/applications/scene-1040430beea377ba.webp",
+            "thumbnail": "images/applications/scene-1040430beea377ba-thumb.webp",
+            "width": 960,
+            "height": 1279,
+            "url": "https://oss.gooood.cn/uploads/2025/12/035-tai-silk-courtyard-by-co-mileu-deep-origin-lab-960x1279.jpg",
+            "caption": "展厅服装展示背景",
+            "credit": "姚璐"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.48
+          ],
+          "width": 0.95,
+          "location": "展厅服装展示背景",
+          "effect": "细密夹丝和波纹保留老墙的模糊轮廓"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在展厅服装展示背景的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "台绣院，台州 / 可米设计+深源创新实验室",
+        "year": 2025,
+        "url": "https://www.gooood.cn/tai-silk-courtyard-by-co-milieu-deep-origin-lab.htm",
+        "context": "展厅服装展示背景，细密夹丝和波纹保留老墙的模糊轮廓。"
+      }
     },
     {
       "id": "glass-06",
@@ -3992,17 +4361,55 @@
       "name": "长虹压花玻璃",
       "aliases": [],
       "category": "玻璃",
-      "type": "压花玻璃",
-      "color": "透明",
-      "finish": "条纹",
+      "type": "长虹压花玻璃",
+      "color": "自然色",
+      "finish": "自然纹理",
       "uses": {
+        "内墙": "酒水店的转角玻璃界面，竖向纹理透光，柔化内部展示轮廓。",
         "门窗": "门窗构件或饰面。",
         "隔断": "空间隔断。"
       },
       "imageKind": "生成材质示意",
       "imageSource": null,
       "image": "./images/textures/glass-13.webp",
-      "thumbnail": "./images/textures/glass-13-small.webp"
+      "thumbnail": "./images/textures/glass-13-small.webp",
+      "application": {
+        "project": "EASE PARK，大理 / 边缘计划建筑工作室",
+        "year": 2024,
+        "url": "https://www.gooood.cn/ease-park-by-edge-architects.htm",
+        "sourceName": "谷德设计网",
+        "relation": "同类应用参考",
+        "note": "项目明确采用长虹玻璃，主图用于展示条纹半透界面的应用，具体纹路规格待样板确认。",
+        "observation": "酒水店的转角玻璃界面，竖向纹理透光，柔化内部展示轮廓。",
+        "photos": [
+          {
+            "image": "images/applications/scene-c54b28d8f358f15f.webp",
+            "thumbnail": "images/applications/scene-c54b28d8f358f15f-thumb.webp",
+            "width": 960,
+            "height": 640,
+            "url": "https://oss.gooood.cn/uploads/2024/08/035-ease-park-by-edge-architects-960x640.jpg",
+            "caption": "酒水店的转角玻璃界面",
+            "credit": "陈旸"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "width": 0.85,
+          "location": "酒水店的转角玻璃界面",
+          "effect": "竖向纹理透光，柔化内部展示轮廓"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在酒水店的转角玻璃界面的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "EASE PARK，大理 / 边缘计划建筑工作室",
+        "year": 2024,
+        "url": "https://www.gooood.cn/ease-park-by-edge-architects.htm",
+        "context": "酒水店的转角玻璃界面，竖向纹理透光，柔化内部展示轮廓。"
+      }
     },
     {
       "id": "glass-14",
@@ -4189,17 +4596,54 @@
       "name": "哑光内墙乳胶漆",
       "aliases": [],
       "category": "涂料与抹灰",
-      "type": "水性涂料",
-      "color": "白色",
-      "finish": "哑光",
+      "type": "哑光内墙乳胶漆",
+      "color": "自然色",
+      "finish": "自然肌理",
       "uses": {
-        "内墙": "室内墙面饰面。",
+        "内墙": "会所沙发区墙面与天花。浅色漆面连接墙顶，衬托木家具。",
         "吊顶": "室内顶面饰面。"
       },
       "imageKind": "生成材质示意",
       "imageSource": null,
       "image": "./images/textures/coating-01.webp",
-      "thumbnail": "./images/textures/coating-01-small.webp"
+      "thumbnail": "./images/textures/coating-01-small.webp",
+      "application": {
+        "project": "会所空间-无界，宜兴 / 什作设计",
+        "year": 2025,
+        "url": "https://www.gooood.cn/boundless-club-by-ten-design.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "会所沙发区墙面与天花。浅色漆面连接墙顶，衬托木家具。",
+        "photos": [
+          {
+            "image": "images/applications/scene-1f34bee15a69ef9d.webp",
+            "thumbnail": "images/applications/scene-1f34bee15a69ef9d-thumb.webp",
+            "width": 853,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2025/09/016-boundless-club-by-ten-design-960x1440.jpg",
+            "caption": "会所沙发区墙面与天花",
+            "credit": "方立明"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.52,
+            0.38
+          ],
+          "width": 0.88,
+          "location": "会所沙发区墙面与天花",
+          "effect": "浅色漆面连接墙顶，衬托木家具"
+        },
+        "sourceEvidence": "原文明确上部墙面和天花采用乳胶漆。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "会所空间-无界，宜兴 / 什作设计",
+        "year": 2025,
+        "url": "https://www.gooood.cn/boundless-club-by-ten-design.htm",
+        "context": "会所沙发区墙面与天花。浅色漆面连接墙顶，衬托木家具。"
+      }
     },
     {
       "id": "coating-02",
@@ -4353,16 +4797,53 @@
       "name": "黏土抹灰",
       "aliases": [],
       "category": "涂料与抹灰",
-      "type": "黏土饰面",
-      "color": "棕色",
-      "finish": "抹纹",
+      "type": "黏土抹灰",
+      "color": "自然色",
+      "finish": "自然肌理",
       "uses": {
-        "内墙": "室内墙面饰面。"
+        "内墙": "展厅雕塑展台与连续墙面。土色曲面与台座连成完整背景。"
       },
       "imageKind": "生成材质示意",
       "imageSource": null,
       "image": "./images/textures/coating-12.webp",
-      "thumbnail": "./images/textures/coating-12-small.webp"
+      "thumbnail": "./images/textures/coating-12-small.webp",
+      "application": {
+        "project": "“Lanckoroński收藏珍品：古代的故事”展览，波兰 / NArchitekTURA",
+        "year": 2026,
+        "url": "https://www.gooood.cn/masterpieces-from-the-lanckoronski-collection-a-story-of-antiquity-by-narchitektura.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "展厅雕塑展台与连续墙面。土色曲面与台座连成完整背景。",
+        "photos": [
+          {
+            "image": "images/applications/scene-68d6817fa7b0d920.webp",
+            "thumbnail": "images/applications/scene-68d6817fa7b0d920-thumb.webp",
+            "width": 960,
+            "height": 640,
+            "url": "https://oss.gooood.cn/uploads/2026/08/004-masterpieces-from-the-lanckoronski-collection-a-story-of-antiquity-by-narchitektura-960x640.jpg",
+            "caption": "展厅雕塑展台与连续墙面",
+            "credit": "Adam Golec / Wawel Royal Castle"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.58
+          ],
+          "width": 0.9,
+          "location": "展厅雕塑展台与连续墙面",
+          "effect": "土色曲面与台座连成完整背景"
+        },
+        "sourceEvidence": "作者将黏土抹灰列为展厅主要材料。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "“Lanckoroński收藏珍品：古代的故事”展览，波兰 / NArchitekTURA",
+        "year": 2026,
+        "url": "https://www.gooood.cn/masterpieces-from-the-lanckoronski-collection-a-story-of-antiquity-by-narchitektura.htm",
+        "context": "展厅雕塑展台与连续墙面。土色曲面与台座连成完整背景。"
+      }
     },
     {
       "id": "coating-13",
@@ -4563,17 +5044,54 @@
       "name": "羊毛混纺地毯",
       "aliases": [],
       "category": "织物、皮革与编织",
-      "type": "地毯",
-      "color": "灰色",
-      "finish": "绒面",
+      "type": "羊毛混纺地毯",
+      "color": "自然色",
+      "finish": "自然肌理",
       "uses": {
-        "室内地面": "室内地面面层。",
-        "软装": "室内软装。"
+        "软装": "起居座席之间的地毯。细密地毯与家具轮廓形成柔软分区。",
+        "室内地面": "室内地面面层。"
       },
       "imageKind": "生成材质示意",
       "imageSource": null,
       "image": "./images/textures/textile-06.webp",
-      "thumbnail": "./images/textures/textile-06-small.webp"
+      "thumbnail": "./images/textures/textile-06-small.webp",
+      "application": {
+        "project": "Warli地毯，伦敦 / Patricia Urquiola",
+        "year": 2024,
+        "url": "https://www.gooood.cn/warli-rugs-by-patricia-urquiola.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "起居座席之间的地毯。细密地毯与家具轮廓形成柔软分区。",
+        "photos": [
+          {
+            "image": "images/applications/scene-62659a80159e269f.webp",
+            "thumbnail": "images/applications/scene-62659a80159e269f-thumb.webp",
+            "width": 914,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2024/10/002-emory-hotel-by-warli.jpg",
+            "caption": "起居座席之间的地毯",
+            "credit": "Patricia Urquiola"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.51,
+            0.77
+          ],
+          "width": 0.9,
+          "location": "起居座席之间的地毯",
+          "effect": "细密地毯与家具轮廓形成柔软分区"
+        },
+        "sourceEvidence": "文章说明地毯为羊毛和粘胶混纺、织机打结制成。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "Warli地毯，伦敦 / Patricia Urquiola",
+        "year": 2024,
+        "url": "https://www.gooood.cn/warli-rugs-by-patricia-urquiola.htm",
+        "context": "起居座席之间的地毯。细密地毯与家具轮廓形成柔软分区。"
+      }
     },
     {
       "id": "textile-07",
@@ -4778,36 +5296,110 @@
       "name": "天然藤编",
       "aliases": [],
       "category": "织物、皮革与编织",
-      "type": "天然纤维编织",
-      "color": "米色",
-      "finish": "编织",
+      "type": "天然藤编",
+      "color": "自然色",
+      "finish": "自然肌理",
       "uses": {
+        "软装": "户外拱门的藤编构件。藤条弯曲成连续曲面，细部透光。",
         "隔断": "空间隔断。",
-        "软装": "室内软装。",
         "家具与台面": "家具构件或表面饰面。"
       },
       "imageKind": "生成材质示意",
       "imageSource": null,
       "image": "./images/textures/textile-19.webp",
-      "thumbnail": "./images/textures/textile-19-small.webp"
+      "thumbnail": "./images/textures/textile-19-small.webp",
+      "application": {
+        "project": "第19届威尼斯建筑双年展 - 《交织》 / Enter Projects Asia",
+        "year": 2025,
+        "url": "https://www.gooood.cn/interwoven-at-the-venice-biennale-2025-by-enter-projects-asia.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "户外拱门的藤编构件。藤条弯曲成连续曲面，细部透光。",
+        "photos": [
+          {
+            "image": "images/applications/scene-c533ebf262dc68c1.webp",
+            "thumbnail": "images/applications/scene-c533ebf262dc68c1-thumb.webp",
+            "width": 960,
+            "height": 1198,
+            "url": "https://oss.gooood.cn/uploads/2025/06/010-interwoven-at-the-venice-biennale-2025-by-enter-projects-asia-960x1198.jpg",
+            "caption": "户外拱门的藤编构件",
+            "credit": "Edmund Sumner"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.52,
+            0.55
+          ],
+          "width": 0.98,
+          "location": "户外拱门的藤编构件",
+          "effect": "藤条弯曲成连续曲面，细部透光"
+        },
+        "sourceEvidence": "项目以藤材搭建拱形结构，原文明确藤编。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "第19届威尼斯建筑双年展 - 《交织》 / Enter Projects Asia",
+        "year": 2025,
+        "url": "https://www.gooood.cn/interwoven-at-the-venice-biennale-2025-by-enter-projects-asia.htm",
+        "context": "户外拱门的藤编构件。藤条弯曲成连续曲面，细部透光。"
+      }
     },
     {
       "id": "textile-20",
       "name": "竹篾编织",
       "aliases": [],
       "category": "织物、皮革与编织",
-      "type": "天然纤维编织",
-      "color": "黄色",
-      "finish": "编织",
+      "type": "竹篾编织",
+      "color": "自然色",
+      "finish": "自然肌理",
       "uses": {
+        "软装": "门店上方的竹编装置。细竹篾形成轻盈的编织孔隙和阴影。",
         "吊顶": "室内顶面饰面。",
-        "隔断": "空间隔断。",
-        "软装": "室内软装。"
+        "隔断": "空间隔断。"
       },
       "imageKind": "生成材质示意",
       "imageSource": null,
       "image": "./images/textures/textile-20.webp",
-      "thumbnail": "./images/textures/textile-20-small.webp"
+      "thumbnail": "./images/textures/textile-20-small.webp",
+      "application": {
+        "project": "茶百道·宽窄巷子旗舰店，成都 / UND设计事务所",
+        "year": 2025,
+        "url": "https://www.gooood.cn/chapanda-kuanzhai-alley-flagship-store-by-und-design-studio.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "门店上方的竹编装置。细竹篾形成轻盈的编织孔隙和阴影。",
+        "photos": [
+          {
+            "image": "images/applications/scene-9a826b073ea280f8.webp",
+            "thumbnail": "images/applications/scene-9a826b073ea280f8-thumb.webp",
+            "width": 873,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2025/12/030-ChaPanda-Kuanzhai-Alley-Flagship-Store-by-UND-Design-Studio-960x1408.jpg",
+            "caption": "门店上方的竹编装置",
+            "credit": "程小乐"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.28
+          ],
+          "width": 0.98,
+          "location": "门店上方的竹编装置",
+          "effect": "细竹篾形成轻盈的编织孔隙和阴影"
+        },
+        "sourceEvidence": "项目以竹编构件表达在地竹文化。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "茶百道·宽窄巷子旗舰店，成都 / UND设计事务所",
+        "year": 2025,
+        "url": "https://www.gooood.cn/chapanda-kuanzhai-alley-flagship-store-by-und-design-studio.htm",
+        "context": "门店上方的竹编装置。细竹篾形成轻盈的编织孔隙和阴影。"
+      }
     },
     {
       "id": "composite-01",
@@ -5455,10 +6047,4183 @@
       "imageSource": null,
       "image": "./images/textures/landscape-20.webp",
       "thumbnail": "./images/textures/landscape-20-small.webp"
+    },
+    {
+      "id": "project-yangzhou-brick",
+      "aliases": [],
+      "image": "./images/applications/scene-0a6d7df13ccd9d2c.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "灰青砖清水墙",
+      "category": "砖、瓦与陶瓷",
+      "type": "灰青砖清水墙",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "外墙": "老街巷道的灰砖墙，砖缝与木门形成有秩序的街巷界面。"
+      },
+      "application": {
+        "project": "佛山官窑文化艺术中心（官窑三宝）项目 / 灰空间建筑事务所",
+        "year": 2025,
+        "url": "https://www.gooood.cn/renovation-project-of-foshan-guanyao-culture-and-art-center-guanyao-sanbao-by-grey-space-architects.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "老街巷道的灰砖墙，砖缝与木门形成有秩序的街巷界面。",
+        "photos": [
+          {
+            "image": "images/applications/scene-0a6d7df13ccd9d2c.webp",
+            "thumbnail": "images/applications/scene-0a6d7df13ccd9d2c-thumb.webp",
+            "width": 853,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2025/08/044-Foshan-Guanyao-Cultural-and-Art-Center-960x1440.jpg",
+            "caption": "老街巷道的灰砖墙",
+            "credit": "颜翘楚"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.35,
+            0.5
+          ],
+          "width": 0.9,
+          "location": "老街巷道的灰砖墙",
+          "effect": "砖缝与木门形成有秩序的街巷界面"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在老街巷道的灰砖墙的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "佛山官窑文化艺术中心（官窑三宝）项目 / 灰空间建筑事务所",
+        "year": 2025,
+        "url": "https://www.gooood.cn/renovation-project-of-foshan-guanyao-culture-and-art-center-guanyao-sanbao-by-grey-space-architects.htm",
+        "context": "老街巷道的灰砖墙，砖缝与木门形成有秩序的街巷界面。"
+      }
+    },
+    {
+      "id": "project-ceramic-09",
+      "aliases": [],
+      "image": "./images/applications/scene-b18251a37ce38f55.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "双色棋盘格地砖",
+      "category": "砖、瓦与陶瓷",
+      "type": "双色棋盘格地砖",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "室内地面": "卫生间双色地砖，棋盘格排列使小空间有明确的地面节奏。"
+      },
+      "application": {
+        "project": "基辅Frank咖啡馆，乌克兰 / Yana Molodykh",
+        "year": 2026,
+        "url": "https://www.gooood.cn/frank-cafe-by-yana-molodykh.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "卫生间双色地砖，棋盘格排列使小空间有明确的地面节奏。",
+        "photos": [
+          {
+            "image": "images/applications/scene-b18251a37ce38f55.webp",
+            "thumbnail": "images/applications/scene-b18251a37ce38f55-thumb.webp",
+            "width": 852,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2026/03/029-Frank-Cafe-960x1443.jpg",
+            "caption": "卫生间双色地砖",
+            "credit": "Yevhenii Avramenko"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.85
+          ],
+          "width": 0.95,
+          "location": "卫生间双色地砖",
+          "effect": "棋盘格排列使小空间有明确的地面节奏"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在卫生间双色地砖的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "基辅Frank咖啡馆，乌克兰 / Yana Molodykh",
+        "year": 2026,
+        "url": "https://www.gooood.cn/frank-cafe-by-yana-molodykh.htm",
+        "context": "卫生间双色地砖，棋盘格排列使小空间有明确的地面节奏。"
+      }
+    },
+    {
+      "id": "athangudi-cement-tile",
+      "aliases": [],
+      "image": "./images/applications/scene-733a655caa4beaba.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "Athangudi手工花砖",
+      "category": "砖、瓦与陶瓷",
+      "type": "手工花砖",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "室内地面": "餐厅室内铺地，手工砖拼接形成复古而沉静的底面。"
+      },
+      "application": {
+        "project": "Kadali餐厅，印度 / Sona Reddy Studio",
+        "year": 2025,
+        "url": "https://www.gooood.cn/kadali-by-sona-reddy-studio.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "餐厅室内铺地，手工砖拼接形成复古而沉静的底面。",
+        "photos": [
+          {
+            "image": "images/applications/scene-733a655caa4beaba.webp",
+            "thumbnail": "images/applications/scene-733a655caa4beaba-thumb.webp",
+            "width": 960,
+            "height": 640,
+            "url": "https://oss.gooood.cn/uploads/2025/02/025-kadali-by-sona-reddy-studio-960x640.jpg",
+            "caption": "餐厅室内铺地",
+            "credit": "Pankaj Anand"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.88
+          ],
+          "width": 0.93,
+          "location": "餐厅室内铺地",
+          "effect": "手工砖拼接形成复古而沉静的底面"
+        },
+        "sourceEvidence": "作者明确使用Athangudi瓷砖；来源未明确胶结料，不将其认定为水泥砖。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "Kadali餐厅，印度 / Sona Reddy Studio",
+        "year": 2025,
+        "url": "https://www.gooood.cn/kadali-by-sona-reddy-studio.htm",
+        "context": "餐厅室内铺地，手工砖拼接形成复古而沉静的底面。"
+      }
+    },
+    {
+      "id": "project-ceramic-12",
+      "aliases": [],
+      "image": "./images/applications/scene-803b8807c0bfe81a.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "曲面陶板幕墙",
+      "category": "砖、瓦与陶瓷",
+      "type": "异形陶板",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "外墙": "商业建筑转角与檐口的陶板幕墙。曲线陶板在玻璃窗间连续转折，强调檐口厚度。"
+      },
+      "application": {
+        "project": "华润置地西安CCBD，陕西 / Heatherwick studio",
+        "year": 2024,
+        "url": "https://www.gooood.cn/xi-an-ccbd-by-heatherwick-studio.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "商业建筑转角与檐口的陶板幕墙。曲线陶板在玻璃窗间连续转折，强调檐口厚度。",
+        "photos": [
+          {
+            "image": "images/applications/scene-803b8807c0bfe81a.webp",
+            "thumbnail": "images/applications/scene-803b8807c0bfe81a-thumb.webp",
+            "width": 960,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2024/12/006-Xi-an-CCBD-by-Heatherwick-studio-960x1280.jpg",
+            "caption": "商业建筑转角与檐口的陶板幕墙",
+            "credit": "Qingyan Zhu"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.63,
+            0.46
+          ],
+          "width": 0.77,
+          "location": "商业建筑转角与檐口的陶板幕墙",
+          "effect": "曲线陶板在玻璃窗间连续转折，强调檐口厚度"
+        },
+        "sourceEvidence": "项目作者明确建筑幕墙使用十万余片釉面陶板，经多次试烧及足尺立柱样板确定。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "华润置地西安CCBD，陕西 / Heatherwick studio",
+        "year": 2024,
+        "url": "https://www.gooood.cn/xi-an-ccbd-by-heatherwick-studio.htm",
+        "context": "商业建筑转角与檐口的陶板幕墙。曲线陶板在玻璃窗间连续转折，强调檐口厚度。"
+      }
+    },
+    {
+      "id": "project-ceramic-13",
+      "aliases": [],
+      "image": "./images/applications/scene-f53421bcc9cbb268.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "陶土屋面瓦",
+      "category": "砖、瓦与陶瓷",
+      "type": "陶土瓦",
+      "color": "赤陶色",
+      "finish": "自然烧制",
+      "uses": {
+        "屋面": "住宅入口的陶土瓦坡屋顶。瓦片层层叠压，檐口与红土墙形成暖色界面。"
+      },
+      "application": {
+        "project": "Swasti by Deearth Architects",
+        "year": 2025,
+        "url": "https://www.gooood.cn/en/swasti-by-deearth-architects.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "住宅入口的陶土瓦坡屋顶。瓦片层层叠压，檐口与红土墙形成暖色界面。",
+        "photos": [
+          {
+            "image": "images/applications/scene-f53421bcc9cbb268.webp",
+            "thumbnail": "images/applications/scene-f53421bcc9cbb268-thumb.webp",
+            "width": 960,
+            "height": 640,
+            "url": "https://oss.gooood.cn/uploads/2025/03/008-swasti-by-deearth-architects-960x640.jpg",
+            "caption": "住宅入口的陶土瓦坡屋顶",
+            "credit": "Syam photographer ,Yadu pradeep"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.52,
+            0.39
+          ],
+          "width": 0.88,
+          "location": "住宅入口的陶土瓦坡屋顶",
+          "effect": "瓦片层层叠压，檐口与红土墙形成暖色界面"
+        },
+        "sourceEvidence": "项目作者明确坡屋顶铺设陶土瓦，图注同样确认陶土瓦与红土墙。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "Swasti by Deearth Architects",
+        "year": 2025,
+        "url": "https://www.gooood.cn/en/swasti-by-deearth-architects.htm",
+        "context": "住宅入口的陶土瓦坡屋顶。瓦片层层叠压，檐口与红土墙形成暖色界面。"
+      }
+    },
+    {
+      "id": "project-ceramic-15",
+      "aliases": [],
+      "image": "./images/applications/scene-7b5657a16e024be4.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "大规格岩板墙面",
+      "category": "砖、瓦与陶瓷",
+      "type": "大规格岩板墙面",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "外墙": "展馆入口岩板墙面，大幅板面与门洞一起形成完整立面。"
+      },
+      "application": {
+        "project": "德赛斯展馆，广州 / 德赛斯岩板 × LDH刘道华建筑设计事务所",
+        "year": 2025,
+        "url": "https://www.gooood.cn/techsize-showroom-by-techsize-x-ldh.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "展馆入口岩板墙面，大幅板面与门洞一起形成完整立面。",
+        "photos": [
+          {
+            "image": "images/applications/scene-7b5657a16e024be4.webp",
+            "thumbnail": "images/applications/scene-7b5657a16e024be4-thumb.webp",
+            "width": 960,
+            "height": 576,
+            "url": "https://oss.gooood.cn/uploads/2025/02/004-techsize-showroom-by-techsize-x-ldh-960x576.jpg",
+            "caption": "展馆入口岩板墙面",
+            "credit": "德赛斯"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.75,
+            0.5
+          ],
+          "width": 0.7,
+          "location": "展馆入口岩板墙面",
+          "effect": "大幅板面与门洞一起形成完整立面"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在展馆入口岩板墙面的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "德赛斯展馆，广州 / 德赛斯岩板 × LDH刘道华建筑设计事务所",
+        "year": 2025,
+        "url": "https://www.gooood.cn/techsize-showroom-by-techsize-x-ldh.htm",
+        "context": "展馆入口岩板墙面，大幅板面与门洞一起形成完整立面。"
+      }
+    },
+    {
+      "id": "project-ceramic-16",
+      "aliases": [],
+      "image": "./images/applications/scene-3446a1ca28448fa3.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "釉面陶瓷柱面",
+      "category": "砖、瓦与陶瓷",
+      "type": "釉面陶瓷柱面",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "外墙": "柱面拼接陶瓷板，釉面起伏与接缝保留手工质感。"
+      },
+      "application": {
+        "project": "华润置地西安CCBD，陕西 / Heatherwick studio",
+        "year": 2024,
+        "url": "https://www.gooood.cn/xi-an-ccbd-by-heatherwick-studio.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "柱面拼接陶瓷板，釉面起伏与接缝保留手工质感。",
+        "photos": [
+          {
+            "image": "images/applications/scene-3446a1ca28448fa3.webp",
+            "thumbnail": "images/applications/scene-3446a1ca28448fa3-thumb.webp",
+            "width": 777,
+            "height": 1036,
+            "url": "https://oss.gooood.cn/uploads/2024/12/017-Xi-an-CCBD-by-Heatherwick-studio-960x1280.jpg",
+            "caption": "柱面拼接陶瓷板",
+            "credit": "Luis Sacristan Murga"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "width": 1,
+          "location": "柱面拼接陶瓷板",
+          "effect": "釉面起伏与接缝保留手工质感"
+        },
+        "sourceEvidence": "原文确认釉面陶板及足尺立柱样板；照片显示可触摸的釉面肌理。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "华润置地西安CCBD，陕西 / Heatherwick studio",
+        "year": 2024,
+        "url": "https://www.gooood.cn/xi-an-ccbd-by-heatherwick-studio.htm",
+        "context": "柱面拼接陶瓷板，釉面起伏与接缝保留手工质感。"
+      }
+    },
+    {
+      "id": "project-grey-roof-tile",
+      "aliases": [],
+      "image": "./images/applications/scene-47d1c1d5ea6039e7.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "深灰屋面瓦",
+      "category": "砖、瓦与陶瓷",
+      "type": "屋面瓦",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "外墙": "游客中心坡屋顶，瓦片层叠排列，形成连续的深灰屋面。"
+      },
+      "application": {
+        "project": "康县全域旅游游客集散中心，甘肃 / Farmerson Architects共生建筑设计（北京）有限公司",
+        "year": 2024,
+        "url": "https://www.gooood.cn/kang-county-comprehensive-tourism-visitor-center-by-farmerson-architects.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "游客中心坡屋顶，瓦片层叠排列，形成连续的深灰屋面。",
+        "photos": [
+          {
+            "image": "images/applications/scene-47d1c1d5ea6039e7.webp",
+            "thumbnail": "images/applications/scene-47d1c1d5ea6039e7-thumb.webp",
+            "width": 960,
+            "height": 640,
+            "url": "https://oss.gooood.cn/uploads/2024/02/034-%E5%9B%BE34-%E9%94%99%E8%90%BD%E7%9A%84%E5%B1%8B%E9%A1%B6%E5%BD%A2%E6%80%81%E5%90%91%E5%B1%B1%E5%9C%B0%E6%B0%91%E5%B1%85%E8%87%B4%E6%95%AC-%C2%A9%E5%85%B1%E7%94%9F%E9%A3%8E%E6%99%AF-960x640.jpg",
+            "caption": "游客中心坡屋顶",
+            "credit": "共生风景"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "width": 0.65,
+          "location": "游客中心坡屋顶",
+          "effect": "瓦片层叠排列，形成连续的深灰屋面"
+        },
+        "sourceEvidence": "项目屋面采用瓦作，保留通用名称，不从照片推断具体瓦型或原料。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "康县全域旅游游客集散中心，甘肃 / Farmerson Architects共生建筑设计（北京）有限公司",
+        "year": 2024,
+        "url": "https://www.gooood.cn/kang-county-comprehensive-tourism-visitor-center-by-farmerson-architects.htm",
+        "context": "游客中心坡屋顶，瓦片层叠排列，形成连续的深灰屋面。"
+      }
+    },
+    {
+      "id": "red-brick-perforated-screen",
+      "aliases": [],
+      "image": "./images/applications/scene-f13dfd145d2a6674.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "红砖透空屏墙",
+      "category": "砖、瓦与陶瓷",
+      "type": "红砖透空屏墙",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "外墙": "庭院的透空砖屏墙，砖孔过滤日光并保留内外通透。"
+      },
+      "application": {
+        "project": "砖之家，普吉岛 / Enter Projects Asia",
+        "year": 2024,
+        "url": "https://www.gooood.cn/the-brick-house-by-enter-projects-asia.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "庭院的透空砖屏墙，砖孔过滤日光并保留内外通透。",
+        "photos": [
+          {
+            "image": "images/applications/scene-f13dfd145d2a6674.webp",
+            "thumbnail": "images/applications/scene-f13dfd145d2a6674-thumb.webp",
+            "width": 960,
+            "height": 720,
+            "url": "https://oss.gooood.cn/uploads/2024/08/05-Enter-Projects-Asia-Laguna-Brick-House-9C-960x720.jpg",
+            "caption": "庭院的透空砖屏墙",
+            "credit": "Adisornr"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.72,
+            0.5
+          ],
+          "width": 0.65,
+          "location": "庭院的透空砖屏墙",
+          "effect": "砖孔过滤日光并保留内外通透"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在庭院的透空砖屏墙的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "砖之家，普吉岛 / Enter Projects Asia",
+        "year": 2024,
+        "url": "https://www.gooood.cn/the-brick-house-by-enter-projects-asia.htm",
+        "context": "庭院的透空砖屏墙，砖孔过滤日光并保留内外通透。"
+      }
+    },
+    {
+      "id": "project-ceramic-20",
+      "aliases": [],
+      "image": "./images/applications/scene-c353515ba978d9fb.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "岩板台面",
+      "category": "砖、瓦与陶瓷",
+      "type": "岩板台面",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "外墙": "岩板厨房台面与挡板，薄板折边和连续纹理整合厨房界面。"
+      },
+      "application": {
+        "project": "德赛斯展馆，广州 / 德赛斯岩板 × LDH刘道华建筑设计事务所",
+        "year": 2025,
+        "url": "https://www.gooood.cn/techsize-showroom-by-techsize-x-ldh.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "岩板厨房台面与挡板，薄板折边和连续纹理整合厨房界面。",
+        "photos": [
+          {
+            "image": "images/applications/scene-c353515ba978d9fb.webp",
+            "thumbnail": "images/applications/scene-c353515ba978d9fb-thumb.webp",
+            "width": 960,
+            "height": 355,
+            "url": "https://oss.gooood.cn/uploads/2025/02/035-techsize-showroom-by-techsize-x-ldh-960x355.jpg",
+            "caption": "岩板厨房台面与挡板",
+            "credit": "德赛斯"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.6
+          ],
+          "width": 0.95,
+          "location": "岩板厨房台面与挡板",
+          "effect": "薄板折边和连续纹理整合厨房界面"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在岩板厨房台面与挡板的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "德赛斯展馆，广州 / 德赛斯岩板 × LDH刘道华建筑设计事务所",
+        "year": 2025,
+        "url": "https://www.gooood.cn/techsize-showroom-by-techsize-x-ldh.htm",
+        "context": "岩板厨房台面与挡板，薄板折边和连续纹理整合厨房界面。"
+      }
+    },
+    {
+      "id": "project-stone-01",
+      "aliases": [],
+      "image": "./images/applications/scene-0302a8d764121d09.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "浅色花岗岩",
+      "category": "石材",
+      "type": "浅色花岗岩",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "内墙": "接待区石材中岛，颗粒肌理与完整块体使中岛显得厚实。"
+      },
+      "application": {
+        "project": "“瓷村”私人博物馆，景德镇 / 几言设计研究室",
+        "year": 2024,
+        "url": "https://www.gooood.cn/ceramic-village-private-museum-by-y-an-design-studio.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "接待区石材中岛，颗粒肌理与完整块体使中岛显得厚实。",
+        "photos": [
+          {
+            "image": "images/applications/scene-0302a8d764121d09.webp",
+            "thumbnail": "images/applications/scene-0302a8d764121d09-thumb.webp",
+            "width": 960,
+            "height": 636,
+            "url": "https://oss.gooood.cn/uploads/2024/12/026-ceramic-village-private-museum-by-y-an-design-studio-960x636.jpg",
+            "caption": "接待区石材中岛",
+            "credit": "吕晓斌"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.7,
+            0.7
+          ],
+          "width": 0.75,
+          "location": "接待区石材中岛",
+          "effect": "颗粒肌理与完整块体使中岛显得厚实"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在接待区石材中岛的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "“瓷村”私人博物馆，景德镇 / 几言设计研究室",
+        "year": 2024,
+        "url": "https://www.gooood.cn/ceramic-village-private-museum-by-y-an-design-studio.htm",
+        "context": "接待区石材中岛，颗粒肌理与完整块体使中岛显得厚实。"
+      }
+    },
+    {
+      "id": "limestone-facade",
+      "aliases": [],
+      "image": "./images/applications/scene-ce92d89d370e4236.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "浅色石灰岩立面",
+      "category": "石材",
+      "type": "浅色石灰岩立面",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "内墙": "住宅外墙的石灰岩板，浅色石面和窗洞构成干净的体块。"
+      },
+      "application": {
+        "project": "SA住宅，葡萄牙 / Sandro Ferreira arquitectura",
+        "year": 2025,
+        "url": "https://www.gooood.cn/casa-sa-by-sandro-ferreira-arquitectura.htm",
+        "sourceName": "谷德设计网",
+        "relation": "同类应用参考",
+        "note": "项目列明该材料家族，照片用于同类应用与色调参考，不据照片判定商品石材品种。",
+        "observation": "住宅外墙的石灰岩板，浅色石面和窗洞构成干净的体块。",
+        "photos": [
+          {
+            "image": "images/applications/scene-ce92d89d370e4236.webp",
+            "thumbnail": "images/applications/scene-ce92d89d370e4236-thumb.webp",
+            "width": 960,
+            "height": 640,
+            "url": "https://oss.gooood.cn/uploads/2025/02/007-casa-sa-by-sandro-ferreira-arquitectura-960x640.jpg",
+            "caption": "住宅外墙的石灰岩板",
+            "credit": "Ivo Tavares Studio"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.4,
+            0.47
+          ],
+          "width": 0.65,
+          "location": "住宅外墙的石灰岩板",
+          "effect": "浅色石面和窗洞构成干净的体块"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在住宅外墙的石灰岩板的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "SA住宅，葡萄牙 / Sandro Ferreira arquitectura",
+        "year": 2025,
+        "url": "https://www.gooood.cn/casa-sa-by-sandro-ferreira-arquitectura.htm",
+        "context": "住宅外墙的石灰岩板，浅色石面和窗洞构成干净的体块。"
+      }
+    },
+    {
+      "id": "project-stone-05",
+      "aliases": [],
+      "image": "./images/applications/scene-4bc4a0400a26c2ee.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "浅灰纹大理石",
+      "category": "石材",
+      "type": "浅灰纹大理石",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "内墙": "咖啡馆大理石柜台，自然纹理跨越台面与侧面，形成柔和的体块。"
+      },
+      "application": {
+        "project": "Hplace咖啡厅，迪拜 / Atelier Prototipi",
+        "year": 2025,
+        "url": "https://www.gooood.cn/hplace-cafeteria-by-atelier-prototipi.htm",
+        "sourceName": "谷德设计网",
+        "relation": "同类应用参考",
+        "note": "项目列明该材料家族，照片用于同类应用与色调参考，不据照片判定商品石材品种。",
+        "observation": "咖啡馆大理石柜台，自然纹理跨越台面与侧面，形成柔和的体块。",
+        "photos": [
+          {
+            "image": "images/applications/scene-4bc4a0400a26c2ee.webp",
+            "thumbnail": "images/applications/scene-4bc4a0400a26c2ee-thumb.webp",
+            "width": 854,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2025/02/010-hplace-cafeteria-by-atelier-prototipi-960x1439.jpg",
+            "caption": "咖啡馆大理石柜台",
+            "credit": "Lizaveta Kulenenok"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.48,
+            0.7
+          ],
+          "width": 0.82,
+          "location": "咖啡馆大理石柜台",
+          "effect": "自然纹理跨越台面与侧面，形成柔和的体块"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在咖啡馆大理石柜台的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "Hplace咖啡厅，迪拜 / Atelier Prototipi",
+        "year": 2025,
+        "url": "https://www.gooood.cn/hplace-cafeteria-by-atelier-prototipi.htm",
+        "context": "咖啡馆大理石柜台，自然纹理跨越台面与侧面，形成柔和的体块。"
+      }
+    },
+    {
+      "id": "green-marble-interior",
+      "aliases": [],
+      "image": "./images/applications/scene-6ff092341bf0e102.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "绿色大理石",
+      "category": "石材",
+      "type": "绿色大理石",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "内墙": "餐厅绿色大理石桌面与墙裙，深绿石面与深色木构件形成温润对比。"
+      },
+      "application": {
+        "project": "Kadali餐厅，印度 / Sona Reddy Studio",
+        "year": 2025,
+        "url": "https://www.gooood.cn/kadali-by-sona-reddy-studio.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "餐厅绿色大理石桌面与墙裙，深绿石面与深色木构件形成温润对比。",
+        "photos": [
+          {
+            "image": "images/applications/scene-6ff092341bf0e102.webp",
+            "thumbnail": "images/applications/scene-6ff092341bf0e102-thumb.webp",
+            "width": 853,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2025/02/033-kadali-by-sona-reddy-studio-960x1440.jpg",
+            "caption": "餐厅绿色大理石桌面与墙裙",
+            "credit": "Pankaj Anand"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.65
+          ],
+          "width": 0.95,
+          "location": "餐厅绿色大理石桌面与墙裙",
+          "effect": "深绿石面与深色木构件形成温润对比"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在餐厅绿色大理石桌面与墙裙的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "Kadali餐厅，印度 / Sona Reddy Studio",
+        "year": 2025,
+        "url": "https://www.gooood.cn/kadali-by-sona-reddy-studio.htm",
+        "context": "餐厅绿色大理石桌面与墙裙，深绿石面与深色木构件形成温润对比。"
+      }
+    },
+    {
+      "id": "project-stone-09",
+      "aliases": [],
+      "image": "./images/applications/scene-79c7bf6818421359.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "黑色白脉大理石",
+      "category": "石材",
+      "type": "黑色白脉大理石",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "内墙": "壁炉两侧石材包覆，白色细脉在深色大板上连续展开。"
+      },
+      "application": {
+        "project": "SA住宅，葡萄牙 / Sandro Ferreira arquitectura",
+        "year": 2025,
+        "url": "https://www.gooood.cn/casa-sa-by-sandro-ferreira-arquitectura.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "壁炉两侧石材包覆，白色细脉在深色大板上连续展开。",
+        "photos": [
+          {
+            "image": "images/applications/scene-79c7bf6818421359.webp",
+            "thumbnail": "images/applications/scene-79c7bf6818421359-thumb.webp",
+            "width": 853,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2025/02/030-casa-sa-by-sandro-ferreira-arquitectura-960x1440.jpg",
+            "caption": "壁炉两侧石材包覆",
+            "credit": "Ivo Tavares Studio"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "width": 0.95,
+          "location": "壁炉两侧石材包覆",
+          "effect": "白色细脉在深色大板上连续展开"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在壁炉两侧石材包覆的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "SA住宅，葡萄牙 / Sandro Ferreira arquitectura",
+        "year": 2025,
+        "url": "https://www.gooood.cn/casa-sa-by-sandro-ferreira-arquitectura.htm",
+        "context": "壁炉两侧石材包覆，白色细脉在深色大板上连续展开。"
+      }
+    },
+    {
+      "id": "veined-white-marble-wall",
+      "aliases": [],
+      "image": "./images/applications/scene-cd1eca8a2f2b687e.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "白色纹理大理石墙",
+      "category": "石材",
+      "type": "白色纹理大理石墙",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "内墙": "楼梯侧面的大理石墙，大幅自然石纹与木门形成明暗对照。"
+      },
+      "application": {
+        "project": "Vertigo咖啡馆，荷兰 / Studio Modijefsky",
+        "year": 2025,
+        "url": "https://www.gooood.cn/cafe-vertigo-by-studio-modijefsky.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "楼梯侧面的大理石墙，大幅自然石纹与木门形成明暗对照。",
+        "photos": [
+          {
+            "image": "images/applications/scene-cd1eca8a2f2b687e.webp",
+            "thumbnail": "images/applications/scene-cd1eca8a2f2b687e-thumb.webp",
+            "width": 960,
+            "height": 640,
+            "url": "https://oss.gooood.cn/uploads/2025/09/027-cafe-vertigo-by-studio-modijefsky-960x640.jpg",
+            "caption": "楼梯侧面的大理石墙",
+            "credit": "Maarten Willemstein"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.53,
+            0.5
+          ],
+          "width": 0.95,
+          "location": "楼梯侧面的大理石墙",
+          "effect": "大幅自然石纹与木门形成明暗对照"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在楼梯侧面的大理石墙的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "Vertigo咖啡馆，荷兰 / Studio Modijefsky",
+        "year": 2025,
+        "url": "https://www.gooood.cn/cafe-vertigo-by-studio-modijefsky.htm",
+        "context": "楼梯侧面的大理石墙，大幅自然石纹与木门形成明暗对照。"
+      }
+    },
+    {
+      "id": "project-dark-slate",
+      "aliases": [],
+      "image": "./images/applications/scene-5222fdab69fc6686.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "深灰板岩叠砌墙",
+      "category": "石材",
+      "type": "深灰板岩叠砌墙",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "内墙": "餐厅侧面的板岩墙，薄片层叠的石面与白色顶面形成粗细对照。"
+      },
+      "application": {
+        "project": "SA住宅，葡萄牙 / Sandro Ferreira arquitectura",
+        "year": 2025,
+        "url": "https://www.gooood.cn/casa-sa-by-sandro-ferreira-arquitectura.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "餐厅侧面的板岩墙，薄片层叠的石面与白色顶面形成粗细对照。",
+        "photos": [
+          {
+            "image": "images/applications/scene-5222fdab69fc6686.webp",
+            "thumbnail": "images/applications/scene-5222fdab69fc6686-thumb.webp",
+            "width": 960,
+            "height": 640,
+            "url": "https://oss.gooood.cn/uploads/2025/02/026-casa-sa-by-sandro-ferreira-arquitectura-960x640.jpg",
+            "caption": "餐厅侧面的板岩墙",
+            "credit": "Ivo Tavares Studio"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.18,
+            0.5
+          ],
+          "width": 0.7,
+          "location": "餐厅侧面的板岩墙",
+          "effect": "薄片层叠的石面与白色顶面形成粗细对照"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在餐厅侧面的板岩墙的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "SA住宅，葡萄牙 / Sandro Ferreira arquitectura",
+        "year": 2025,
+        "url": "https://www.gooood.cn/casa-sa-by-sandro-ferreira-arquitectura.htm",
+        "context": "餐厅侧面的板岩墙，薄片层叠的石面与白色顶面形成粗细对照。"
+      }
+    },
+    {
+      "id": "slate-courtyard-paving",
+      "aliases": [],
+      "image": "./images/applications/scene-8d5e6f301488f757.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "天然板岩铺地",
+      "category": "石材",
+      "type": "天然板岩铺地",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "室内地面": "庭院与檐下的石板铺地，石板色差和铺缝形成朴素的庭院尺度。"
+      },
+      "application": {
+        "project": "不远太行酒店，安阳 / 回响设计",
+        "year": 2024,
+        "url": "https://www.gooood.cn/banyan-hotel-by-echo-design.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "庭院与檐下的石板铺地，石板色差和铺缝形成朴素的庭院尺度。",
+        "photos": [
+          {
+            "image": "images/applications/scene-8d5e6f301488f757.webp",
+            "thumbnail": "images/applications/scene-8d5e6f301488f757-thumb.webp",
+            "width": 960,
+            "height": 640,
+            "url": "https://oss.gooood.cn/uploads/2024/11/017-banyan-hotel-by-echo-design-960x640.jpg",
+            "caption": "庭院与檐下的石板铺地",
+            "credit": "回响"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.4,
+            0.8
+          ],
+          "width": 0.85,
+          "location": "庭院与檐下的石板铺地",
+          "effect": "石板色差和铺缝形成朴素的庭院尺度"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在庭院与檐下的石板铺地的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "不远太行酒店，安阳 / 回响设计",
+        "year": 2024,
+        "url": "https://www.gooood.cn/banyan-hotel-by-echo-design.htm",
+        "context": "庭院与檐下的石板铺地，石板色差和铺缝形成朴素的庭院尺度。"
+      }
+    },
+    {
+      "id": "project-stone-02",
+      "aliases": [],
+      "image": "./images/applications/scene-9d45e56d3f136c08.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "灰色花岗岩",
+      "category": "石材",
+      "type": "灰色花岗岩",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "室内地面": "餐厅石材铺地与家具边界，浅灰颗粒地面衬托深色家具和墙面。"
+      },
+      "application": {
+        "project": "Aster by Joshua Paris餐厅，上海 / RooMoo设计工作室",
+        "year": 2025,
+        "url": "https://www.gooood.cn/aster-by-joshua-paris-by-roomoo.htm",
+        "sourceName": "谷德设计网",
+        "relation": "同类应用参考",
+        "note": "项目列明该材料家族，照片用于同类应用与色调参考，不据照片判定商品石材品种。",
+        "observation": "餐厅石材铺地与家具边界，浅灰颗粒地面衬托深色家具和墙面。",
+        "photos": [
+          {
+            "image": "images/applications/scene-9d45e56d3f136c08.webp",
+            "thumbnail": "images/applications/scene-9d45e56d3f136c08-thumb.webp",
+            "width": 960,
+            "height": 720,
+            "url": "https://oss.gooood.cn/uploads/2025/09/012-RooMoo-960x720.jpg",
+            "caption": "餐厅石材铺地与家具边界",
+            "credit": "Wen studio"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.8
+          ],
+          "width": 0.75,
+          "location": "餐厅石材铺地与家具边界",
+          "effect": "浅灰颗粒地面衬托深色家具和墙面"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在餐厅石材铺地与家具边界的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "Aster by Joshua Paris餐厅，上海 / RooMoo设计工作室",
+        "year": 2025,
+        "url": "https://www.gooood.cn/aster-by-joshua-paris-by-roomoo.htm",
+        "context": "餐厅石材铺地与家具边界，浅灰颗粒地面衬托深色家具和墙面。"
+      }
+    },
+    {
+      "id": "project-glass-11",
+      "aliases": [],
+      "image": "./images/applications/scene-84dc803bc40fc06c.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "磨砂玻璃门",
+      "category": "玻璃",
+      "type": "磨砂玻璃门",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "内墙": "客卫入口的磨砂玻璃门，透光门面保护隐私并与石材洗手台搭配。"
+      },
+      "application": {
+        "project": "时间物语，深圳 / 目申设计",
+        "year": 2024,
+        "url": "https://www.gooood.cn/narratives-of-time-by-mssd.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "客卫入口的磨砂玻璃门，透光门面保护隐私并与石材洗手台搭配。",
+        "photos": [
+          {
+            "image": "images/applications/scene-84dc803bc40fc06c.webp",
+            "thumbnail": "images/applications/scene-84dc803bc40fc06c-thumb.webp",
+            "width": 960,
+            "height": 1273,
+            "url": "https://oss.gooood.cn/uploads/2024/12/009-Narratives-of-Time-960x1273.jpg",
+            "caption": "客卫入口的磨砂玻璃门",
+            "credit": "翱翔"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.26,
+            0.5
+          ],
+          "width": 0.85,
+          "location": "客卫入口的磨砂玻璃门",
+          "effect": "透光门面保护隐私并与石材洗手台搭配"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在客卫入口的磨砂玻璃门的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "时间物语，深圳 / 目申设计",
+        "year": 2024,
+        "url": "https://www.gooood.cn/narratives-of-time-by-mssd.htm",
+        "context": "客卫入口的磨砂玻璃门，透光门面保护隐私并与石材洗手台搭配。"
+      }
+    },
+    {
+      "id": "project-ceramic-01",
+      "aliases": [],
+      "image": "./images/applications/scene-a1e4e55ce072b15f.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "烧结红砖清水墙",
+      "category": "砖、瓦与陶瓷",
+      "type": "烧结红砖清水墙",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "外墙": "茶室内外的红砖墙，均匀砖缝和转角砌筑保留砖的尺度。"
+      },
+      "application": {
+        "project": "清水禅舍，泉州 / 厦门泛华·回应建筑工作室",
+        "year": 2026,
+        "url": "https://www.gooood.cn/qing-shui-meditation-retreat-center-by-xiamen-pan-china-resp-studio.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "茶室内外的红砖墙，均匀砖缝和转角砌筑保留砖的尺度。",
+        "photos": [
+          {
+            "image": "images/applications/scene-a1e4e55ce072b15f.webp",
+            "thumbnail": "images/applications/scene-a1e4e55ce072b15f-thumb.webp",
+            "width": 960,
+            "height": 720,
+            "url": "https://oss.gooood.cn/uploads/2026/03/031-Qing-Shui-Meditation-Retreat-Center-by-Xiamen-Pan-China-RESP-Studio-960x720.jpg",
+            "caption": "茶室内外的红砖墙",
+            "credit": "谭啸"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "width": 0.9,
+          "location": "茶室内外的红砖墙",
+          "effect": "均匀砖缝和转角砌筑保留砖的尺度"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在茶室内外的红砖墙的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "清水禅舍，泉州 / 厦门泛华·回应建筑工作室",
+        "year": 2026,
+        "url": "https://www.gooood.cn/qing-shui-meditation-retreat-center-by-xiamen-pan-china-resp-studio.htm",
+        "context": "茶室内外的红砖墙，均匀砖缝和转角砌筑保留砖的尺度。"
+      }
+    },
+    {
+      "id": "project-ceramic-04",
+      "aliases": [],
+      "image": "./images/applications/scene-1981c5b6bc0354ec.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "白色长条瓷砖",
+      "category": "砖、瓦与陶瓷",
+      "type": "白色长条瓷砖",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "外墙": "面包店墙面与台面的白色细条砖，细密砖缝统一转角和台面边缘。"
+      },
+      "application": {
+        "project": "swing by面包店，广州 / 氹边建筑工作室",
+        "year": 2025,
+        "url": "https://www.gooood.cn/swing-by-bakery-by-atelier-waterside.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "面包店墙面与台面的白色细条砖，细密砖缝统一转角和台面边缘。",
+        "photos": [
+          {
+            "image": "images/applications/scene-1981c5b6bc0354ec.webp",
+            "thumbnail": "images/applications/scene-1981c5b6bc0354ec-thumb.webp",
+            "width": 960,
+            "height": 1272,
+            "url": "https://oss.gooood.cn/uploads/2025/06/012-swing-by-bakery-by-atelier-waterside-960x1272.jpg",
+            "caption": "面包店墙面与台面的白色细条砖",
+            "credit": "张超"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "width": 0.95,
+          "location": "面包店墙面与台面的白色细条砖",
+          "effect": "细密砖缝统一转角和台面边缘"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在面包店墙面与台面的白色细条砖的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "swing by面包店，广州 / 氹边建筑工作室",
+        "year": 2025,
+        "url": "https://www.gooood.cn/swing-by-bakery-by-atelier-waterside.htm",
+        "context": "面包店墙面与台面的白色细条砖，细密砖缝统一转角和台面边缘。"
+      }
+    },
+    {
+      "id": "white-mosaic-tile",
+      "aliases": [],
+      "image": "./images/applications/scene-14f4fc218af978a1.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "白色马赛克瓷砖",
+      "category": "砖、瓦与陶瓷",
+      "type": "白色马赛克瓷砖",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "外墙": "面包店工作台的马赛克包覆，小尺度网格将不同功能体量联系在一起。"
+      },
+      "application": {
+        "project": "swing by面包店，广州 / 氹边建筑工作室",
+        "year": 2025,
+        "url": "https://www.gooood.cn/swing-by-bakery-by-atelier-waterside.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "面包店工作台的马赛克包覆，小尺度网格将不同功能体量联系在一起。",
+        "photos": [
+          {
+            "image": "images/applications/scene-14f4fc218af978a1.webp",
+            "thumbnail": "images/applications/scene-14f4fc218af978a1-thumb.webp",
+            "width": 960,
+            "height": 640,
+            "url": "https://oss.gooood.cn/uploads/2025/06/004-swing-by-bakery-by-atelier-waterside-960x640.jpg",
+            "caption": "面包店工作台的马赛克包覆",
+            "credit": "张超"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.65
+          ],
+          "width": 0.8,
+          "location": "面包店工作台的马赛克包覆",
+          "effect": "小尺度网格将不同功能体量联系在一起"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在面包店工作台的马赛克包覆的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "swing by面包店，广州 / 氹边建筑工作室",
+        "year": 2025,
+        "url": "https://www.gooood.cn/swing-by-bakery-by-atelier-waterside.htm",
+        "context": "面包店工作台的马赛克包覆，小尺度网格将不同功能体量联系在一起。"
+      }
+    },
+    {
+      "id": "green-granite-pool",
+      "aliases": [],
+      "image": "./images/applications/scene-3f86ed7d07c3ce88.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "绿色花岗岩池壁",
+      "category": "石材",
+      "type": "绿色花岗岩池壁",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "内墙": "户外泡池的花岗岩池壁，深绿石材映衬水面和周边植物。"
+      },
+      "application": {
+        "project": "岚域·峨眉山，四川 / Studio J. Bridgland",
+        "year": 2025,
+        "url": "https://www.gooood.cn/zoland-emei-by-studio-j-bridgland.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "户外泡池的花岗岩池壁，深绿石材映衬水面和周边植物。",
+        "photos": [
+          {
+            "image": "images/applications/scene-3f86ed7d07c3ce88.webp",
+            "thumbnail": "images/applications/scene-3f86ed7d07c3ce88-thumb.webp",
+            "width": 960,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2025/12/036-ZOLAND-960x1280.jpg",
+            "caption": "户外泡池的花岗岩池壁",
+            "credit": "雷坛坛—AGENT PAY"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.65
+          ],
+          "width": 0.85,
+          "location": "户外泡池的花岗岩池壁",
+          "effect": "深绿石材映衬水面和周边植物"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在户外泡池的花岗岩池壁的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "岚域·峨眉山，四川 / Studio J. Bridgland",
+        "year": 2025,
+        "url": "https://www.gooood.cn/zoland-emei-by-studio-j-bridgland.htm",
+        "context": "户外泡池的花岗岩池壁，深绿石材映衬水面和周边植物。"
+      }
+    },
+    {
+      "id": "project-stone-15",
+      "aliases": [],
+      "image": "./images/applications/scene-36fac051a9ea13dc.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "自然面青石",
+      "category": "石材",
+      "type": "自然面青石",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "内墙": "寺院建筑的青石墙面，自然劈面与不规则砌缝呈现石材重量。"
+      },
+      "application": {
+        "project": "清水禅舍，泉州 / 厦门泛华·回应建筑工作室",
+        "year": 2026,
+        "url": "https://www.gooood.cn/qing-shui-meditation-retreat-center-by-xiamen-pan-china-resp-studio.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "寺院建筑的青石墙面，自然劈面与不规则砌缝呈现石材重量。",
+        "photos": [
+          {
+            "image": "images/applications/scene-36fac051a9ea13dc.webp",
+            "thumbnail": "images/applications/scene-36fac051a9ea13dc-thumb.webp",
+            "width": 960,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2026/03/026-Qing-Shui-Meditation-Retreat-Center-by-Xiamen-Pan-China-RESP-Studio-960x1280.jpg",
+            "caption": "寺院建筑的青石墙面",
+            "credit": "谭啸"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "width": 0.95,
+          "location": "寺院建筑的青石墙面",
+          "effect": "自然劈面与不规则砌缝呈现石材重量"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在寺院建筑的青石墙面的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "清水禅舍，泉州 / 厦门泛华·回应建筑工作室",
+        "year": 2026,
+        "url": "https://www.gooood.cn/qing-shui-meditation-retreat-center-by-xiamen-pan-china-resp-studio.htm",
+        "context": "寺院建筑的青石墙面，自然劈面与不规则砌缝呈现石材重量。"
+      }
+    },
+    {
+      "id": "embossed-glass-display",
+      "aliases": [],
+      "image": "./images/applications/scene-d932cc0928e26e5f.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "压花装饰玻璃",
+      "category": "玻璃",
+      "type": "压花装饰玻璃",
+      "color": "自然色",
+      "finish": "自然纹理",
+      "uses": {
+        "内墙": "定制互动展台的压花玻璃，磨砂纹样与金属支架形成精细对照。"
+      },
+      "application": {
+        "project": "阿迪达斯Originals-安福322旗舰店，上海 / TOMO東木筑造",
+        "year": 2025,
+        "url": "https://www.gooood.cn/adidas-originals-flagship-store-by-tomo.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "以项目材料说明及实景为依据；具体规格需结合样板确认。",
+        "observation": "定制互动展台的压花玻璃，磨砂纹样与金属支架形成精细对照。",
+        "photos": [
+          {
+            "image": "images/applications/scene-d932cc0928e26e5f.webp",
+            "thumbnail": "images/applications/scene-d932cc0928e26e5f-thumb.webp",
+            "width": 960,
+            "height": 643,
+            "url": "https://oss.gooood.cn/uploads/2025/08/042-adidas-originals-flagship-store-by-tomo-960x643.jpg",
+            "caption": "定制互动展台的压花玻璃",
+            "credit": "自由意志摄影工作室"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.35,
+            0.58
+          ],
+          "width": 0.65,
+          "location": "定制互动展台的压花玻璃",
+          "effect": "磨砂纹样与金属支架形成精细对照"
+        },
+        "sourceEvidence": "项目报道列明或描述该材料；所选图展示其在定制互动展台的压花玻璃的应用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "阿迪达斯Originals-安福322旗舰店，上海 / TOMO東木筑造",
+        "year": 2025,
+        "url": "https://www.gooood.cn/adidas-originals-flagship-store-by-tomo.htm",
+        "context": "定制互动展台的压花玻璃，磨砂纹样与金属支架形成精细对照。"
+      }
+    },
+    {
+      "id": "project-end-grain-wood",
+      "aliases": [],
+      "image": "./images/applications/xigo-18.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "年轮木板拼接饰面",
+      "category": "木材与竹材",
+      "type": "端纹实木板",
+      "color": "浅木色",
+      "finish": "端纹拼接",
+      "uses": {
+        "吊顶": "接待区的年轮木板顶棚。端纹格子铺满顶面，圆弧墙边连续收口。"
+      },
+      "application": {
+        "project": "戏构木屋工作室，北京 / 戏构建筑空间设计",
+        "year": 2025,
+        "url": "https://www.gooood.cn/xigo-studio-log-cabin-by-xigo-studio.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "接待区的年轮木板顶棚。端纹格子铺满顶面，圆弧墙边连续收口。",
+        "photos": [
+          {
+            "image": "images/applications/xigo-18.webp",
+            "thumbnail": "images/applications/xigo-18-thumb.webp",
+            "caption": "室内同样贯彻小木屋的概念",
+            "credit": "立明",
+            "url": "https://oss.gooood.cn/uploads/2025/07/019-xigo-studio-log-cabin-by-xigo-studio-960x1425.jpg",
+            "width": 862,
+            "height": 1280
+          }
+        ],
+        "focus": {
+          "center": [
+            0.49,
+            0.2
+          ],
+          "width": 0.95,
+          "location": "接待区的年轮木板顶棚",
+          "effect": "端纹格子铺满顶面，圆弧墙边连续收口"
+        },
+        "sourceEvidence": "项目说明地面及顶面均采用年轮木板拼接。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "戏构木屋工作室，北京 / 戏构建筑空间设计",
+        "year": 2025,
+        "url": "https://www.gooood.cn/xigo-studio-log-cabin-by-xigo-studio.htm",
+        "context": "接待区的年轮木板顶棚。端纹格子铺满顶面，圆弧墙边连续收口。"
+      }
+    },
+    {
+      "id": "project-wood-15",
+      "aliases": [],
+      "image": "./images/applications/scene-495d480151fcc263.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "炭烧杉木外墙",
+      "category": "木材与竹材",
+      "type": "炭烧木板",
+      "color": "黑色",
+      "finish": "炭烧纹理",
+      "uses": {
+        "外墙": "住宅上层炭烧杉木外墙。竖向黑木板与浅木门窗形成深浅对照。"
+      },
+      "application": {
+        "project": "日式住宅，日本 / Akio Isshiki Architects",
+        "year": 2026,
+        "url": "https://www.gooood.cn/house-in-saidera-by-akio-isshiki-architects.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "住宅上层炭烧杉木外墙。竖向黑木板与浅木门窗形成深浅对照。",
+        "photos": [
+          {
+            "image": "images/applications/scene-495d480151fcc263.webp",
+            "thumbnail": "images/applications/scene-495d480151fcc263-thumb.webp",
+            "width": 929,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2026/01/012-House-in-Saidera-by-Akio-Isshiki-Architects-960x1323.jpg",
+            "caption": "项目概览",
+            "credit": "Benjamin Hosking"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.6,
+            0.48
+          ],
+          "width": 0.72,
+          "location": "住宅上层炭烧杉木外墙",
+          "effect": "竖向黑木板与浅木门窗形成深浅对照"
+        },
+        "sourceEvidence": "项目明确外立面使用烧杉木收边。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "日式住宅，日本 / Akio Isshiki Architects",
+        "year": 2026,
+        "url": "https://www.gooood.cn/house-in-saidera-by-akio-isshiki-architects.htm",
+        "context": "住宅上层炭烧杉木外墙。竖向黑木板与浅木门窗形成深浅对照。"
+      }
+    },
+    {
+      "id": "solid-timber-rafters",
+      "aliases": [],
+      "image": "./images/applications/scene-ce38d7396816f0c0.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "天然实木梁与木板",
+      "category": "木材与竹材",
+      "type": "实木构件",
+      "color": "棕色",
+      "finish": "自然木纹",
+      "uses": {
+        "家具与台面": "餐厅木梁及窗边板材节点。木板与斜梁交接清楚，灯具贴合构件安装。"
+      },
+      "application": {
+        "project": "珍煲，秦皇岛 / Projject",
+        "year": 2024,
+        "url": "https://www.gooood.cn/gempot-by-projject.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "图示为实木构件组合，不根据照片区分每块构件的具体树种。",
+        "observation": "餐厅木梁及窗边板材节点。木板与斜梁交接清楚，灯具贴合构件安装。",
+        "photos": [
+          {
+            "image": "images/applications/scene-ce38d7396816f0c0.webp",
+            "thumbnail": "images/applications/scene-ce38d7396816f0c0-thumb.webp",
+            "width": 854,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2024/10/026-gempot-by-projject-960x1439.jpg",
+            "caption": "斜梁与窗户细部",
+            "credit": "杨俊宁"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.52,
+            0.5
+          ],
+          "width": 0.96,
+          "location": "餐厅木梁及窗边板材节点",
+          "effect": "木板与斜梁交接清楚，灯具贴合构件安装"
+        },
+        "sourceEvidence": "项目主要材料列明橡木与胡桃木，图注为斜梁与窗户细部。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "珍煲，秦皇岛 / Projject",
+        "year": 2024,
+        "url": "https://www.gooood.cn/gempot-by-projject.htm",
+        "context": "餐厅木梁及窗边板材节点。木板与斜梁交接清楚，灯具贴合构件安装。"
+      }
+    },
+    {
+      "id": "bamboo-pole-screen",
+      "aliases": [],
+      "image": "./images/applications/scene-b513b787f8365720.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "原竹竿屏风与束状围护",
+      "category": "木材与竹材",
+      "type": "原竹",
+      "color": "竹本色",
+      "finish": "自然竹节",
+      "uses": {
+        "家具与台面": "亭下曲线竹竿围护。细竹竿沿曲线排布，透出树影与背后空间。"
+      },
+      "application": {
+        "project": "2024成都世园会兴城展园 / 小隐建筑",
+        "year": 2024,
+        "url": "https://www.gooood.cn/xingcheng-exhibition-garden-by-archermit.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "亭下曲线竹竿围护。细竹竿沿曲线排布，透出树影与背后空间。",
+        "photos": [
+          {
+            "image": "images/applications/scene-b513b787f8365720.webp",
+            "thumbnail": "images/applications/scene-b513b787f8365720-thumb.webp",
+            "width": 960,
+            "height": 640,
+            "url": "https://oss.gooood.cn/uploads/2024/09/%E5%85%B4%E5%9F%8E%E5%B1%95%E5%9B%AD-18-%E5%8E%9F%E7%AB%B9%E7%9A%84%E5%BA%94%E7%94%A8%E7%BB%86%E8%8A%82-%C2%A9%E5%AD%98%E5%9C%A8%E5%BB%BA%E7%AD%91-960x640.jpg",
+            "caption": "原竹的应用细节",
+            "credit": "存在建筑"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.45,
+            0.55
+          ],
+          "width": 0.8,
+          "location": "亭下曲线竹竿围护",
+          "effect": "细竹竿沿曲线排布，透出树影与背后空间"
+        },
+        "sourceEvidence": "项目介绍原竹应用细节并讨论竹材的设计与防火处理。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "2024成都世园会兴城展园 / 小隐建筑",
+        "year": 2024,
+        "url": "https://www.gooood.cn/xingcheng-exhibition-garden-by-archermit.htm",
+        "context": "亭下曲线竹竿围护。细竹竿沿曲线排布，透出树影与背后空间。"
+      }
+    },
+    {
+      "id": "douglas-fir-glulam",
+      "aliases": [],
+      "image": "./images/applications/scene-5ebfedfe5829ba82.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "花旗松胶合木梁",
+      "category": "木材与竹材",
+      "type": "胶合木",
+      "color": "金棕色",
+      "finish": "自然木纹",
+      "uses": {
+        "家具与台面": "市场屋架的胶合木梁格。木梁组成均质网格，节点与钢构清楚相接。"
+      },
+      "application": {
+        "project": "中建万科嘉定未来城市“理想之地”春熙集和鼓浪馆，上海 / 致正建筑工作室",
+        "year": 2026,
+        "url": "https://www.gooood.cn/chunxi-marketplace-and-gulang-gymnasium-nexus-jiading-shanghai-by-atelier-z.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "市场屋架的胶合木梁格。木梁组成均质网格，节点与钢构清楚相接。",
+        "photos": [
+          {
+            "image": "images/applications/scene-5ebfedfe5829ba82.webp",
+            "thumbnail": "images/applications/scene-5ebfedfe5829ba82-thumb.webp",
+            "width": 914,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2026/02/018-CHUNXI-Marketplace-and-GULANG-Gymnasium-NEXUS-Jiading-Shanghai-by-Atelier-Z-960x1344.jpg",
+            "caption": "钢木结构组合作为主体结构",
+            "credit": "杨敏"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.45,
+            0.3
+          ],
+          "width": 0.88,
+          "location": "市场屋架的胶合木梁格",
+          "effect": "木梁组成均质网格，节点与钢构清楚相接"
+        },
+        "sourceEvidence": "原文说明花旗松胶合木次梁形成1.8米均质梁格。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "中建万科嘉定未来城市“理想之地”春熙集和鼓浪馆，上海 / 致正建筑工作室",
+        "year": 2026,
+        "url": "https://www.gooood.cn/chunxi-marketplace-and-gulang-gymnasium-nexus-jiading-shanghai-by-atelier-z.htm",
+        "context": "市场屋架的胶合木梁格。木梁组成均质网格，节点与钢构清楚相接。"
+      }
+    },
+    {
+      "id": "balau-outdoor-seat",
+      "aliases": [],
+      "image": "./images/applications/scene-244cc11092f5a773.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "巴劳木户外座板",
+      "category": "木材与竹材",
+      "type": "户外硬木",
+      "color": "棕色",
+      "finish": "自然木纹",
+      "uses": {
+        "家具与台面": "庭院休憩座椅的木座板。木条形成温暖座面，与金属脚架及植物相接。"
+      },
+      "application": {
+        "project": "Three Micro-Renovations in the Ouyang Road Historic Quarter by Scenic Architectu…",
+        "year": 2026,
+        "url": "https://www.gooood.cn/en/three-micro-renovations-in-the-ouyang-road-historic-quarter-by-scenic-architecture-office.htm",
+        "sourceName": "谷德设计网",
+        "relation": "同类应用参考",
+        "note": "项目列有巴劳木；此处作为户外木座板做法参考，不凭照片鉴定木种。",
+        "observation": "庭院休憩座椅的木座板。木条形成温暖座面，与金属脚架及植物相接。",
+        "photos": [
+          {
+            "image": "images/applications/scene-244cc11092f5a773.webp",
+            "thumbnail": "images/applications/scene-244cc11092f5a773-thumb.webp",
+            "width": 550,
+            "height": 696,
+            "url": "https://oss.gooood.cn/uploads/2026/09/018-Three-Micro-Renovations-in-the-Ouyang-Road-Historic-Quarter-by-Scenic-Architecture-Office-550x696.jpg",
+            "caption": "长寿家园内院改造",
+            "credit": "梁山"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.53,
+            0.69
+          ],
+          "width": 0.65,
+          "location": "庭院休憩座椅的木座板",
+          "effect": "木条形成温暖座面，与金属脚架及植物相接"
+        },
+        "sourceEvidence": "长寿家园材料清单含巴劳木实木板；照片可见户外木座板。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "Three Micro-Renovations in the Ouyang Road Historic Quarter by Scenic Architectu…",
+        "year": 2026,
+        "url": "https://www.gooood.cn/en/three-micro-renovations-in-the-ouyang-road-historic-quarter-by-scenic-architecture-office.htm",
+        "context": "庭院休憩座椅的木座板。木条形成温暖座面，与金属脚架及植物相接。"
+      }
+    },
+    {
+      "id": "project-concrete-02",
+      "aliases": [],
+      "image": "./images/applications/scene-90d8bafd2c1c4587.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "白色预制混凝土",
+      "category": "混凝土与水泥基饰面",
+      "type": "预制混凝土",
+      "color": "白色",
+      "finish": "细骨料哑光",
+      "uses": {
+        "内墙": "住宅外廊与梁柱界面。白色梁柱形成框景，与浅色木构件自然衔接。"
+      },
+      "application": {
+        "project": "BELS EBATS，法国 / AQMA",
+        "year": 2026,
+        "url": "https://www.gooood.cn/bels-ebats-by-aqma.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "住宅外廊与梁柱界面。白色梁柱形成框景，与浅色木构件自然衔接。",
+        "photos": [
+          {
+            "image": "images/applications/scene-90d8bafd2c1c4587.webp",
+            "thumbnail": "images/applications/scene-90d8bafd2c1c4587-thumb.webp",
+            "width": 914,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2026/06/016-bels-ebats-by-aqma-960x1344.jpg",
+            "caption": "阳台",
+            "credit": "Jean Baptiste THIRIET"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.46
+          ],
+          "width": 0.94,
+          "location": "住宅外廊与梁柱界面",
+          "effect": "白色梁柱形成框景，与浅色木构件自然衔接"
+        },
+        "sourceEvidence": "项目明确采用预制白色混凝土主体与哑光拉丝骨料表面。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "BELS EBATS，法国 / AQMA",
+        "year": 2026,
+        "url": "https://www.gooood.cn/bels-ebats-by-aqma.htm",
+        "context": "住宅外廊与梁柱界面。白色梁柱形成框景，与浅色木构件自然衔接。"
+      }
+    },
+    {
+      "id": "project-concrete-04",
+      "aliases": [],
+      "image": "./images/applications/scene-bc2a9e07c10e6e24.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "露骨料混凝土曲面",
+      "category": "混凝土与水泥基饰面",
+      "type": "露骨料混凝土",
+      "color": "灰色",
+      "finish": "露粒",
+      "uses": {
+        "内墙": "游乐装置的曲面围护。灰色骨料曲面包裹洞口，与金属交通构件并置。"
+      },
+      "application": {
+        "project": "波纹广场，河北秦皇岛 / 张唐景观",
+        "year": 2026,
+        "url": "https://www.gooood.cn/the-waves-by-zt-studio.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "游乐装置的曲面围护。灰色骨料曲面包裹洞口，与金属交通构件并置。",
+        "photos": [
+          {
+            "image": "images/applications/scene-bc2a9e07c10e6e24.webp",
+            "thumbnail": "images/applications/scene-bc2a9e07c10e6e24-thumb.webp",
+            "width": 960,
+            "height": 640,
+            "url": "https://oss.gooood.cn/uploads/2026/07/024-The-Waves-by-ZT-STUDIO-960x640.jpg",
+            "caption": "局部外观",
+            "credit": "河狸景观摄影"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.4,
+            0.36
+          ],
+          "width": 0.75,
+          "location": "游乐装置的曲面围护",
+          "effect": "灰色骨料曲面包裹洞口，与金属交通构件并置"
+        },
+        "sourceEvidence": "设计说明外部为灰色露骨料混凝土，强调颗粒质感。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "波纹广场，河北秦皇岛 / 张唐景观",
+        "year": 2026,
+        "url": "https://www.gooood.cn/the-waves-by-zt-studio.htm",
+        "context": "游乐装置的曲面围护。灰色骨料曲面包裹洞口，与金属交通构件并置。"
+      }
+    },
+    {
+      "id": "project-concrete-08",
+      "aliases": [],
+      "image": "./images/applications/scene-66383c45f2464f3f.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "抛光混凝土地坪",
+      "category": "混凝土与水泥基饰面",
+      "type": "混凝土地坪",
+      "color": "灰色",
+      "finish": "抛光",
+      "uses": {
+        "室内地面": "机车咖啡区的连续地面。粗细骨料与反光可见，地坪连接展台和座席。"
+      },
+      "application": {
+        "project": "多元融合的机车文化空间，重庆 / 空气墙建筑工作室",
+        "year": 2024,
+        "url": "https://www.gooood.cn/motorcycle-club-by-airwall-architecture-office.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "未据照片认定密封固化剂的具体配方。",
+        "observation": "机车咖啡区的连续地面。粗细骨料与反光可见，地坪连接展台和座席。",
+        "photos": [
+          {
+            "image": "images/applications/scene-66383c45f2464f3f.webp",
+            "thumbnail": "images/applications/scene-66383c45f2464f3f-thumb.webp",
+            "width": 960,
+            "height": 640,
+            "url": "https://oss.gooood.cn/uploads/2024/11/010-motorcycle-club-by-airwall-architecture-office-960x640.jpg",
+            "caption": "粗粝的抛光现浇混凝土与绿色质感漆的对比",
+            "credit": "空气墙"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.78
+          ],
+          "width": 0.85,
+          "location": "机车咖啡区的连续地面",
+          "effect": "粗细骨料与反光可见，地坪连接展台和座席"
+        },
+        "sourceEvidence": "项目主要材料明确列为抛光现浇混凝土。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "多元融合的机车文化空间，重庆 / 空气墙建筑工作室",
+        "year": 2024,
+        "url": "https://www.gooood.cn/motorcycle-club-by-airwall-architecture-office.htm",
+        "context": "机车咖啡区的连续地面。粗细骨料与反光可见，地坪连接展台和座席。"
+      }
+    },
+    {
+      "id": "woodgrain-cement-panel",
+      "aliases": [],
+      "image": "./images/applications/scene-54555a19d3fe98a4.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "木纹水泥基浇筑板",
+      "category": "混凝土与水泥基饰面",
+      "type": "水泥基饰面板",
+      "color": "灰色",
+      "finish": "模板木纹",
+      "uses": {
+        "内墙": "咖啡区墙面与窗口侧边。浅灰木纹板保持构件厚度，承接窗边光影。"
+      },
+      "application": {
+        "project": "多元融合的机车文化空间，重庆 / 空气墙建筑工作室",
+        "year": 2024,
+        "url": "https://www.gooood.cn/motorcycle-club-by-airwall-architecture-office.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "来源未说明是否为GRC，不将其标为玻璃纤维增强水泥。",
+        "observation": "咖啡区墙面与窗口侧边。浅灰木纹板保持构件厚度，承接窗边光影。",
+        "photos": [
+          {
+            "image": "images/applications/scene-54555a19d3fe98a4.webp",
+            "thumbnail": "images/applications/scene-54555a19d3fe98a4-thumb.webp",
+            "width": 960,
+            "height": 720,
+            "url": "https://oss.gooood.cn/uploads/2024/11/026-motorcycle-club-by-airwall-architecture-office-960x720.jpg",
+            "caption": "更加温暖、公共、开放的咖啡区",
+            "credit": "言隅-刘星昊"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.72,
+            0.5
+          ],
+          "width": 0.6,
+          "location": "咖啡区墙面与窗口侧边",
+          "effect": "浅灰木纹板保持构件厚度，承接窗边光影"
+        },
+        "sourceEvidence": "作者明确列出木纹浇筑板，与抛光现浇混凝土分别使用。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "多元融合的机车文化空间，重庆 / 空气墙建筑工作室",
+        "year": 2024,
+        "url": "https://www.gooood.cn/motorcycle-club-by-airwall-architecture-office.htm",
+        "context": "咖啡区墙面与窗口侧边。浅灰木纹板保持构件厚度，承接窗边光影。"
+      }
+    },
+    {
+      "id": "shell-terrazzo",
+      "aliases": [],
+      "image": "./images/applications/scene-d346cdf873b1bda2.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "贝壳水磨石",
+      "category": "混凝土与水泥基饰面",
+      "type": "水磨石",
+      "color": "浅米色",
+      "finish": "磨面",
+      "uses": {
+        "室内地面": "入口外摆区的水磨石地面。贝壳骨料与分区线清楚，连接室内外门槛。"
+      },
+      "application": {
+        "project": "阿嬷手作阿那亚店 / 弋尺设计EachDesign",
+        "year": 2025,
+        "url": "https://www.gooood.cn/ah-ma-handmade-aranya-by-each-design.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "入口外摆区的水磨石地面。贝壳骨料与分区线清楚，连接室内外门槛。",
+        "photos": [
+          {
+            "image": "images/applications/scene-d346cdf873b1bda2.webp",
+            "thumbnail": "images/applications/scene-d346cdf873b1bda2-thumb.webp",
+            "width": 960,
+            "height": 720,
+            "url": "https://oss.gooood.cn/uploads/2025/07/017-Ah-Ma-Handmade-Aranya-by-Each-Design-960x720.jpg",
+            "caption": "室外地面细部",
+            "credit": "施沁"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.55
+          ],
+          "width": 0.95,
+          "location": "入口外摆区的水磨石地面",
+          "effect": "贝壳骨料与分区线清楚，连接室内外门槛"
+        },
+        "sourceEvidence": "项目说明户外为层层放射的贝壳水磨石地面。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "阿嬷手作阿那亚店 / 弋尺设计EachDesign",
+        "year": 2025,
+        "url": "https://www.gooood.cn/ah-ma-handmade-aranya-by-each-design.htm",
+        "context": "入口外摆区的水磨石地面。贝壳骨料与分区线清楚，连接室内外门槛。"
+      }
+    },
+    {
+      "id": "project-concrete-13",
+      "aliases": [],
+      "image": "./images/applications/scene-a5dc0bcaca58cf2d.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "灰色水磨石地坪",
+      "category": "混凝土与水泥基饰面",
+      "type": "水磨石",
+      "color": "灰色",
+      "finish": "细磨",
+      "uses": {
+        "室内地面": "办公室一层地面与楼梯脚。浅灰磨石地面形成连续底面，衬托白墙和楼梯。"
+      },
+      "application": {
+        "project": "xyh.design studio办公室，合肥 / 相与还空间设计",
+        "year": 2024,
+        "url": "https://www.gooood.cn/xyh-design-studio-office-by-xyh-design-studio.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "来源未明确胶结料及现场浇筑方式，采用通用名称。",
+        "observation": "办公室一层地面与楼梯脚。浅灰磨石地面形成连续底面，衬托白墙和楼梯。",
+        "photos": [
+          {
+            "image": "images/applications/scene-a5dc0bcaca58cf2d.webp",
+            "thumbnail": "images/applications/scene-a5dc0bcaca58cf2d-thumb.webp",
+            "width": 853,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2024/12/005-xyh-design-studio-office-by-xyh-design-studio.jpg",
+            "caption": "一层空间",
+            "credit": "生辉"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.51,
+            0.75
+          ],
+          "width": 0.92,
+          "location": "办公室一层地面与楼梯脚",
+          "effect": "浅灰磨石地面形成连续底面，衬托白墙和楼梯"
+        },
+        "sourceEvidence": "项目主要材料列明水磨石，室内照片可见地面铺装。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "xyh.design studio办公室，合肥 / 相与还空间设计",
+        "year": 2024,
+        "url": "https://www.gooood.cn/xyh-design-studio-office-by-xyh-design-studio.htm",
+        "context": "办公室一层地面与楼梯脚。浅灰磨石地面形成连续底面，衬托白墙和楼梯。"
+      }
+    },
+    {
+      "id": "project-concrete-20",
+      "aliases": [],
+      "image": "./images/applications/scene-8e675a143acdc03b.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "UHPC干挂立面板",
+      "category": "混凝土与水泥基饰面",
+      "type": "超高性能混凝土板",
+      "color": "浅灰色",
+      "finish": "板材分缝",
+      "uses": {
+        "外墙": "市场首层门式档口立面。薄板与玻璃排窗形成规整分格，转角和檐口清楚。"
+      },
+      "application": {
+        "project": "中建万科嘉定未来城市“理想之地”春熙集和鼓浪馆，上海 / 致正建筑工作室",
+        "year": 2026,
+        "url": "https://www.gooood.cn/chunxi-marketplace-and-gulang-gymnasium-nexus-jiading-shanghai-by-atelier-z.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "市场首层门式档口立面。薄板与玻璃排窗形成规整分格，转角和檐口清楚。",
+        "photos": [
+          {
+            "image": "images/applications/scene-8e675a143acdc03b.webp",
+            "thumbnail": "images/applications/scene-8e675a143acdc03b-thumb.webp",
+            "width": 853,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2026/02/024-CHUNXI-Marketplace-and-GULANG-Gymnasium-NEXUS-Jiading-Shanghai-by-Atelier-Z-960x1440.jpg",
+            "caption": "西侧主入口局部",
+            "credit": "杨敏"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.41,
+            0.72
+          ],
+          "width": 0.7,
+          "location": "市场首层门式档口立面",
+          "effect": "薄板与玻璃排窗形成规整分格，转角和檐口清楚"
+        },
+        "sourceEvidence": "项目明确立面采用玻璃排窗及UHPC干挂系统。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "中建万科嘉定未来城市“理想之地”春熙集和鼓浪馆，上海 / 致正建筑工作室",
+        "year": 2026,
+        "url": "https://www.gooood.cn/chunxi-marketplace-and-gulang-gymnasium-nexus-jiading-shanghai-by-atelier-z.htm",
+        "context": "市场首层门式档口立面。薄板与玻璃排窗形成规整分格，转角和檐口清楚。"
+      }
+    },
+    {
+      "id": "hand-chiseled-concrete",
+      "aliases": [],
+      "image": "./images/applications/scene-a157595b1397112a.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "手凿混凝土饰面",
+      "category": "混凝土与水泥基饰面",
+      "type": "现浇混凝土",
+      "color": "灰色",
+      "finish": "手凿肌理",
+      "uses": {
+        "内墙": "展示界面旁的手凿混凝土墙。手凿凹凸与平滑金属面构成粗细对照。"
+      },
+      "application": {
+        "project": "西安曲江南湖UNICO：留一扇窗 / 郭莘空间设计",
+        "year": 2025,
+        "url": "https://www.gooood.cn/xiao-teahouse-mixc-tree-of-life-by-guo-xin-space-design.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "展示界面旁的手凿混凝土墙。手凿凹凸与平滑金属面构成粗细对照。",
+        "photos": [
+          {
+            "image": "images/applications/scene-a157595b1397112a.webp",
+            "thumbnail": "images/applications/scene-a157595b1397112a-thumb.webp",
+            "width": 960,
+            "height": 1233,
+            "url": "https://oss.gooood.cn/uploads/2025/08/026-xiao-teahouse-mixc-tree-of-life-by-guo-xin-space-design-960x1233.jpg",
+            "caption": "混凝土的手凿肌理",
+            "credit": "杨磊"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.48,
+            0.5
+          ],
+          "width": 0.98,
+          "location": "展示界面旁的手凿混凝土墙",
+          "effect": "手凿凹凸与平滑金属面构成粗细对照"
+        },
+        "sourceEvidence": "项目图注及正文明确介绍混凝土的手凿肌理。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "西安曲江南湖UNICO：留一扇窗 / 郭莘空间设计",
+        "year": 2025,
+        "url": "https://www.gooood.cn/xiao-teahouse-mixc-tree-of-life-by-guo-xin-space-design.htm",
+        "context": "展示界面旁的手凿混凝土墙。手凿凹凸与平滑金属面构成粗细对照。"
+      }
+    },
+    {
+      "id": "project-metal-12",
+      "aliases": [],
+      "image": "./images/applications/scene-5734139b0b63a248.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "钛锌板屋面",
+      "category": "金属",
+      "type": "锌合金板",
+      "color": "深灰色",
+      "finish": "立缝",
+      "uses": {
+        "屋面": "咖啡馆临院坡屋面。灰蓝色板面和立缝形成清晰节奏，与玻璃檐口相接。"
+      },
+      "application": {
+        "project": "Three Micro-Renovations in the Ouyang Road Historic Quarter by Scenic Architectu…",
+        "year": 2026,
+        "url": "https://www.gooood.cn/en/three-micro-renovations-in-the-ouyang-road-historic-quarter-by-scenic-architecture-office.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "咖啡馆临院坡屋面。灰蓝色板面和立缝形成清晰节奏，与玻璃檐口相接。",
+        "photos": [
+          {
+            "image": "images/applications/scene-5734139b0b63a248.webp",
+            "thumbnail": "images/applications/scene-5734139b0b63a248-thumb.webp",
+            "width": 550,
+            "height": 735,
+            "url": "https://oss.gooood.cn/uploads/2026/09/024-Three-Micro-Renovations-in-the-Ouyang-Road-Historic-Quarter-by-Scenic-Architecture-Office-550x735.jpg",
+            "caption": "野草咖啡厅",
+            "credit": "梁山"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.63,
+            0.3
+          ],
+          "width": 0.92,
+          "location": "咖啡馆临院坡屋面",
+          "effect": "灰蓝色板面和立缝形成清晰节奏，与玻璃檐口相接"
+        },
+        "sourceEvidence": "野草咖啡厅主要材料明确含钛锌板。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "Three Micro-Renovations in the Ouyang Road Historic Quarter by Scenic Architectu…",
+        "year": 2026,
+        "url": "https://www.gooood.cn/en/three-micro-renovations-in-the-ouyang-road-historic-quarter-by-scenic-architecture-office.htm",
+        "context": "咖啡馆临院坡屋面。灰蓝色板面和立缝形成清晰节奏，与玻璃檐口相接。"
+      }
+    },
+    {
+      "id": "project-matte-brass",
+      "aliases": [],
+      "image": "./images/applications/scene-ea7fbd1f08a5599e.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "做旧黄铜窗框",
+      "category": "金属",
+      "type": "黄铜",
+      "color": "暖金色",
+      "finish": "做旧",
+      "uses": {
+        "家具与台面": "糖水铺的黄铜门窗框。暖金属框围合窗口，与玻璃和屋面形成连续边缘。"
+      },
+      "application": {
+        "project": "珍煲，秦皇岛 / Projject",
+        "year": 2024,
+        "url": "https://www.gooood.cn/gempot-by-projject.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "糖水铺的黄铜门窗框。暖金属框围合窗口，与玻璃和屋面形成连续边缘。",
+        "photos": [
+          {
+            "image": "images/applications/scene-ea7fbd1f08a5599e.webp",
+            "thumbnail": "images/applications/scene-ea7fbd1f08a5599e-thumb.webp",
+            "width": 854,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2024/10/021-gempot-by-projject-960x1439.jpg",
+            "caption": "糖水铺",
+            "credit": "杨俊宁"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.59
+          ],
+          "width": 0.9,
+          "location": "糖水铺的黄铜门窗框",
+          "effect": "暖金属框围合窗口，与玻璃和屋面形成连续边缘"
+        },
+        "sourceEvidence": "正文说明外立面开孔用突出黄铜窗框定义，材料清单为做旧黄铜。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "珍煲，秦皇岛 / Projject",
+        "year": 2024,
+        "url": "https://www.gooood.cn/gempot-by-projject.htm",
+        "context": "糖水铺的黄铜门窗框。暖金属框围合窗口，与玻璃和屋面形成连续边缘。"
+      }
+    },
+    {
+      "id": "project-metal-03",
+      "aliases": [],
+      "image": "./images/applications/scene-c64c8ee60eb5240c.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "原色喷砂不锈钢",
+      "category": "金属",
+      "type": "不锈钢",
+      "color": "银灰色",
+      "finish": "喷砂",
+      "uses": {
+        "内墙": "餐厅入口门窗与金属板包边。哑光金属面保留细腻反光，与玻璃及绿植并置。"
+      },
+      "application": {
+        "project": "漂流料理·黃啓雲私房牛肉面工坊，北京 / 申江海建筑事务所",
+        "year": 2026,
+        "url": "https://www.gooood.cn/drifting-cuisine-chef-huang-qiyuns-private-noodle-workshop-by-sa-architects.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "颜色会受到周边环境反射影响。",
+        "observation": "餐厅入口门窗与金属板包边。哑光金属面保留细腻反光，与玻璃及绿植并置。",
+        "photos": [
+          {
+            "image": "images/applications/scene-c64c8ee60eb5240c.webp",
+            "thumbnail": "images/applications/scene-c64c8ee60eb5240c-thumb.webp",
+            "width": 853,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2026/06/011-Drifting-Cuisine-%C2%B7-Chef-Huang-Qiyuns-Private-Noodle-Workshop--960x1440.jpg",
+            "caption": "原色喷砂不锈钢板门窗系统",
+            "credit": "樊溪"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.45,
+            0.47
+          ],
+          "width": 0.97,
+          "location": "餐厅入口门窗与金属板包边",
+          "effect": "哑光金属面保留细腻反光，与玻璃及绿植并置"
+        },
+        "sourceEvidence": "图注和正文明确原色喷砂不锈钢板门窗系统。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "漂流料理·黃啓雲私房牛肉面工坊，北京 / 申江海建筑事务所",
+        "year": 2026,
+        "url": "https://www.gooood.cn/drifting-cuisine-chef-huang-qiyuns-private-noodle-workshop-by-sa-architects.htm",
+        "context": "餐厅入口门窗与金属板包边。哑光金属面保留细腻反光，与玻璃及绿植并置。"
+      }
+    },
+    {
+      "id": "project-metal-06",
+      "aliases": [],
+      "image": "./images/applications/scene-9c292ea3b3ff8cc1.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "铝板幕墙构件",
+      "category": "金属",
+      "type": "铝板",
+      "color": "银灰色",
+      "finish": "金属哑光",
+      "uses": {
+        "外墙": "办公楼玻璃幕墙外的铝板分格。细长金属板与透明玻璃形成有节奏的立面层次。"
+      },
+      "application": {
+        "project": "艾录集团总部园区，上海 / 同一建筑设计事务所",
+        "year": 2026,
+        "url": "https://www.gooood.cn/ailu-group-headquarters-campus-by-tyarchitects.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "来源未给出喷涂体系，不据照片标定氟碳涂层。",
+        "observation": "办公楼玻璃幕墙外的铝板分格。细长金属板与透明玻璃形成有节奏的立面层次。",
+        "photos": [
+          {
+            "image": "images/applications/scene-9c292ea3b3ff8cc1.webp",
+            "thumbnail": "images/applications/scene-9c292ea3b3ff8cc1-thumb.webp",
+            "width": 814,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2026/02/025-AILU-Group-Headquarters-960x1510.jpg",
+            "caption": "办公大楼幕墙细节",
+            "credit": "筑作视觉"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.52,
+            0.5
+          ],
+          "width": 0.95,
+          "location": "办公楼玻璃幕墙外的铝板分格",
+          "effect": "细长金属板与透明玻璃形成有节奏的立面层次"
+        },
+        "sourceEvidence": "项目主要材料列明铝板及穿孔铝板，图示幕墙细节。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "艾录集团总部园区，上海 / 同一建筑设计事务所",
+        "year": 2026,
+        "url": "https://www.gooood.cn/ailu-group-headquarters-campus-by-tyarchitects.htm",
+        "context": "办公楼玻璃幕墙外的铝板分格。细长金属板与透明玻璃形成有节奏的立面层次。"
+      }
+    },
+    {
+      "id": "project-metal-08",
+      "aliases": [],
+      "image": "./images/applications/scene-ba54c5dbb5820a6a.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "青色铝合金格栅",
+      "category": "金属",
+      "type": "铝型材",
+      "color": "青灰色",
+      "finish": "哑光",
+      "uses": {
+        "内墙": "街角山墙的竖向遮蔽格栅。细格栅遮住设备，树影中呈现半透层次。"
+      },
+      "application": {
+        "project": "Three Micro-Renovations in the Ouyang Road Historic Quarter by Scenic Architectu…",
+        "year": 2026,
+        "url": "https://www.gooood.cn/en/three-micro-renovations-in-the-ouyang-road-historic-quarter-by-scenic-architecture-office.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "来源未说明具体粉末或液体涂层体系。",
+        "observation": "街角山墙的竖向遮蔽格栅。细格栅遮住设备，树影中呈现半透层次。",
+        "photos": [
+          {
+            "image": "images/applications/scene-ba54c5dbb5820a6a.webp",
+            "thumbnail": "images/applications/scene-ba54c5dbb5820a6a-thumb.webp",
+            "width": 550,
+            "height": 622,
+            "url": "https://oss.gooood.cn/uploads/2026/09/014-Three-Micro-Renovations-in-the-Ouyang-Road-Historic-Quarter-by-Scenic-Architecture-Office-550x622.jpg",
+            "caption": "青色铝合金格栅干挂在山墙外面",
+            "credit": "梁山"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.48,
+            0.51
+          ],
+          "width": 0.56,
+          "location": "街角山墙的竖向遮蔽格栅",
+          "effect": "细格栅遮住设备，树影中呈现半透层次"
+        },
+        "sourceEvidence": "正文说明青色铝合金格栅干挂在山墙外侧。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "Three Micro-Renovations in the Ouyang Road Historic Quarter by Scenic Architectu…",
+        "year": 2026,
+        "url": "https://www.gooood.cn/en/three-micro-renovations-in-the-ouyang-road-historic-quarter-by-scenic-architecture-office.htm",
+        "context": "街角山墙的竖向遮蔽格栅。细格栅遮住设备，树影中呈现半透层次。"
+      }
+    },
+    {
+      "id": "project-metal-10",
+      "aliases": [],
+      "image": "./images/applications/scene-002b82288c46b9bd.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "铝张拉网",
+      "category": "金属",
+      "type": "金属网",
+      "color": "银灰色",
+      "finish": "拉网",
+      "uses": {
+        "内墙": "玻璃顶下的铝网吊顶。网孔透光，灯具与弧形屋架交接清楚。"
+      },
+      "application": {
+        "project": "铁手咖啡友谊商店花园店，北京 / 申江海建筑事务所",
+        "year": 2025,
+        "url": "https://www.gooood.cn/metal-hands-coffee-youyi-store-by-sa-architects.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "玻璃顶下的铝网吊顶。网孔透光，灯具与弧形屋架交接清楚。",
+        "photos": [
+          {
+            "image": "images/applications/scene-002b82288c46b9bd.webp",
+            "thumbnail": "images/applications/scene-002b82288c46b9bd-thumb.webp",
+            "width": 854,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2025/07/014-metal-hands-coffee-youyi-store-by-sa-architects.jpg",
+            "caption": "顶部铝张拉网与结构",
+            "credit": "UK Studio"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.51,
+            0.38
+          ],
+          "width": 0.94,
+          "location": "玻璃顶下的铝网吊顶",
+          "effect": "网孔透光，灯具与弧形屋架交接清楚"
+        },
+        "sourceEvidence": "正文和图注明确顶部铝张拉网与结构。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "铁手咖啡友谊商店花园店，北京 / 申江海建筑事务所",
+        "year": 2025,
+        "url": "https://www.gooood.cn/metal-hands-coffee-youyi-store-by-sa-architects.htm",
+        "context": "玻璃顶下的铝网吊顶。网孔透光，灯具与弧形屋架交接清楚。"
+      }
+    },
+    {
+      "id": "project-metal-11",
+      "aliases": [],
+      "image": "./images/applications/scene-759b1020a7fd6108.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "铝镁锰直立锁边屋面",
+      "category": "金属",
+      "type": "金属屋面板",
+      "color": "灰蓝色",
+      "finish": "立缝",
+      "uses": {
+        "屋面": "民宿坡屋面的金属板。立缝沿屋面坡向排列，与混凝土檐边形成薄厚对照。"
+      },
+      "application": {
+        "project": "柿柿如意·南野际民宿，武汉 / UAO瑞拓设计",
+        "year": 2024,
+        "url": "https://www.gooood.cn/the-south-bb-design-of-mulan-warm-village-persimmon-house-by-uao-design.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "2024年报道，项目施工完成于2023年11月。",
+        "observation": "民宿坡屋面的金属板。立缝沿屋面坡向排列，与混凝土檐边形成薄厚对照。",
+        "photos": [
+          {
+            "image": "images/applications/scene-759b1020a7fd6108.webp",
+            "thumbnail": "images/applications/scene-759b1020a7fd6108-thumb.webp",
+            "width": 960,
+            "height": 640,
+            "url": "https://oss.gooood.cn/uploads/2024/10/%E6%9F%BF%E6%9F%BF%E5%A6%82%E6%84%8F-%E5%8D%97%E9%87%8E%E9%99%85-02-%E5%9C%BA%E5%9C%B0%E6%97%A5%E6%99%AF%E9%B8%9F%E7%9E%B0%C2%A9%E7%84%B6%E4%B9%9F%E7%A9%BA%E9%97%B4%E5%BB%BA%E7%AD%91%E6%91%84%E5%BD%B1_%E8%B4%BE%E7%84%B6-960x640.jpg",
+            "caption": "场地日景鸟瞰",
+            "credit": "然也空间建筑摄影_贾然"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.55,
+            0.56
+          ],
+          "width": 0.65,
+          "location": "民宿坡屋面的金属板",
+          "effect": "立缝沿屋面坡向排列，与混凝土檐边形成薄厚对照"
+        },
+        "sourceEvidence": "项目材料清单为铝镁锰屋面，屋面照片可见平行立缝。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "柿柿如意·南野际民宿，武汉 / UAO瑞拓设计",
+        "year": 2024,
+        "url": "https://www.gooood.cn/the-south-bb-design-of-mulan-warm-village-persimmon-house-by-uao-design.htm",
+        "context": "民宿坡屋面的金属板。立缝沿屋面坡向排列，与混凝土檐边形成薄厚对照。"
+      }
+    },
+    {
+      "id": "project-metal-13",
+      "aliases": [],
+      "image": "./images/applications/scene-00f4b4f12b548ec1.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "镀锌波纹钢板",
+      "category": "金属",
+      "type": "镀层钢板",
+      "color": "灰色",
+      "finish": "波纹",
+      "uses": {
+        "屋面": "钢木廊架外侧波纹屋面。波纹板跨越轻型骨架，屋脊和檐口排布清楚。"
+      },
+      "application": {
+        "project": "深圳大鹏新区星火探索营廊架设计 / 厘米制造",
+        "year": 2026,
+        "url": "https://www.gooood.cn/canopy-design-at-starfire-camp-by-cm-design.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "不据照片进一步认定镀锌工艺类型。",
+        "observation": "钢木廊架外侧波纹屋面。波纹板跨越轻型骨架，屋脊和檐口排布清楚。",
+        "photos": [
+          {
+            "image": "images/applications/scene-00f4b4f12b548ec1.webp",
+            "thumbnail": "images/applications/scene-00f4b4f12b548ec1-thumb.webp",
+            "width": 960,
+            "height": 640,
+            "url": "https://oss.gooood.cn/uploads/2026/08/030-canopy-design-at-starfire-camp-by-cm-design-960x640.jpg",
+            "caption": "屋面材料选择镀锌波纹板",
+            "credit": "金伟琦"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.37
+          ],
+          "width": 0.9,
+          "location": "钢木廊架外侧波纹屋面",
+          "effect": "波纹板跨越轻型骨架，屋脊和檐口排布清楚"
+        },
+        "sourceEvidence": "项目图注和说明明确屋面材料选择镀锌波纹板。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "深圳大鹏新区星火探索营廊架设计 / 厘米制造",
+        "year": 2026,
+        "url": "https://www.gooood.cn/canopy-design-at-starfire-camp-by-cm-design.htm",
+        "context": "钢木廊架外侧波纹屋面。波纹板跨越轻型骨架，屋脊和檐口排布清楚。"
+      }
+    },
+    {
+      "id": "project-metal-16",
+      "aliases": [],
+      "image": "./images/applications/scene-7b49d1ff3cf50330.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "黑色钢板桥面与包边",
+      "category": "金属",
+      "type": "钢板",
+      "color": "黑色",
+      "finish": "哑光",
+      "uses": {
+        "内墙": "室内连接上下层的钢板构件。薄钢板折边与墙面灯槽形成强烈明暗对比。"
+      },
+      "application": {
+        "project": "xyh.design studio办公室，合肥 / 相与还空间设计",
+        "year": 2024,
+        "url": "https://www.gooood.cn/xyh-design-studio-office-by-xyh-design-studio.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "来源未说明热轧、冷轧及表面处理工艺。",
+        "observation": "室内连接上下层的钢板构件。薄钢板折边与墙面灯槽形成强烈明暗对比。",
+        "photos": [
+          {
+            "image": "images/applications/scene-7b49d1ff3cf50330.webp",
+            "thumbnail": "images/applications/scene-7b49d1ff3cf50330-thumb.webp",
+            "width": 960,
+            "height": 539,
+            "url": "https://oss.gooood.cn/uploads/2024/12/015-xyh-design-studio-office-by-xyh-design-studio-960x539.jpg",
+            "caption": "灯光下的“钢桥”",
+            "credit": "生辉"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.51,
+            0.48
+          ],
+          "width": 0.95,
+          "location": "室内连接上下层的钢板构件",
+          "effect": "薄钢板折边与墙面灯槽形成强烈明暗对比"
+        },
+        "sourceEvidence": "项目说明利用钢板制成连接上下两层的盒子与桥。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "xyh.design studio办公室，合肥 / 相与还空间设计",
+        "year": 2024,
+        "url": "https://www.gooood.cn/xyh-design-studio-office-by-xyh-design-studio.htm",
+        "context": "室内连接上下层的钢板构件。薄钢板折边与墙面灯槽形成强烈明暗对比。"
+      }
+    },
+    {
+      "id": "perforated-painted-steel",
+      "aliases": [],
+      "image": "./images/applications/scene-362ebc026bf44c98.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "青色穿孔钢板",
+      "category": "金属",
+      "type": "穿孔钢板",
+      "color": "青灰色",
+      "finish": "穿孔",
+      "uses": {
+        "内墙": "小公园廊下的低矮围护板。孔洞保留通透感，薄钢板折成可倚靠界面。"
+      },
+      "application": {
+        "project": "Three Micro-Renovations in the Ouyang Road Historic Quarter by Scenic Architectu…",
+        "year": 2026,
+        "url": "https://www.gooood.cn/en/three-micro-renovations-in-the-ouyang-road-historic-quarter-by-scenic-architecture-office.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "小公园廊下的低矮围护板。孔洞保留通透感，薄钢板折成可倚靠界面。",
+        "photos": [
+          {
+            "image": "images/applications/scene-362ebc026bf44c98.webp",
+            "thumbnail": "images/applications/scene-362ebc026bf44c98-thumb.webp",
+            "width": 960,
+            "height": 714,
+            "url": "https://oss.gooood.cn/uploads/2026/09/005-Three-Micro-Renovations-in-the-Ouyang-Road-Historic-Quarter-by-Scenic-Architecture-Office-960x714.jpg",
+            "caption": "青色穿孔钢板折成矮墙",
+            "credit": "梁山"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.52,
+            0.65
+          ],
+          "width": 0.87,
+          "location": "小公园廊下的低矮围护板",
+          "effect": "孔洞保留通透感，薄钢板折成可倚靠界面"
+        },
+        "sourceEvidence": "项目明确青色穿孔钢板折成矮墙。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "Three Micro-Renovations in the Ouyang Road Historic Quarter by Scenic Architectu…",
+        "year": 2026,
+        "url": "https://www.gooood.cn/en/three-micro-renovations-in-the-ouyang-road-historic-quarter-by-scenic-architecture-office.htm",
+        "context": "小公园廊下的低矮围护板。孔洞保留通透感，薄钢板折成可倚靠界面。"
+      }
+    },
+    {
+      "id": "project-coating-06",
+      "aliases": [],
+      "image": "./images/applications/scene-37a312abe034cdc0.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "传统抛光石灰饰面",
+      "category": "涂料与抹灰",
+      "type": "传统抛光石灰饰面",
+      "color": "自然色",
+      "finish": "自然肌理",
+      "uses": {
+        "内墙": "客房内墙与窗边。平滑石灰面在日光下呈现温和反射。"
+      },
+      "application": {
+        "project": "SERENITY野生动物观赏所，印度 / ma+rs",
+        "year": 2026,
+        "url": "https://www.gooood.cn/serenity-by-mars.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "客房内墙与窗边。平滑石灰面在日光下呈现温和反射。",
+        "photos": [
+          {
+            "image": "images/applications/scene-37a312abe034cdc0.webp",
+            "thumbnail": "images/applications/scene-37a312abe034cdc0-thumb.webp",
+            "width": 550,
+            "height": 770,
+            "url": "https://oss.gooood.cn/uploads/2026/09/028-serenity-by-mars-550x770.jpg",
+            "caption": "客房内墙与窗边",
+            "credit": "Studio f8"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.31,
+            0.5
+          ],
+          "width": 0.72,
+          "location": "客房内墙与窗边",
+          "effect": "平滑石灰面在日光下呈现温和反射"
+        },
+        "sourceEvidence": "作者说明室内使用传统石灰抹灰并经卵石及肥皂抛光。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "SERENITY野生动物观赏所，印度 / ma+rs",
+        "year": 2026,
+        "url": "https://www.gooood.cn/serenity-by-mars.htm",
+        "context": "客房内墙与窗边。平滑石灰面在日光下呈现温和反射。"
+      }
+    },
+    {
+      "id": "project-coating-02",
+      "aliases": [],
+      "image": "./images/applications/scene-0ded410b5d1fe389.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "高光红色墙面漆",
+      "category": "涂料与抹灰",
+      "type": "高光红色墙面漆",
+      "color": "自然色",
+      "finish": "自然肌理",
+      "uses": {
+        "内墙": "咖啡馆红色墙面与壁龛。高光红色放大光泽和空间层次。"
+      },
+      "application": {
+        "project": "基辅Frank咖啡馆，乌克兰 / Yana Molodykh",
+        "year": 2026,
+        "url": "https://www.gooood.cn/frank-cafe-by-yana-molodykh.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "咖啡馆红色墙面与壁龛。高光红色放大光泽和空间层次。",
+        "photos": [
+          {
+            "image": "images/applications/scene-0ded410b5d1fe389.webp",
+            "thumbnail": "images/applications/scene-0ded410b5d1fe389-thumb.webp",
+            "width": 852,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2026/03/007-Frank-Cafe-960x1443.jpg",
+            "caption": "咖啡馆红色墙面与壁龛",
+            "credit": "Yevhenii Avramenko"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.29,
+            0.33
+          ],
+          "width": 0.8,
+          "location": "咖啡馆红色墙面与壁龛",
+          "effect": "高光红色放大光泽和空间层次"
+        },
+        "sourceEvidence": "项目墙面使用Argile涂料，红色额外覆以高光清漆。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "基辅Frank咖啡馆，乌克兰 / Yana Molodykh",
+        "year": 2026,
+        "url": "https://www.gooood.cn/frank-cafe-by-yana-molodykh.htm",
+        "context": "咖啡馆红色墙面与壁龛。高光红色放大光泽和空间层次。"
+      }
+    },
+    {
+      "id": "project-coating-08",
+      "aliases": [],
+      "image": "./images/applications/scene-54d05e2d60dc088f.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "细质灰泥饰面",
+      "category": "涂料与抹灰",
+      "type": "细质灰泥饰面",
+      "color": "自然色",
+      "finish": "自然肌理",
+      "uses": {
+        "内墙": "厨房与过道的连续墙面。灰泥包覆转角，在暖光中形成细微层次。"
+      },
+      "application": {
+        "project": "乡野之家，上海 / 一绗建筑工作室",
+        "year": 2024,
+        "url": "https://www.gooood.cn/the-rustic-house-by-atelier-habitant.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "厨房与过道的连续墙面。灰泥包覆转角，在暖光中形成细微层次。",
+        "photos": [
+          {
+            "image": "images/applications/scene-54d05e2d60dc088f.webp",
+            "thumbnail": "images/applications/scene-54d05e2d60dc088f-thumb.webp",
+            "width": 960,
+            "height": 540,
+            "url": "https://oss.gooood.cn/uploads/2024/05/13%E5%88%86%E9%95%9CStoryboard-the-rustic-house-by-atelier-habitant-960x540.jpg",
+            "caption": "厨房与过道的连续墙面",
+            "credit": "龙慧燕"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.52,
+            0.5
+          ],
+          "width": 0.92,
+          "location": "厨房与过道的连续墙面",
+          "effect": "灰泥包覆转角，在暖光中形成细微层次"
+        },
+        "sourceEvidence": "项目材料清单列有灰泥，图示为室内连续界面。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "乡野之家，上海 / 一绗建筑工作室",
+        "year": 2024,
+        "url": "https://www.gooood.cn/the-rustic-house-by-atelier-habitant.htm",
+        "context": "厨房与过道的连续墙面。灰泥包覆转角，在暖光中形成细微层次。"
+      }
+    },
+    {
+      "id": "project-coating-05",
+      "aliases": [],
+      "image": "./images/applications/scene-c44aedc26d590a57.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "粉色矿物涂料",
+      "category": "涂料与抹灰",
+      "type": "粉色矿物涂料",
+      "color": "自然色",
+      "finish": "自然肌理",
+      "uses": {
+        "内墙": "庭院水池边的新体量外墙。浅粉矿物表面与绿色水面形成暖冷对照。"
+      },
+      "application": {
+        "project": "Vila Mariana住宅翻新扩建，巴西 / [entre escalas]",
+        "year": 2024,
+        "url": "https://www.gooood.cn/renovation-and-expansion-vila-mariana-house-by-entre-escalas.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "庭院水池边的新体量外墙。浅粉矿物表面与绿色水面形成暖冷对照。",
+        "photos": [
+          {
+            "image": "images/applications/scene-c44aedc26d590a57.webp",
+            "thumbnail": "images/applications/scene-c44aedc26d590a57-thumb.webp",
+            "width": 960,
+            "height": 768,
+            "url": "https://oss.gooood.cn/uploads/2024/01/006-renovation-and-expansion-vila-mariana-house-by-entre-escalas-960x768.jpg",
+            "caption": "庭院水池边的新体量外墙",
+            "credit": "Pedro Kok"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.36
+          ],
+          "width": 0.95,
+          "location": "庭院水池边的新体量外墙",
+          "effect": "浅粉矿物表面与绿色水面形成暖冷对照"
+        },
+        "sourceEvidence": "作者明确新体量和边墙使用粉红色矿物涂料。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "Vila Mariana住宅翻新扩建，巴西 / [entre escalas]",
+        "year": 2024,
+        "url": "https://www.gooood.cn/renovation-and-expansion-vila-mariana-house-by-entre-escalas.htm",
+        "context": "庭院水池边的新体量外墙。浅粉矿物表面与绿色水面形成暖冷对照。"
+      }
+    },
+    {
+      "id": "project-coating-13",
+      "aliases": [],
+      "image": "./images/applications/scene-19bb7960cc6a9d43.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "粗质石灰灰泥",
+      "category": "涂料与抹灰",
+      "type": "粗质石灰灰泥",
+      "color": "自然色",
+      "finish": "自然肌理",
+      "uses": {
+        "内墙": "历史建筑修复后的庭院墙面。保留粗糙肌理和不规则边缘。"
+      },
+      "application": {
+        "project": "传统之家，意大利 / Martino Picchedda Architetto",
+        "year": 2025,
+        "url": "https://www.gooood.cn/house-of-traditions-by-arch-martino-picchedda.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "历史建筑修复后的庭院墙面。保留粗糙肌理和不规则边缘。",
+        "photos": [
+          {
+            "image": "images/applications/scene-19bb7960cc6a9d43.webp",
+            "thumbnail": "images/applications/scene-19bb7960cc6a9d43-thumb.webp",
+            "width": 853,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2025/02/011-House-of-Traditions-by-Arch-Martino-Picchedda-960x1440.jpg",
+            "caption": "历史建筑修复后的庭院墙面",
+            "credit": "Cédric Dasesson"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "width": 0.95,
+          "location": "历史建筑修复后的庭院墙面",
+          "effect": "保留粗糙肌理和不规则边缘"
+        },
+        "sourceEvidence": "项目说明采用生态石灰灰泥，保留自然粗糙感。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "传统之家，意大利 / Martino Picchedda Architetto",
+        "year": 2025,
+        "url": "https://www.gooood.cn/house-of-traditions-by-arch-martino-picchedda.htm",
+        "context": "历史建筑修复后的庭院墙面。保留粗糙肌理和不规则边缘。"
+      }
+    },
+    {
+      "id": "cellulose-acoustic-spray",
+      "aliases": [],
+      "image": "./images/applications/scene-d543bcec1569f8c3.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "纤维素喷涂吸声层",
+      "category": "涂料与抹灰",
+      "type": "纤维素喷涂吸声层",
+      "color": "自然色",
+      "finish": "自然肌理",
+      "uses": {
+        "吊顶": "开放办公区的顶棚。纤维覆盖层与外露设备形成柔和背景。"
+      },
+      "application": {
+        "project": "华沙ING Hubs Poland办公室，波兰 / MIXD",
+        "year": 2026,
+        "url": "https://www.gooood.cn/ing-hubs-poland-office-by-mixd.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "开放办公区的顶棚。纤维覆盖层与外露设备形成柔和背景。",
+        "photos": [
+          {
+            "image": "images/applications/scene-d543bcec1569f8c3.webp",
+            "thumbnail": "images/applications/scene-d543bcec1569f8c3-thumb.webp",
+            "width": 960,
+            "height": 640,
+            "url": "https://oss.gooood.cn/uploads/2026/09/012-ING-Hubs-Poland-Office-by-MIXD-960x640.jpg",
+            "caption": "开放办公区的顶棚",
+            "credit": "Mood Authors"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.2
+          ],
+          "width": 0.9,
+          "location": "开放办公区的顶棚",
+          "effect": "纤维覆盖层与外露设备形成柔和背景"
+        },
+        "sourceEvidence": "项目明确天花设特殊纤维素纤维喷涂层以改善声学。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "华沙ING Hubs Poland办公室，波兰 / MIXD",
+        "year": 2026,
+        "url": "https://www.gooood.cn/ing-hubs-poland-office-by-mixd.htm",
+        "context": "开放办公区的顶棚。纤维覆盖层与外露设备形成柔和背景。"
+      }
+    },
+    {
+      "id": "project-coating-09",
+      "aliases": [],
+      "image": "./images/applications/scene-18ac7541168f0055.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "深色灰泥涂料",
+      "category": "涂料与抹灰",
+      "type": "深色灰泥涂料",
+      "color": "自然色",
+      "finish": "自然肌理",
+      "uses": {
+        "内墙": "休憩空间内的深色墙面。低反射灰面把视线引向窗外绿意。"
+      },
+      "application": {
+        "project": "来野山川里，浙江 / 偏离设计",
+        "year": 2025,
+        "url": "https://www.gooood.cn/come-wild-mountain-bamboo-by-departure-design-studio.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "休憩空间内的深色墙面。低反射灰面把视线引向窗外绿意。",
+        "photos": [
+          {
+            "image": "images/applications/scene-18ac7541168f0055.webp",
+            "thumbnail": "images/applications/scene-18ac7541168f0055-thumb.webp",
+            "width": 960,
+            "height": 640,
+            "url": "https://oss.gooood.cn/uploads/2025/12/012-Come-Wild-Mountain-Bamboo-by-DEPARTURE-DESIGN-STUDIO-6to-960x640.jpg",
+            "caption": "休憩空间内的深色墙面",
+            "credit": "壹高"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.53,
+            0.5
+          ],
+          "width": 0.9,
+          "location": "休憩空间内的深色墙面",
+          "effect": "低反射灰面把视线引向窗外绿意"
+        },
+        "sourceEvidence": "作者说明室内使用灰泥涂料，并以深色调控制整体明度。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "来野山川里，浙江 / 偏离设计",
+        "year": 2025,
+        "url": "https://www.gooood.cn/come-wild-mountain-bamboo-by-departure-design-studio.htm",
+        "context": "休憩空间内的深色墙面。低反射灰面把视线引向窗外绿意。"
+      }
+    },
+    {
+      "id": "project-textile-02",
+      "aliases": [],
+      "image": "./images/applications/scene-b07e69b4d8559187.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "棉麻家具布",
+      "category": "织物、皮革与编织",
+      "type": "棉麻家具布",
+      "color": "自然色",
+      "finish": "自然肌理",
+      "uses": {
+        "家具与台面": "会客区布艺座椅。布面柔化黑白硬装与金属家具。"
+      },
+      "application": {
+        "project": "NOTHING DESIGN北京工作室 / NOTHING DESIGN",
+        "year": 2025,
+        "url": "https://www.gooood.cn/nothing-design-beijing-studio-by-nothing-design.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "会客区布艺座椅。布面柔化黑白硬装与金属家具。",
+        "photos": [
+          {
+            "image": "images/applications/scene-b07e69b4d8559187.webp",
+            "thumbnail": "images/applications/scene-b07e69b4d8559187-thumb.webp",
+            "width": 853,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2025/03/025-NOTHING-DESIGN-Beijing-studio-960x1440.jpg",
+            "caption": "会客区布艺座椅",
+            "credit": "立明"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.64
+          ],
+          "width": 0.92,
+          "location": "会客区布艺座椅",
+          "effect": "布面柔化黑白硬装与金属家具"
+        },
+        "sourceEvidence": "作者明确软装主要使用棉麻等柔软材质。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "NOTHING DESIGN北京工作室 / NOTHING DESIGN",
+        "year": 2025,
+        "url": "https://www.gooood.cn/nothing-design-beijing-studio-by-nothing-design.htm",
+        "context": "会客区布艺座椅。布面柔化黑白硬装与金属家具。"
+      }
+    },
+    {
+      "id": "project-textile-16",
+      "aliases": [],
+      "image": "./images/applications/scene-af117eacd18a05fe.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "皮革沙发饰面",
+      "category": "织物、皮革与编织",
+      "type": "皮革沙发饰面",
+      "color": "自然色",
+      "finish": "自然肌理",
+      "uses": {
+        "家具与台面": "会议空间的皮革座椅。皮面褶皱与木地面、金属饰物形成对照。"
+      },
+      "application": {
+        "project": "NOTHING DESIGN北京工作室 / NOTHING DESIGN",
+        "year": 2025,
+        "url": "https://www.gooood.cn/nothing-design-beijing-studio-by-nothing-design.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "会议空间的皮革座椅。皮面褶皱与木地面、金属饰物形成对照。",
+        "photos": [
+          {
+            "image": "images/applications/scene-af117eacd18a05fe.webp",
+            "thumbnail": "images/applications/scene-af117eacd18a05fe-thumb.webp",
+            "width": 960,
+            "height": 1263,
+            "url": "https://oss.gooood.cn/uploads/2025/03/011-NOTHING-DESIGN-Beijing-studio-960x1263.jpg",
+            "caption": "会议空间的皮革座椅",
+            "credit": "立明"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.51
+          ],
+          "width": 0.68,
+          "location": "会议空间的皮革座椅",
+          "effect": "皮面褶皱与木地面、金属饰物形成对照"
+        },
+        "sourceEvidence": "原文明确会议室使用中古皮革沙发；不认定皮革等级。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "NOTHING DESIGN北京工作室 / NOTHING DESIGN",
+        "year": 2025,
+        "url": "https://www.gooood.cn/nothing-design-beijing-studio-by-nothing-design.htm",
+        "context": "会议空间的皮革座椅。皮面褶皱与木地面、金属饰物形成对照。"
+      }
+    },
+    {
+      "id": "recycled-acoustic-felt",
+      "aliases": [],
+      "image": "./images/applications/scene-2404dd9dd6df8b43.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "再生吸音毡",
+      "category": "织物、皮革与编织",
+      "type": "再生吸音毡",
+      "color": "自然色",
+      "finish": "自然肌理",
+      "uses": {
+        "软装": "录音空间的吸声界面。纤维毡与软包共同形成安静的使用环境。"
+      },
+      "application": {
+        "project": "华沙ING Hubs Poland办公室，波兰 / MIXD",
+        "year": 2026,
+        "url": "https://www.gooood.cn/ing-hubs-poland-office-by-mixd.htm",
+        "sourceName": "谷德设计网",
+        "relation": "同类应用参考",
+        "note": "图片用于对应材料家族的应用参考；具体配方与产品规格以样板为准。",
+        "observation": "录音空间的吸声界面。纤维毡与软包共同形成安静的使用环境。",
+        "photos": [
+          {
+            "image": "images/applications/scene-2404dd9dd6df8b43.webp",
+            "thumbnail": "images/applications/scene-2404dd9dd6df8b43-thumb.webp",
+            "width": 960,
+            "height": 640,
+            "url": "https://oss.gooood.cn/uploads/2026/09/025-ING-Hubs-Poland-Office-by-MIXD-960x640.jpg",
+            "caption": "录音空间的吸声界面",
+            "credit": "Mood Authors"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.48
+          ],
+          "width": 0.96,
+          "location": "录音空间的吸声界面",
+          "effect": "纤维毡与软包共同形成安静的使用环境"
+        },
+        "sourceEvidence": "项目明确采用再生毡吸音板；图用于同类声学应用参考。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "华沙ING Hubs Poland办公室，波兰 / MIXD",
+        "year": 2026,
+        "url": "https://www.gooood.cn/ing-hubs-poland-office-by-mixd.htm",
+        "context": "录音空间的吸声界面。纤维毡与软包共同形成安静的使用环境。"
+      }
+    },
+    {
+      "id": "project-composite-01",
+      "aliases": [],
+      "image": "./images/applications/scene-88924cfd69ea00bd.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "透明亚克力板",
+      "category": "塑料与复合材料",
+      "type": "透明亚克力板",
+      "color": "自然色",
+      "finish": "自然肌理",
+      "uses": {
+        "隔断": "楼梯边的透明板式围护。板边、透光与暖色楼梯相互叠加。"
+      },
+      "application": {
+        "project": "自由之丘，湖北武汉 / EAF STUDIO",
+        "year": 2025,
+        "url": "https://www.gooood.cn/memory-hill-by-eaf-studio.htm",
+        "sourceName": "谷德设计网",
+        "relation": "同类应用参考",
+        "note": "图片用于对应材料家族的应用参考；具体配方与产品规格以样板为准。",
+        "observation": "楼梯边的透明板式围护。板边、透光与暖色楼梯相互叠加。",
+        "photos": [
+          {
+            "image": "images/applications/scene-88924cfd69ea00bd.webp",
+            "thumbnail": "images/applications/scene-88924cfd69ea00bd-thumb.webp",
+            "width": 853,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2025/12/025-MemoryHill-960x1440.jpg",
+            "caption": "楼梯边的透明板式围护",
+            "credit": "EAF Studio"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.53,
+            0.52
+          ],
+          "width": 0.98,
+          "location": "楼梯边的透明板式围护",
+          "effect": "板边、透光与暖色楼梯相互叠加"
+        },
+        "sourceEvidence": "项目主材明确列有亚克力；图用于透明板界面参考。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "自由之丘，湖北武汉 / EAF STUDIO",
+        "year": 2025,
+        "url": "https://www.gooood.cn/memory-hill-by-eaf-studio.htm",
+        "context": "楼梯边的透明板式围护。板边、透光与暖色楼梯相互叠加。"
+      }
+    },
+    {
+      "id": "project-composite-12",
+      "aliases": [],
+      "image": "./images/applications/scene-dbd6462949a424bc.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "彩色树脂玻璃钢",
+      "category": "塑料与复合材料",
+      "type": "彩色树脂玻璃钢",
+      "color": "自然色",
+      "finish": "自然肌理",
+      "uses": {
+        "隔断": "零售空间的波浪形隔断。半透明黄色曲面形成柔和而连续的边界。"
+      },
+      "application": {
+        "project": "FUZOZO芙崽概念店，上海 / 弹性工作室",
+        "year": 2025,
+        "url": "https://www.gooood.cn/fuzozo-concept-store-shanghai-tens-atelier.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "零售空间的波浪形隔断。半透明黄色曲面形成柔和而连续的边界。",
+        "photos": [
+          {
+            "image": "images/applications/scene-dbd6462949a424bc.webp",
+            "thumbnail": "images/applications/scene-dbd6462949a424bc-thumb.webp",
+            "width": 853,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2025/09/016-FUZOZO-960x1440.jpg",
+            "caption": "零售空间的波浪形隔断",
+            "credit": "YUUUUNSTUDIO"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "width": 0.98,
+          "location": "零售空间的波浪形隔断",
+          "effect": "半透明黄色曲面形成柔和而连续的边界"
+        },
+        "sourceEvidence": "作者明确采用彩色树脂纤维玻璃钢制作曲面隔断。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "FUZOZO芙崽概念店，上海 / 弹性工作室",
+        "year": 2025,
+        "url": "https://www.gooood.cn/fuzozo-concept-store-shanghai-tens-atelier.htm",
+        "context": "零售空间的波浪形隔断。半透明黄色曲面形成柔和而连续的边界。"
+      }
+    },
+    {
+      "id": "translucent-frp-panel",
+      "aliases": [],
+      "image": "./images/applications/scene-58414a8cfeb0a2c3.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "半透明玻璃钢墙板",
+      "category": "塑料与复合材料",
+      "type": "半透明玻璃钢墙板",
+      "color": "自然色",
+      "finish": "自然肌理",
+      "uses": {
+        "隔断": "接待台背后的半透界面。暖色透光板形成朦胧的背景。"
+      },
+      "application": {
+        "project": "自由之丘，湖北武汉 / EAF STUDIO",
+        "year": 2025,
+        "url": "https://www.gooood.cn/memory-hill-by-eaf-studio.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "接待台背后的半透界面。暖色透光板形成朦胧的背景。",
+        "photos": [
+          {
+            "image": "images/applications/scene-58414a8cfeb0a2c3.webp",
+            "thumbnail": "images/applications/scene-58414a8cfeb0a2c3-thumb.webp",
+            "width": 960,
+            "height": 1201,
+            "url": "https://oss.gooood.cn/uploads/2025/12/013-MemoryHill-960x1201.jpg",
+            "caption": "接待台背后的半透界面",
+            "credit": "EAF Studio"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.45
+          ],
+          "width": 0.95,
+          "location": "接待台背后的半透界面",
+          "effect": "暖色透光板形成朦胧的背景"
+        },
+        "sourceEvidence": "项目主材为半透玻璃钢、亚克力及陶土砖。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "自由之丘，湖北武汉 / EAF STUDIO",
+        "year": 2025,
+        "url": "https://www.gooood.cn/memory-hill-by-eaf-studio.htm",
+        "context": "接待台背后的半透界面。暖色透光板形成朦胧的背景。"
+      }
+    },
+    {
+      "id": "frp-grating-furniture",
+      "aliases": [],
+      "image": "./images/applications/scene-67e8df885e99cc03.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "玻璃钢格栅构件",
+      "category": "塑料与复合材料",
+      "type": "玻璃钢格栅构件",
+      "color": "自然色",
+      "finish": "自然肌理",
+      "uses": {
+        "隔断": "雨亭中的半透明格栅家具。网格透光，构件保持轻巧厚度。"
+      },
+      "application": {
+        "project": "春风市集，宁波 / 直距建筑设计",
+        "year": 2025,
+        "url": "https://www.gooood.cn/breeze-market-by-displacement-architectural-design.htm",
+        "sourceName": "谷德设计网",
+        "relation": "同类应用参考",
+        "note": "图片用于对应材料家族的应用参考；具体配方与产品规格以样板为准。",
+        "observation": "雨亭中的半透明格栅家具。网格透光，构件保持轻巧厚度。",
+        "photos": [
+          {
+            "image": "images/applications/scene-67e8df885e99cc03.webp",
+            "thumbnail": "images/applications/scene-67e8df885e99cc03-thumb.webp",
+            "width": 854,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2025/05/022-breeze-market-by-displacement-architectural-design-960x1439.jpg",
+            "caption": "雨亭中的半透明格栅家具",
+            "credit": "wongke"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "width": 0.98,
+          "location": "雨亭中的半透明格栅家具",
+          "effect": "网格透光，构件保持轻巧厚度"
+        },
+        "sourceEvidence": "作者明确雨亭采用玻璃钢格栅；图展示同类格栅构件。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "春风市集，宁波 / 直距建筑设计",
+        "year": 2025,
+        "url": "https://www.gooood.cn/breeze-market-by-displacement-architectural-design.htm",
+        "context": "雨亭中的半透明格栅家具。网格透光，构件保持轻巧厚度。"
+      }
+    },
+    {
+      "id": "recycled-glass-resin",
+      "aliases": [],
+      "image": "./images/applications/scene-f2d26f6ce8488738.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "回收玻璃树脂砖",
+      "category": "塑料与复合材料",
+      "type": "回收玻璃树脂砖",
+      "color": "自然色",
+      "finish": "自然肌理",
+      "uses": {
+        "吊顶": "藤编拱门上方的树脂砖天篷。绿色透光单元形成弧形顶面。"
+      },
+      "application": {
+        "project": "第19届威尼斯建筑双年展 - 《交织》 / Enter Projects Asia",
+        "year": 2025,
+        "url": "https://www.gooood.cn/interwoven-at-the-venice-biennale-2025-by-enter-projects-asia.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "藤编拱门上方的树脂砖天篷。绿色透光单元形成弧形顶面。",
+        "photos": [
+          {
+            "image": "images/applications/scene-f2d26f6ce8488738.webp",
+            "thumbnail": "images/applications/scene-f2d26f6ce8488738-thumb.webp",
+            "width": 960,
+            "height": 720,
+            "url": "https://oss.gooood.cn/uploads/2025/06/007-interwoven-at-the-venice-biennale-2025-by-enter-projects-asia-960x720.jpg",
+            "caption": "藤编拱门上方的树脂砖天篷",
+            "credit": "Edmund Sumner"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.51,
+            0.39
+          ],
+          "width": 0.78,
+          "location": "藤编拱门上方的树脂砖天篷",
+          "effect": "绿色透光单元形成弧形顶面"
+        },
+        "sourceEvidence": "项目明确天篷由嵌入回收玻璃的树脂砖拼接。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "第19届威尼斯建筑双年展 - 《交织》 / Enter Projects Asia",
+        "year": 2025,
+        "url": "https://www.gooood.cn/interwoven-at-the-venice-biennale-2025-by-enter-projects-asia.htm",
+        "context": "藤编拱门上方的树脂砖天篷。绿色透光单元形成弧形顶面。"
+      }
+    },
+    {
+      "id": "recycled-bottle-panel",
+      "aliases": [],
+      "image": "./images/applications/scene-3934d3dd16710fa4.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "回收包装材料墙板",
+      "category": "塑料与复合材料",
+      "type": "回收包装材料墙板",
+      "color": "自然色",
+      "finish": "自然肌理",
+      "uses": {
+        "隔断": "休息室曲面墙体。片状回收材料拼接成不规则的墙面。"
+      },
+      "application": {
+        "project": "話梅循环实验室，上海 / 爱艺德杰设计事务所",
+        "year": 2026,
+        "url": "https://www.gooood.cn/harmay-vip-lounge-by-atelier-indj.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "休息室曲面墙体。片状回收材料拼接成不规则的墙面。",
+        "photos": [
+          {
+            "image": "images/applications/scene-3934d3dd16710fa4.webp",
+            "thumbnail": "images/applications/scene-3934d3dd16710fa4-thumb.webp",
+            "width": 960,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2026/04/009-HARMAY-VIP-Lounge-960x1280.jpg",
+            "caption": "休息室曲面墙体",
+            "credit": "Anthony Reed"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.52,
+            0.42
+          ],
+          "width": 0.9,
+          "location": "休息室曲面墙体",
+          "effect": "片状回收材料拼接成不规则的墙面"
+        },
+        "sourceEvidence": "项目以回收包装瓶、塑料袋等材料构建墙面，保留原始形态。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "話梅循环实验室，上海 / 爱艺德杰设计事务所",
+        "year": 2026,
+        "url": "https://www.gooood.cn/harmay-vip-lounge-by-atelier-indj.htm",
+        "context": "休息室曲面墙体。片状回收材料拼接成不规则的墙面。"
+      }
+    },
+    {
+      "id": "project-composite-17",
+      "aliases": [],
+      "image": "./images/applications/scene-75d3bc9ba92704e6.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "透明树脂台盆",
+      "category": "塑料与复合材料",
+      "type": "透明树脂台盆",
+      "color": "自然色",
+      "finish": "自然肌理",
+      "uses": {
+        "家具与台面": "住宅盥洗区的台盆。透明暖色树脂与哑光墙面形成材质对比。"
+      },
+      "application": {
+        "project": "乡野之家，上海 / 一绗建筑工作室",
+        "year": 2024,
+        "url": "https://www.gooood.cn/the-rustic-house-by-atelier-habitant.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "住宅盥洗区的台盆。透明暖色树脂与哑光墙面形成材质对比。",
+        "photos": [
+          {
+            "image": "images/applications/scene-75d3bc9ba92704e6.webp",
+            "thumbnail": "images/applications/scene-75d3bc9ba92704e6-thumb.webp",
+            "width": 720,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2024/05/18%E8%87%AA%E7%84%B6%E7%9A%84%E7%81%AF%E5%85%89Natural-lighting-the-rustic-house-by-atelier-habitant.jpg",
+            "caption": "住宅盥洗区的台盆",
+            "credit": "龙慧燕"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.64
+          ],
+          "width": 0.82,
+          "location": "住宅盥洗区的台盆",
+          "effect": "透明暖色树脂与哑光墙面形成材质对比"
+        },
+        "sourceEvidence": "作者明确盥洗区放置沙漠色透明树脂台盆。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "乡野之家，上海 / 一绗建筑工作室",
+        "year": 2024,
+        "url": "https://www.gooood.cn/the-rustic-house-by-atelier-habitant.htm",
+        "context": "住宅盥洗区的台盆。透明暖色树脂与哑光墙面形成材质对比。"
+      }
+    },
+    {
+      "id": "fire-resistant-rubber-floor",
+      "aliases": [],
+      "image": "./images/applications/scene-07115500c75da576.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "黑色橡胶踏步面层",
+      "category": "塑料与复合材料",
+      "type": "黑色橡胶踏步面层",
+      "color": "自然色",
+      "finish": "自然肌理",
+      "uses": {
+        "隔断": "连接休息区的楼梯踏步。深色踏面与金属构件延续工业质感。"
+      },
+      "application": {
+        "project": "話梅循环实验室，上海 / 爱艺德杰设计事务所",
+        "year": 2026,
+        "url": "https://www.gooood.cn/harmay-vip-lounge-by-atelier-indj.htm",
+        "sourceName": "谷德设计网",
+        "relation": "同类应用参考",
+        "note": "图片用于对应材料家族的应用参考；具体配方与产品规格以样板为准。",
+        "observation": "连接休息区的楼梯踏步。深色踏面与金属构件延续工业质感。",
+        "photos": [
+          {
+            "image": "images/applications/scene-07115500c75da576.webp",
+            "thumbnail": "images/applications/scene-07115500c75da576-thumb.webp",
+            "width": 853,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2026/04/031-HARMAY-VIP-Lounge.jpg",
+            "caption": "连接休息区的楼梯踏步",
+            "credit": "Benny Chen"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.62
+          ],
+          "width": 0.95,
+          "location": "连接休息区的楼梯踏步",
+          "effect": "深色踏面与金属构件延续工业质感"
+        },
+        "sourceEvidence": "项目主要材料列有黑色防火橡胶，并说明过渡楼梯的防火需求。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "話梅循环实验室，上海 / 爱艺德杰设计事务所",
+        "year": 2026,
+        "url": "https://www.gooood.cn/harmay-vip-lounge-by-atelier-indj.htm",
+        "context": "连接休息区的楼梯踏步。深色踏面与金属构件延续工业质感。"
+      }
+    },
+    {
+      "id": "project-grey-gravel",
+      "aliases": [],
+      "image": "./images/applications/scene-f32911b6ada23f9a.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "浅黄砾石面层",
+      "category": "景观地表",
+      "type": "浅黄砾石面层",
+      "color": "多色",
+      "finish": "自然肌理",
+      "uses": {
+        "景观地表": "公园林下的露营地面。细砾石形成松散自然的地表。"
+      },
+      "application": {
+        "project": "Home PARK by Atelier Scale",
+        "year": 2026,
+        "url": "https://mooool.com/en/home-park-by-atelier-scale.html",
+        "sourceName": "mooool 木藕设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "公园林下的露营地面。细砾石形成松散自然的地表。",
+        "photos": [
+          {
+            "image": "images/applications/scene-f32911b6ada23f9a.webp",
+            "thumbnail": "images/applications/scene-f32911b6ada23f9a-thumb.webp",
+            "width": 1280,
+            "height": 624,
+            "url": "https://i.mooool.com/img/2026/01/07y.jpg?x-oss-process=style%2Ffull",
+            "caption": "公园林下的露营地面",
+            "credit": "南西摄影 / 大小景观"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.84,
+            0.29
+          ],
+          "width": 0.29,
+          "location": "公园林下的露营地面",
+          "effect": "细砾石形成松散自然的地表"
+        },
+        "sourceEvidence": "项目图注明确小粒径浅黄色砾石。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "Home PARK by Atelier Scale",
+        "year": 2026,
+        "url": "https://mooool.com/en/home-park-by-atelier-scale.html",
+        "context": "公园林下的露营地面。细砾石形成松散自然的地表。"
+      }
+    },
+    {
+      "id": "project-landscape-14",
+      "aliases": [],
+      "image": "./images/applications/scene-f32911b6ada23f9a.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "深灰色沥青铺装",
+      "category": "景观地表",
+      "type": "深灰色沥青铺装",
+      "color": "多色",
+      "finish": "自然肌理",
+      "uses": {
+        "景观地表": "林荫下的公园步道。深色连续路面与植物边界清楚衔接。"
+      },
+      "application": {
+        "project": "Home PARK by Atelier Scale",
+        "year": 2026,
+        "url": "https://mooool.com/en/home-park-by-atelier-scale.html",
+        "sourceName": "mooool 木藕设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "林荫下的公园步道。深色连续路面与植物边界清楚衔接。",
+        "photos": [
+          {
+            "image": "images/applications/scene-f32911b6ada23f9a.webp",
+            "thumbnail": "images/applications/scene-f32911b6ada23f9a-thumb.webp",
+            "width": 1280,
+            "height": 624,
+            "url": "https://i.mooool.com/img/2026/01/07y.jpg?x-oss-process=style%2Ffull",
+            "caption": "林荫下的公园步道",
+            "credit": "南西摄影 / 大小景观"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.16,
+            0.43
+          ],
+          "width": 0.31,
+          "location": "林荫下的公园步道",
+          "effect": "深色连续路面与植物边界清楚衔接"
+        },
+        "sourceEvidence": "项目图注明确深灰色沥青铺装。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "Home PARK by Atelier Scale",
+        "year": 2026,
+        "url": "https://mooool.com/en/home-park-by-atelier-scale.html",
+        "context": "林荫下的公园步道。深色连续路面与植物边界清楚衔接。"
+      }
+    },
+    {
+      "id": "project-landscape-01",
+      "aliases": [],
+      "image": "./images/applications/scene-d40ef6706e4cf00f.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "自然卵石覆盖地表",
+      "category": "景观地表",
+      "type": "卵石覆盖",
+      "color": "多色",
+      "finish": "自然肌理",
+      "uses": {
+        "景观地表": "庭院树池与白墙之间的卵石地表。细小卵石围合树干，与石板步道形成清楚的软硬边界。"
+      },
+      "application": {
+        "project": "龙眼树下的院子，泉州 / 在场建筑",
+        "year": 2025,
+        "url": "https://www.gooood.cn/courtyard-under-longan-trees-by-spacework-architects.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "庭院树池与白墙之间的卵石地表。细小卵石围合树干，与石板步道形成清楚的软硬边界。",
+        "photos": [
+          {
+            "image": "images/applications/scene-d40ef6706e4cf00f.webp",
+            "thumbnail": "images/applications/scene-d40ef6706e4cf00f-thumb.webp",
+            "width": 960,
+            "height": 720,
+            "url": "https://oss.gooood.cn/uploads/2025/01/003-courtyard-under-longan-trees-by-spacework-architects-960x720.jpg",
+            "caption": "庭院树池与白墙之间的卵石地表",
+            "credit": "在场建筑"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.7,
+            0.78
+          ],
+          "width": 0.62,
+          "location": "庭院树池与白墙之间的卵石地表",
+          "effect": "细小卵石围合树干，与石板步道形成清楚的软硬边界"
+        },
+        "sourceEvidence": "作者明确庭院树池与屋顶露台铺设颜色近似龙眼的卵石。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "龙眼树下的院子，泉州 / 在场建筑",
+        "year": 2025,
+        "url": "https://www.gooood.cn/courtyard-under-longan-trees-by-spacework-architects.htm",
+        "context": "庭院树池与白墙之间的卵石地表。细小卵石围合树干，与石板步道形成清楚的软硬边界。"
+      }
+    },
+    {
+      "id": "project-landscape-12",
+      "aliases": [],
+      "image": "./images/applications/scene-9160b790bb0b6ff3.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "稳定碎石步道",
+      "category": "景观地表",
+      "type": "稳定碎石步道",
+      "color": "多色",
+      "finish": "自然肌理",
+      "uses": {
+        "景观地表": "历史花园的步行园路。细碎石连接花坛与建筑边界。"
+      },
+      "application": {
+        "project": "Vis-à-Vis别墅修复，意大利 / RigonSimonetti",
+        "year": 2026,
+        "url": "https://www.gooood.cn/vis-a-vis-by-rigonsimonetti.htm",
+        "sourceName": "谷德设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "历史花园的步行园路。细碎石连接花坛与建筑边界。",
+        "photos": [
+          {
+            "image": "images/applications/scene-9160b790bb0b6ff3.webp",
+            "thumbnail": "images/applications/scene-9160b790bb0b6ff3-thumb.webp",
+            "width": 960,
+            "height": 768,
+            "url": "https://oss.gooood.cn/uploads/2026/06/024-VIS-A%E2%80%99-VIS-960x768.jpg",
+            "caption": "历史花园的步行园路",
+            "credit": "Rory Gardiner"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.5,
+            0.73
+          ],
+          "width": 0.88,
+          "location": "历史花园的步行园路",
+          "effect": "细碎石连接花坛与建筑边界"
+        },
+        "sourceEvidence": "作者明确景观使用稳定碎石步道。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "Vis-à-Vis别墅修复，意大利 / RigonSimonetti",
+        "year": 2026,
+        "url": "https://www.gooood.cn/vis-a-vis-by-rigonsimonetti.htm",
+        "context": "历史花园的步行园路。细碎石连接花坛与建筑边界。"
+      }
+    },
+    {
+      "id": "permeable-concrete-paving",
+      "aliases": [],
+      "image": "./images/applications/scene-ca540c8c7529af83.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "透水混凝土铺地",
+      "category": "景观地表",
+      "type": "透水混凝土铺地",
+      "color": "多色",
+      "finish": "自然肌理",
+      "uses": {
+        "景观地表": "口袋公园的硬质活动区。浅色连续铺地与绿地、碎石形成渐变。"
+      },
+      "application": {
+        "project": "The Cozy Patch in Brnox by ORA + Alžběta P. Brůhová",
+        "year": 2024,
+        "url": "https://www.gooood.cn/en/the-cozy-patch-in-brnox-by-ora-alzbeta-p-bruhova.htm",
+        "sourceName": "谷德设计网",
+        "relation": "同类应用参考",
+        "note": "图片用于对应材料家族的应用参考；具体配方与产品规格以样板为准。",
+        "observation": "口袋公园的硬质活动区。浅色连续铺地与绿地、碎石形成渐变。",
+        "photos": [
+          {
+            "image": "images/applications/scene-ca540c8c7529af83.webp",
+            "thumbnail": "images/applications/scene-ca540c8c7529af83-thumb.webp",
+            "width": 853,
+            "height": 1280,
+            "url": "https://oss.gooood.cn/uploads/2024/12/ora-alzbeta-bruhova-brnox-boysplaynice-02-960x1440.jpg",
+            "caption": "口袋公园的硬质活动区",
+            "credit": "BoysPlayNice"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.62,
+            0.67
+          ],
+          "width": 0.8,
+          "location": "口袋公园的硬质活动区",
+          "effect": "浅色连续铺地与绿地、碎石形成渐变"
+        },
+        "sourceEvidence": "作者明确硬质铺装区采用稳定碎石及透水混凝土。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "The Cozy Patch in Brnox by ORA + Alžběta P. Brůhová",
+        "year": 2024,
+        "url": "https://www.gooood.cn/en/the-cozy-patch-in-brnox-by-ora-alzbeta-p-bruhova.htm",
+        "context": "口袋公园的硬质活动区。浅色连续铺地与绿地、碎石形成渐变。"
+      }
+    },
+    {
+      "id": "project-landscape-06",
+      "aliases": [],
+      "image": "./images/applications/scene-7ca6683862f6c804.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "树皮覆盖层",
+      "category": "景观地表",
+      "type": "树皮覆盖层",
+      "color": "多色",
+      "finish": "自然肌理",
+      "uses": {
+        "景观地表": "自然触感游乐区的地面。树皮与原木边界带来自然触感。"
+      },
+      "application": {
+        "project": "巨石公园 · 首个3D混凝土打印的儿童景观空间 / 喜随设计",
+        "year": 2024,
+        "url": "https://mooool.com/boulder-park-the-first-3d-concrete-printed-playground-by-xisui-design.html",
+        "sourceName": "mooool 木藕设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "自然触感游乐区的地面。树皮与原木边界带来自然触感。",
+        "photos": [
+          {
+            "image": "images/applications/scene-7ca6683862f6c804.webp",
+            "thumbnail": "images/applications/scene-7ca6683862f6c804-thumb.webp",
+            "width": 1280,
+            "height": 853,
+            "url": "https://i.mooool.com/img/2025/08/1-7-fmz.jpg?x-oss-process=style%2Ffull",
+            "caption": "自然触感游乐区的地面",
+            "credit": "沉璧视觉"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.65,
+            0.6
+          ],
+          "width": 0.64,
+          "location": "自然触感游乐区的地面",
+          "effect": "树皮与原木边界带来自然触感"
+        },
+        "sourceEvidence": "项目图注明确天然原木、石材、树皮的自然触感地带。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "巨石公园 · 首个3D混凝土打印的儿童景观空间 / 喜随设计",
+        "year": 2024,
+        "url": "https://mooool.com/boulder-park-the-first-3d-concrete-printed-playground-by-xisui-design.html",
+        "context": "自然触感游乐区的地面。树皮与原木边界带来自然触感。"
+      }
+    },
+    {
+      "id": "log-sensory-paving",
+      "aliases": [],
+      "image": "./images/applications/scene-7ca6683862f6c804.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "原木触感铺地",
+      "category": "景观地表",
+      "type": "原木触感铺地",
+      "color": "多色",
+      "finish": "自然肌理",
+      "uses": {
+        "景观地表": "自然体验区的原木踏步。木段与松散覆盖物构成可探索的地面。"
+      },
+      "application": {
+        "project": "巨石公园 · 首个3D混凝土打印的儿童景观空间 / 喜随设计",
+        "year": 2024,
+        "url": "https://mooool.com/boulder-park-the-first-3d-concrete-printed-playground-by-xisui-design.html",
+        "sourceName": "mooool 木藕设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "自然体验区的原木踏步。木段与松散覆盖物构成可探索的地面。",
+        "photos": [
+          {
+            "image": "images/applications/scene-7ca6683862f6c804.webp",
+            "thumbnail": "images/applications/scene-7ca6683862f6c804-thumb.webp",
+            "width": 1280,
+            "height": 853,
+            "url": "https://i.mooool.com/img/2025/08/1-7-fmz.jpg?x-oss-process=style%2Ffull",
+            "caption": "自然体验区的原木踏步",
+            "credit": "沉璧视觉"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.3,
+            0.55
+          ],
+          "width": 0.65,
+          "location": "自然体验区的原木踏步",
+          "effect": "木段与松散覆盖物构成可探索的地面"
+        },
+        "sourceEvidence": "项目图注明确原木触感地带；展示自然材料组合。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "巨石公园 · 首个3D混凝土打印的儿童景观空间 / 喜随设计",
+        "year": 2024,
+        "url": "https://mooool.com/boulder-park-the-first-3d-concrete-printed-playground-by-xisui-design.html",
+        "context": "自然体验区的原木踏步。木段与松散覆盖物构成可探索的地面。"
+      }
+    },
+    {
+      "id": "project-landscape-16",
+      "aliases": [],
+      "image": "./images/applications/scene-182482fd3d962a02.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "EPDM彩色橡胶颗粒面层",
+      "category": "景观地表",
+      "type": "EPDM彩色橡胶颗粒面层",
+      "color": "多色",
+      "finish": "自然肌理",
+      "uses": {
+        "景观地表": "儿童公园的游乐设备周边。彩色颗粒地面组织游戏范围与动线。"
+      },
+      "application": {
+        "project": "虎猇山林，山麓湖畔的游乐多样性重构——六泉湖儿童公园 / HID翰地景观",
+        "year": 2024,
+        "url": "https://mooool.com/liuquan-lake-childrens-park-by-hid.html",
+        "sourceName": "mooool 木藕设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "儿童公园的游乐设备周边。彩色颗粒地面组织游戏范围与动线。",
+        "photos": [
+          {
+            "image": "images/applications/scene-182482fd3d962a02.webp",
+            "thumbnail": "images/applications/scene-182482fd3d962a02-thumb.webp",
+            "width": 1280,
+            "height": 854,
+            "url": "https://i.mooool.com/img/2024/09/01-17-1-n5x.jpg?x-oss-process=style%2Ffull",
+            "caption": "儿童公园的游乐设备周边",
+            "credit": "IMA岸木摄影"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.48,
+            0.73
+          ],
+          "width": 0.86,
+          "location": "儿童公园的游乐设备周边",
+          "effect": "彩色颗粒地面组织游戏范围与动线"
+        },
+        "sourceEvidence": "作者明确使用EPDM骨料混合并现场打样确定配色。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "虎猇山林，山麓湖畔的游乐多样性重构——六泉湖儿童公园 / HID翰地景观",
+        "year": 2024,
+        "url": "https://mooool.com/liuquan-lake-childrens-park-by-hid.html",
+        "context": "儿童公园的游乐设备周边。彩色颗粒地面组织游戏范围与动线。"
+      }
+    },
+    {
+      "id": "project-landscape-15",
+      "aliases": [],
+      "image": "./images/applications/scene-80e0f0b39728f6dd.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "彩色沥青活动面层",
+      "category": "景观地表",
+      "type": "彩色沥青活动面层",
+      "color": "多色",
+      "finish": "自然肌理",
+      "uses": {
+        "景观地表": "社区游乐区的彩色硬地。彩色路面串联游乐设施与种植边界。"
+      },
+      "application": {
+        "project": "HARBOURCITY  by GM Landscape",
+        "year": 2025,
+        "url": "https://mooool.com/en/harbourcity-by-gm-landscape.html",
+        "sourceName": "mooool 木藕设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "社区游乐区的彩色硬地。彩色路面串联游乐设施与种植边界。",
+        "photos": [
+          {
+            "image": "images/applications/scene-80e0f0b39728f6dd.webp",
+            "thumbnail": "images/applications/scene-80e0f0b39728f6dd-thumb.webp",
+            "width": 1160,
+            "height": 423,
+            "url": "https://i.mooool.com/img/2025/10/ZW9HHNCrDNDkCwKuADES9VvEkGFmwHmltvAA_3648_2736-拷贝.png?x-oss-process=style%2Flarge",
+            "caption": "彩色沥青游乐活动场地",
+            "credit": "IAM 岸木摄影"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.77,
+            0.52
+          ],
+          "width": 0.44,
+          "location": "社区游乐区的彩色硬地",
+          "effect": "彩色路面串联游乐设施与种植边界"
+        },
+        "sourceEvidence": "项目明确将原沙池升级为彩色沥青铺装区域。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "HARBOURCITY  by GM Landscape",
+        "year": 2025,
+        "url": "https://mooool.com/en/harbourcity-by-gm-landscape.html",
+        "context": "社区游乐区的彩色硬地。彩色路面串联游乐设施与种植边界。"
+      }
+    },
+    {
+      "id": "project-landscape-18",
+      "aliases": [],
+      "image": "./images/applications/scene-4d70a2d974fbb70c.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "自然草坪地表",
+      "category": "景观地表",
+      "type": "自然草坪地表",
+      "color": "多色",
+      "finish": "自然肌理",
+      "uses": {
+        "景观地表": "滑梯两侧的起伏草坡。草坪顺地形连续包覆，衬托滑梯和树木。"
+      },
+      "application": {
+        "project": "HARBOURCITY  by GM Landscape",
+        "year": 2025,
+        "url": "https://mooool.com/en/harbourcity-by-gm-landscape.html",
+        "sourceName": "mooool 木藕设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "滑梯两侧的起伏草坡。草坪顺地形连续包覆，衬托滑梯和树木。",
+        "photos": [
+          {
+            "image": "images/applications/scene-4d70a2d974fbb70c.webp",
+            "thumbnail": "images/applications/scene-4d70a2d974fbb70c-thumb.webp",
+            "width": 1160,
+            "height": 774,
+            "url": "https://i.mooool.com/img/2025/10/001_儿童_084_EN_1581.jpg?x-oss-process=style%2Flarge",
+            "caption": "滑梯两侧的起伏草坡",
+            "credit": "IAM 岸木摄影"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.44,
+            0.58
+          ],
+          "width": 0.8,
+          "location": "滑梯两侧的起伏草坡",
+          "effect": "草坪顺地形连续包覆，衬托滑梯和树木"
+        },
+        "sourceEvidence": "项目以起伏草坡及滨水绿地组成休闲空间。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "HARBOURCITY  by GM Landscape",
+        "year": 2025,
+        "url": "https://mooool.com/en/harbourcity-by-gm-landscape.html",
+        "context": "滑梯两侧的起伏草坡。草坪顺地形连续包覆，衬托滑梯和树木。"
+      }
+    },
+    {
+      "id": "grass-jointed-paving",
+      "aliases": [],
+      "image": "./images/applications/scene-f93bd1b77005cdc1.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "石板嵌草铺地",
+      "category": "景观地表",
+      "type": "石板嵌草铺地",
+      "color": "多色",
+      "finish": "自然肌理",
+      "uses": {
+        "景观地表": "公园树池周边步行区域。石板和草缝构成疏密有致的铺地。"
+      },
+      "application": {
+        "project": "The Urban Carpet by Atelier Scale",
+        "year": 2024,
+        "url": "https://mooool.com/en/the-urban-carpet-by-atelier-scale.html",
+        "sourceName": "mooool 木藕设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "公园树池周边步行区域。石板和草缝构成疏密有致的铺地。",
+        "photos": [
+          {
+            "image": "images/applications/scene-f93bd1b77005cdc1.webp",
+            "thumbnail": "images/applications/scene-f93bd1b77005cdc1-thumb.webp",
+            "width": 1152,
+            "height": 863,
+            "url": "https://i.mooool.com/img/2024/09/6-04n.jpg?x-oss-process=style%2Ffull",
+            "caption": "公园树池周边步行区域",
+            "credit": "鲁冰 / 南西影像"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.48,
+            0.65
+          ],
+          "width": 0.92,
+          "location": "公园树池周边步行区域",
+          "effect": "石板和草缝构成疏密有致的铺地"
+        },
+        "sourceEvidence": "照片显示石板与嵌草缝组合，不据照片推断透水率。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "The Urban Carpet by Atelier Scale",
+        "year": 2024,
+        "url": "https://mooool.com/en/the-urban-carpet-by-atelier-scale.html",
+        "context": "公园树池周边步行区域。石板和草缝构成疏密有致的铺地。"
+      }
+    },
+    {
+      "id": "local-sandstone-steps",
+      "aliases": [],
+      "image": "./images/applications/scene-a6fb77375d2b967e.webp",
+      "imageKind": "项目实景",
+      "textureAvailable": false,
+      "name": "本地砂岩阶梯铺地",
+      "category": "景观地表",
+      "type": "本地砂岩阶梯铺地",
+      "color": "多色",
+      "finish": "自然肌理",
+      "uses": {
+        "景观地表": "临湖阶梯式观演空间。粗厚石阶随地形起伏并衔接植被。"
+      },
+      "application": {
+        "project": "Gudui Baisha: Landscape of Crossed Paths by boll",
+        "year": 2026,
+        "url": "https://mooool.com/en/gudui-baisha-landscape-of-crossed-paths-by-boll.html",
+        "sourceName": "mooool 木藕设计网",
+        "relation": "项目材料",
+        "note": "",
+        "observation": "临湖阶梯式观演空间。粗厚石阶随地形起伏并衔接植被。",
+        "photos": [
+          {
+            "image": "images/applications/scene-a6fb77375d2b967e.webp",
+            "thumbnail": "images/applications/scene-a6fb77375d2b967e-thumb.webp",
+            "width": 1280,
+            "height": 900,
+            "url": "https://i.mooool.com/img/2026/02/3.jpg?x-oss-process=style%2Flarge",
+            "caption": "临湖阶梯式观演空间",
+            "credit": "Thinkverse"
+          }
+        ],
+        "focus": {
+          "center": [
+            0.51,
+            0.72
+          ],
+          "width": 0.88,
+          "location": "临湖阶梯式观演空间",
+          "effect": "粗厚石阶随地形起伏并衔接植被"
+        },
+        "sourceEvidence": "作者明确使用当地砂岩完成挡墙、铺地与阶梯。",
+        "expansionBatch": "2026-11-27-130"
+      },
+      "caseStudy": {
+        "name": "Gudui Baisha: Landscape of Crossed Paths by boll",
+        "year": 2026,
+        "url": "https://mooool.com/en/gudui-baisha-landscape-of-crossed-paths-by-boll.html",
+        "context": "临湖阶梯式观演空间。粗厚石阶随地形起伏并衔接植被。"
+      }
     }
   ],
   "applicationInfo": {
     "updated": "2026-11-27",
-    "purpose": "以材料构件为主体，展示材料、使用部位与完成效果；保留完整原图与摄影来源。"
+    "purpose": "一张材料实景主图，配使用部位与完成效果说明；选取2024–2026年项目，保留图片署名与来源。",
+    "targets": {
+      "砖、瓦与陶瓷": 18,
+      "石材": 16,
+      "木材与竹材": 14,
+      "混凝土与水泥基饰面": 12,
+      "金属": 16,
+      "玻璃": 10,
+      "涂料与抹灰": 12,
+      "织物、皮革与编织": 8,
+      "塑料与复合材料": 10,
+      "景观地表": 14
+    },
+    "total": 130
   }
 }

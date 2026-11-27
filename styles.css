@@ -164,8 +164,8 @@ kbd { display: grid; place-items: center; min-width: 20px; height: 23px; border:
 .application-card .card-name { font-size: 18px; line-height: 1.5; }
 .application-card .card-type, .application-card .tag { font-size: 13px; }
 .application-card .card-case { line-height: 1.55; }
-dialog.application-detail { width: min(1260px, calc(100vw - 40px)); max-width: none; }
-.application-detail .detail-layout { grid-template-columns: minmax(0, 2fr) minmax(250px, 1fr); align-items: start; }
+dialog.application-detail { width: min(1120px, calc(100vw - 40px)); max-width: none; }
+.application-detail .detail-layout { grid-template-columns: minmax(0, 1.3fr) minmax(300px, 1fr); align-items: start; }
 .detail-views { margin-bottom: 16px; }
 .detail-views button { padding: 7px 12px; }
 .application-gallery { display: grid; grid-template-columns: 1fr 1fr; align-items: start; gap: 14px; }

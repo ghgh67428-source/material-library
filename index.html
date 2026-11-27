@@ -6,8 +6,8 @@
   <meta name="theme-color" content="#f4f2ec">
   <meta name="description" content="检索建筑材质和景观植物。">
   <title>检索库</title>
-  <link rel="stylesheet" href="./styles.css?v=5">
-  <script src="./app.js?v=5" defer></script>
+  <link rel="stylesheet" href="./styles.css?v=6">
+  <script src="./app.js?v=6" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -62,7 +62,7 @@
         <select id="type" aria-label="二级分类" hidden></select>
         <select id="color" aria-label="颜色"><option value="">全部颜色</option></select>
         <select id="finish" aria-label="表面效果"><option value="">全部表面</option></select>
-        <label class="case-filter" id="case-filter"><input id="case-only" type="checkbox"> 仅看谷德案例</label>
+        <label class="case-filter" id="case-filter"><input id="case-only" type="checkbox"> 仅看项目案例</label>
         <button type="button" class="text-button" id="clear" disabled>清除筛选</button>
       </div>
 
@@ -99,7 +99,7 @@
         <p class="note" id="note" hidden></p>
         <a id="plant-source" class="plant-source" target="_blank" rel="noopener noreferrer" hidden>在 Kew 查询学名与分布 ↗</a>
         <section class="case-section" id="case-section" aria-labelledby="case-title" hidden>
-          <h3 id="case-title">谷德设计网案例</h3>
+          <h3 id="case-title">项目案例与来源</h3>
           <p id="case-context"></p>
           <a id="case-link" target="_blank" rel="noopener noreferrer"></a>
         </section>

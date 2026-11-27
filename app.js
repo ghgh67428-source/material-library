@@ -189,7 +189,7 @@ function showMaterialImages(item, view) {
   controls.hidden = !app;
   controls.replaceChildren();
   if (app) {
-    const applicationButton = filterButton('', 'application', '材料与部位');
+    const applicationButton = filterButton('', 'application', '应用实景');
     controls.append(applicationButton);
     applicationButton.addEventListener('click', () => showMaterialImages(item, 'application'));
     if (item.textureAvailable !== false) {
@@ -201,30 +201,17 @@ function showMaterialImages(item, view) {
   }
   const credit = byId('image-credit');
   if (useApplication) {
-    gallery.classList.remove('single');
-    const views = [
-      {photo: app.photos[0], focused: true, title: '材料与做法'},
-      {photo: app.photos[1] || app.photos[0], focused: false, title: '使用位置'},
-    ];
-    for (const {photo, focused, title} of views) {
-      const figure = element('figure', 'application-photo');
-      const link = externalLink('', imagePath(photo.image));
-      link.setAttribute('aria-label', photo.caption + '，查看完整大图');
-      if (focused) link.append(focusViewport(photo, app.focus));
-      else {
-        const img = element('img');
-        img.src = imagePath(photo.image);
-        img.alt = photo.caption;
-        img.decoding = 'async';
-        link.append(img);
-      }
-      figure.append(element('h3', 'photo-view-title', title), link,
-        element('figcaption', '', (focused ? app.focus.location : photo.caption) + ' · 摄影 © ' + photo.credit));
-      gallery.append(figure);
-    }
+    gallery.classList.add('single');
+    const photo = app.photos[0];
+    const figure = element('figure', 'application-photo');
+    const link = externalLink('', imagePath(photo.image));
+    link.setAttribute('aria-label', app.focus.location + '，查看完整大图');
+    link.append(focusViewport(photo, app.focus));
+    figure.append(link, element('figcaption', '', app.focus.location + ' · 图片 © ' + photo.credit));
+    gallery.append(figure);
     observation.replaceChildren(element('strong', '', '完成效果：'), app.focus.effect + '。' + (app.note ? ' ' + app.note : ''));
     credit.replaceChildren(element('span', 'application-relation', app.relation), ' · ',
-      externalLink(app.project, app.url), ' · 来源：谷德设计网');
+      externalLink(app.project, app.url), ' · 来源：' + (app.sourceName || (app.url.includes('mooool.com') ? 'mooool 木藕设计网' : '谷德设计网')));
   } else {
     detailImage(item);
     credit.textContent = item.imageKind || '材质样本';
@@ -363,8 +350,7 @@ function materialCard(item) {
     }
     body.append(facts);
     body.append(element('span', 'card-case', item.application.project));
-    body.append(element('span', 'card-credit', item.application.relation + ' · 摄影 © ' +
-      [...new Set(item.application.photos.map((photo) => photo.credit))].join(' / ')));
+    body.append(element('span', 'card-credit', item.application.relation + ' · 图片 © ' + item.application.photos[0].credit));
   } else {
     body.append(tags);
     body.append(element('span', 'card-image-kind', item.imageKind || '材质样本'));
@@ -418,7 +404,7 @@ function render(append = false) {
     byId('case-filter').hidden = selectedView === 'application';
     const withApplication = entries.filter((item) => item.application).length;
     byId('view-description').textContent = selectedView === 'application'
-      ? `${withApplication} 项材质 · 主图聚焦材料构件，详情对照使用位置与完整原图。其余条目见「全部材质」。`
+      ? `${withApplication} 项材质 · 聚焦材料、使用部位与完成效果，点击查看大图和应用说明。其余条目见「全部材质」。`
       : selectedView === 'texture' ? '纹理用于辨认肌理；生成示意与真实样本均标明来源。'
       : `${entries.length} 项材质，已配实景的条目优先展示实景，其余保留材质样本。`;
   }
