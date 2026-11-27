@@ -16,6 +16,7 @@ const stateAction = byId('state-action');
 const detail = byId('detail');
 const mobile = matchMedia('(max-width: 760px)');
 const more = byId('more');
+const materialViews = byId('material-views');
 const isPlants = new URLSearchParams(location.search).get('section') === 'plants';
 const itemLabel = isPlants ? '植物' : '材质';
 const allLabel = isPlants ? '全部条目' : '全部材质';
@@ -29,6 +30,7 @@ let visibleCount = pageSize;
 let selectedCategory = '';
 let selectedPlantSubtype = '';
 let selectedLocation = '';
+let selectedView = 'application';
 
 if (isPlants) {
   document.title = '植物检索 · 检索库';
@@ -44,7 +46,7 @@ if (isPlants) {
   byId('state-message').textContent = '正在加载植物…';
   search.placeholder = '搜索玉兰、肉质植物、落叶…';
   search.setAttribute('aria-label', '搜索植物');
-  for (const id of ['location-panel', 'color', 'finish', 'case-filter']) byId(id).hidden = true;
+  for (const id of ['location-panel', 'color', 'finish', 'case-filter', 'material-view-panel']) byId(id).hidden = true;
   byId('uses-title').textContent = '景观应用';
 }
 
@@ -137,6 +139,103 @@ function detailImage(item) {
   imageLink.replaceChildren(sample(item), element('span', 'sample-action', '查看大图 ↗'));
 }
 
+function focusViewport(photo, focus, lazy = false) {
+  const wrap = element('span', 'focus-viewport');
+  const img = element('img');
+  img.alt = focus.location;
+  img.decoding = 'async';
+  if (lazy) img.loading = 'lazy';
+  // The viewport changes framing only; links retain the complete source photograph.
+  const width = Math.min(focus.width, 1, (4 / 3) * photo.height / photo.width);
+  const height = width * photo.width / photo.height / (4 / 3);
+  const x = Math.max(0, Math.min(1 - width, focus.center[0] - width / 2));
+  const y = Math.max(0, Math.min(1 - height, focus.center[1] - height / 2));
+  Object.assign(img.style, {
+    width: `${100 / width}%`, height: `${100 / height}%`,
+    left: `${-100 * x / width}%`, top: `${-100 * y / height}%`,
+  });
+  let triedFullImage = !lazy || photo.thumbnail === photo.image;
+  img.addEventListener('error', () => {
+    if (!triedFullImage) {
+      triedFullImage = true;
+      img.src = imagePath(photo.image);
+      return;
+    }
+    wrap.replaceChildren(element('span', 'photo-error', '图片加载失败，请刷新页面重试'));
+  });
+  img.src = imagePath(lazy ? photo.thumbnail : photo.image);
+  wrap.append(img);
+  return wrap;
+}
+
+function applicationSample(item) {
+  const app = item.application;
+  const wrap = element('span', 'application-sample');
+  wrap.append(focusViewport(app.photos[0], app.focus, true));
+  wrap.append(element('span', 'photo-subject', app.focus.location));
+  return wrap;
+}
+
+function showMaterialImages(item, view) {
+  const app = item.application;
+  const useApplication = Boolean(app && view === 'application');
+  detail.classList.toggle('application-detail', useApplication);
+  byId('detail-image').hidden = useApplication;
+  const gallery = byId('application-gallery');
+  const observation = byId('application-observation');
+  gallery.hidden = observation.hidden = !useApplication;
+  gallery.replaceChildren();
+  const controls = byId('detail-views');
+  controls.hidden = !app;
+  controls.replaceChildren();
+  if (app) {
+    const applicationButton = filterButton('', 'application', '材料与部位');
+    controls.append(applicationButton);
+    applicationButton.addEventListener('click', () => showMaterialImages(item, 'application'));
+    if (item.textureAvailable !== false) {
+      const textureButton = filterButton('', 'texture', '纹理样本');
+      controls.append(textureButton);
+      textureButton.addEventListener('click', () => showMaterialImages(item, 'texture'));
+    }
+    updatePressed(controls, useApplication ? 'application' : 'texture');
+  }
+  const credit = byId('image-credit');
+  if (useApplication) {
+    gallery.classList.remove('single');
+    const views = [
+      {photo: app.photos[0], focused: true, title: '材料与做法'},
+      {photo: app.photos[1] || app.photos[0], focused: false, title: '使用位置'},
+    ];
+    for (const {photo, focused, title} of views) {
+      const figure = element('figure', 'application-photo');
+      const link = externalLink('', imagePath(photo.image));
+      link.setAttribute('aria-label', photo.caption + '，查看完整大图');
+      if (focused) link.append(focusViewport(photo, app.focus));
+      else {
+        const img = element('img');
+        img.src = imagePath(photo.image);
+        img.alt = photo.caption;
+        img.decoding = 'async';
+        link.append(img);
+      }
+      figure.append(element('h3', 'photo-view-title', title), link,
+        element('figcaption', '', (focused ? app.focus.location : photo.caption) + ' · 摄影 © ' + photo.credit));
+      gallery.append(figure);
+    }
+    observation.replaceChildren(element('strong', '', '完成效果：'), app.focus.effect + '。' + (app.note ? ' ' + app.note : ''));
+    credit.replaceChildren(element('span', 'application-relation', app.relation), ' · ',
+      externalLink(app.project, app.url), ' · 来源：谷德设计网');
+  } else {
+    detailImage(item);
+    credit.textContent = item.imageKind || '材质样本';
+    if (/^https?:\/\//i.test(item.imageSource || '')) {
+      if (credit.textContent) credit.append(' · ');
+      credit.append(externalLink('查看图片来源', item.imageSource));
+    }
+    if (!app) credit.append(' · 暂未配应用实景');
+  }
+}
+
 function externalLink(label, url) {
   const link = element('a', '', label);
   link.href = url;
@@ -159,13 +258,9 @@ function appendPhotoCredit(container, photo) {
 function showDetail(item) {
   byId('detail-title').textContent = item.name;
   byId('detail-category').textContent = item.category + ' / ' + item.type;
-  detailImage(item);
-  const credit = byId('image-credit');
-  credit.textContent = item.imageKind || '';
-  if (/^https?:\/\//i.test(item.imageSource || '')) {
-    if (credit.textContent) credit.append(' · ');
-    credit.append(externalLink('查看图片来源', item.imageSource));
-  }
+  byId('detail-figure').hidden = false;
+  byId('properties').hidden = false;
+  showMaterialImages(item, selectedView === 'texture' ? 'texture' : 'application');
   byId('properties').replaceChildren(definition('颜色', item.color), definition('表面效果', item.finish));
   byId('uses').replaceChildren(...Object.entries(item.uses).map(([label, value]) => definition(label, value)));
   const caseSection = byId('case-section');
@@ -248,7 +343,8 @@ function plantCard(item) {
 }
 
 function materialCard(item) {
-  const card = filterButton('card', item.id);
+  const useApplication = selectedView !== 'texture' && item.application;
+  const card = filterButton('card' + (useApplication ? ' application-card' : ''), item.id);
   card.setAttribute('aria-haspopup', 'dialog');
   const body = element('span', 'card-body');
   const category = element('span', 'card-type', item.type);
@@ -257,9 +353,24 @@ function materialCard(item) {
   category.append(arrow);
   const tags = element('span', 'tags');
   tags.append(...Object.keys(item.uses).map((name) => element('span', 'tag', name)));
-  body.append(category, element('span', 'card-name', item.name), tags);
-  if (item.caseStudy) body.append(element('span', 'card-case', item.caseStudy.name));
-  card.append(sample(item, true), body);
+  body.append(category, element('span', 'card-name', item.name));
+  if (useApplication) {
+    const facts = element('span', 'material-facts');
+    for (const [label, value] of [['部位', item.application.focus.location], ['效果', item.application.focus.effect]]) {
+      const row = element('span');
+      row.append(element('span', 'fact-label', label), element('span', 'fact-value', value));
+      facts.append(row);
+    }
+    body.append(facts);
+    body.append(element('span', 'card-case', item.application.project));
+    body.append(element('span', 'card-credit', item.application.relation + ' · 摄影 © ' +
+      [...new Set(item.application.photos.map((photo) => photo.credit))].join(' / ')));
+  } else {
+    body.append(tags);
+    body.append(element('span', 'card-image-kind', item.imageKind || '材质样本'));
+    if (item.caseStudy) body.append(element('span', 'card-case', item.caseStudy.name));
+  }
+  card.append(useApplication ? applicationSample(item) : sample(item, true), body);
   card.addEventListener('click', () => showDetail(item));
   return card;
 }
@@ -276,6 +387,8 @@ function render(append = false) {
   if (!append) visibleCount = pageSize;
   const words = search.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
   const results = entries.filter((item) =>
+    (isPlants || selectedView !== 'application' || item.application) &&
+    (isPlants || selectedView !== 'texture' || item.textureAvailable !== false) &&
     (!selectedCategory || (item.group || item.category) === selectedCategory) &&
     (!selectedPlantSubtype || item.category === selectedPlantSubtype) &&
     (!type.value || item.type === type.value) &&
@@ -290,8 +403,25 @@ function render(append = false) {
   updatePressed(plantSubcategories, selectedPlantSubtype);
   updatePressed(locations, selectedLocation);
   byId('current-category').textContent = '· ' + (selectedCategory || allLabel);
-  byId('results-title').textContent = selectedPlantSubtype || type.value || selectedCategory || allLabel;
+  byId('results-title').textContent = selectedPlantSubtype || type.value || selectedCategory ||
+    (!isPlants && selectedView === 'application' ? '应用实景' : allLabel);
   byId('result-count').textContent = results.length + (isPlants ? ' 条记录' : ' 项材质');
+  if (!isPlants) {
+    const base = entries.filter((item) => selectedView === 'application' ? item.application :
+      selectedView === 'texture' ? item.textureAvailable !== false : true);
+    for (const button of categories.children) {
+      button.querySelector('.category-count').textContent = button.value
+        ? base.filter((item) => item.category === button.value).length : base.length;
+    }
+    updatePressed(materialViews, selectedView);
+    cards.classList.toggle('application-grid', selectedView !== 'texture');
+    byId('case-filter').hidden = selectedView === 'application';
+    const withApplication = entries.filter((item) => item.application).length;
+    byId('view-description').textContent = selectedView === 'application'
+      ? `${withApplication} 项材质 · 主图聚焦材料构件，详情对照使用位置与完整原图。其余条目见「全部材质」。`
+      : selectedView === 'texture' ? '纹理用于辨认肌理；生成示意与真实样本均标明来源。'
+      : `${entries.length} 项材质，已配实景的条目优先展示实景，其余保留材质样本。`;
+  }
   if (append) {
     const newCards = results.slice(visibleCount - pageSize, visibleCount).map(plantCard);
     cards.append(...newCards);
@@ -316,6 +446,13 @@ function clearFilters() {
 }
 
 function bindFilters() {
+  materialViews.addEventListener('click', (event) => {
+    const button = event.target.closest('button');
+    if (!button) return;
+    selectedView = button.value;
+    caseOnly.checked = false;
+    render();
+  });
   categoryToggle.addEventListener('click', () => {
     const expanded = categoryToggle.getAttribute('aria-expanded') === 'true';
     categoryToggle.setAttribute('aria-expanded', String(!expanded));
@@ -366,7 +503,7 @@ function bindFilters() {
 
 async function load() {
   try {
-    const response = await fetch(dataPath);
+    const response = await fetch(dataPath, {cache: 'no-cache'});
     if (!response.ok) throw new Error('HTTP ' + response.status);
     const data = await response.json();
     const groupBySubtype = new Map();
@@ -388,7 +525,8 @@ async function load() {
       ...item,
       searchText: [item.name, ...item.aliases, item.category, item.type, item.color, item.finish,
         ...Object.keys(item.uses), ...Object.values(item.uses), item.note,
-        item.caseStudy?.name, item.caseStudy?.context].join(' ').toLowerCase(),
+        item.caseStudy?.name, item.caseStudy?.context, item.application?.project,
+        item.application?.observation, item.application?.focus?.location, item.application?.focus?.effect].join(' ').toLowerCase(),
     }));
     const counts = new Map();
     for (const item of entries) {
